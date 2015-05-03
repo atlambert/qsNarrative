@@ -6,8 +6,24 @@
         <meta name="author" content="Andrew Lambert, Ashwini Sriram & Ricky Holtz">
         <meta name="description" content="A narrative about the Quantified Self community">
         <meta name="keywords" content="quantified self, narrative, infographic, community, tools, tech">
+        <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/jquery.fullPage.css" type="text/css">
     </head>
     <body>
-
+        <div id="fullpage">
+            <div class="section">HEADER</div>
+            <div class="section">Some section</div>
+            <div class="section">Some section</div>
+            <div class="section">Some section</div>
+        </div>
     </body>
+    <footer>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/jquery.fullPage.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+        </script>
+    </footer>
 </html>
