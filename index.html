@@ -11,8 +11,11 @@
     </head>
     <body>
         <div id="fullpage">
-            <div class="section">HEADER</div>
-            <div class="section">Some section</div>
+            <div class="section">
+                <h1>HEADER omg lol wtf bbq lasers pew pew</h1>
+                <div id="mapContainer"></div> <!-- map goes here, y'all -->
+            </div>
+            <div class="section">Some section</div> <!-- each div corresponds to a slide -->
             <div class="section">Some section</div>
             <div class="section">Some section</div>
         </div>
@@ -20,10 +23,87 @@
     <footer>
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/jquery.fullPage.min.js"></script>
-        <script type="text/javascript">
-        $(document).ready(function() {
-            $('#fullpage').fullpage();
-        });
+        <script src="assets/js/proj4.js"></script> <!-- allows for latitude, longitude data. must be loaded before highmaps. -->
+        <script src="assets/js/highmaps.js"></script>
+        <script src="assets/js/data.js"></script> <!-- for highmaps -->
+        <script src="assets/js/world.js"></script> <!-- for highmaps -->
+
+        <div>
+            <script type="text/javascript">
+            // this is for the Full Page framework, which gives us slide-like functionality
+            $(document).ready(function() {
+                $('#fullpage').fullpage();
+            });
+            // </end of Full Page setup>
+
+
+            // options configuration
+            // reference: http://www.highcharts.com/docs/getting-started/how-to-set-options
+    /*
+            var chart = new Highcharts.Map({
+                chart: {
+                    renderTo: 'mapContainer'
+                },
+                
+                title: {
+                    text: 'Titlelawl',
+                },
+
+                subtitle: {
+                    text: 'omgsubtitle',
+                },
+
+            });
+    */
+
+            $(function () {
+
+                $.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=world-population.json&callback=?', function (data) {
+
+                    var mapData = Highcharts.geojson(Highcharts.maps['custom/world']);
+
+                    // begin map configuration
+                    $('#mapContainer').highcharts('Map', {
+
+                        title: {
+                            text: 'Titlelawl',
+                        },
+
+                        subtitle: {
+                            text: 'omgsubtitle',
+                        },   
+
+
+                        series : [{
+                            name: 'Countries',
+                            mapData: mapData,
+                            color: '#E0E0E0',
+                            enableMouseTracking: false
+                        }, {
+                            type: 'mapbubble',
+                            mapData: mapData,
+                            name: 'Population 2010',
+                            joinBy: ['iso-a2', 'code'],
+                            data: data,
+                            minSize: 4,
+                            maxSize: '12%',
+                            tooltip: {
+                                pointFormat: '{point.code}: {point.z} thousands'
+                            }
+                        }], // end of series 
+
+                    });
+
+                }); // end of $.getJSON()
+            }); // end of $function()
+
+
+            </script>
+        </div>
+
+
+
+
         </script>
     </footer>
 </html>
