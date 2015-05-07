@@ -11,7 +11,6 @@
     </head>
     <body>
         <div id="fullpage">
-            <div class="section">HEADER</div>
             <div class="section">Slide 1</div>
             <div class="section">Slide 2</div>
             <div class="section">Slide 3</div>
@@ -79,7 +78,13 @@
             <!-- END PERSONAL DATA SLIDES -->
             
             <div class="section">Slide 9</div>
-            <div class="section">Slide 10</div>
+            <div class="section">
+
+                <h1>HEADER omg lol wtf bbq lasers pew pew</h1>
+                
+                <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1004px; height: 869px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetupMap&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1004' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='QuantifiedSelfMeetupMap&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetupMap&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+            </div>
             <div class="section">Slide 11</div>
             <div class="section">Slide 12</div>
             <div class="section">Slide 13</div>
@@ -91,10 +96,24 @@
     <footer>
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/jquery.fullPage.min.js"></script>
-        <script type="text/javascript">
-        $(document).ready(function() {
-            $('#fullpage').fullpage();
-        });
+        <script src="assets/js/proj4.js"></script> <!-- allows for latitude, longitude data. must be loaded before highmaps. -->
+        <script src="assets/js/highmaps.js"></script>
+        <script src="assets/js/data.js"></script> <!-- for highmaps -->
+        <script src="assets/js/world.js"></script> <!-- for highmaps -->
+
+        <div>
+            <script type="text/javascript">
+            // this is for the Full Page framework, which gives us slide-like functionality
+            $(document).ready(function() {
+                $('#fullpage').fullpage();
+            });
+
+            </script>
+        </div>
+
+
+
+
         </script>
     </footer>
 </html>
