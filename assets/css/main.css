@@ -75,11 +75,49 @@ table {
     float: left;
 }
 
-#personal-data-container {
+.text-container {
+    -webkit-display: flex;
+    display: flex;
+    
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.text-container > * {
+    margin: 0 auto;
+}
+
+.hover-def {
+    color: navy;
+}
+
+.flex-container{
+    -webkit-display: flex;
+    display: flex;
+    flex-flow: row wrap;
+    
     height: 96%;
     width: 96%;
     margin: 0 auto;
-    
-    display: flex;
+}
+
+.flex-container h1{
+    flex: 1 100%;
+}
+
+#qs-bridge-slide .text-container{
+    flex: 2 auto;
+}
+
+#example-questions-slide .example-graph{
+    flex: 3 auto;
+}
+
+#personal-data-container{
     justify-content: space-between;
+}
+
+.house-icon {
+    float: left;
 }
