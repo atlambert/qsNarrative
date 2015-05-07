@@ -13,7 +13,9 @@
         <div id="fullpage">
             <div class="section">
                 <h1>HEADER omg lol wtf bbq lasers pew pew</h1>
-                <div id="mapContainer"></div> <!-- map goes here, y'all -->
+                
+                <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1004px; height: 869px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetupMap&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1004' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='QuantifiedSelfMeetupMap&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetupMap&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
             </div>
             <div class="section">Some section</div> <!-- each div corresponds to a slide -->
             <div class="section">Some section</div>
@@ -34,69 +36,6 @@
             $(document).ready(function() {
                 $('#fullpage').fullpage();
             });
-            // </end of Full Page setup>
-
-
-            // options configuration
-            // reference: http://www.highcharts.com/docs/getting-started/how-to-set-options
-    /*
-            var chart = new Highcharts.Map({
-                chart: {
-                    renderTo: 'mapContainer'
-                },
-                
-                title: {
-                    text: 'Titlelawl',
-                },
-
-                subtitle: {
-                    text: 'omgsubtitle',
-                },
-
-            });
-    */
-
-            $(function () {
-
-                $.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=world-population.json&callback=?', function (data) {
-
-                    var mapData = Highcharts.geojson(Highcharts.maps['custom/world']);
-
-                    // begin map configuration
-                    $('#mapContainer').highcharts('Map', {
-
-                        title: {
-                            text: 'Titlelawl',
-                        },
-
-                        subtitle: {
-                            text: 'omgsubtitle',
-                        },   
-
-
-                        series : [{
-                            name: 'Countries',
-                            mapData: mapData,
-                            color: '#E0E0E0',
-                            enableMouseTracking: false
-                        }, {
-                            type: 'mapbubble',
-                            mapData: mapData,
-                            name: 'Population 2010',
-                            joinBy: ['iso-a2', 'code'],
-                            data: data,
-                            minSize: 4,
-                            maxSize: '12%',
-                            tooltip: {
-                                pointFormat: '{point.code}: {point.z} thousands'
-                            }
-                        }], // end of series 
-
-                    });
-
-                }); // end of $.getJSON()
-            }); // end of $function()
-
 
             </script>
         </div>
