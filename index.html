@@ -6,8 +6,11 @@
         <meta name="author" content="Andrew Lambert, Ashwini Sriram & Ricky Holtz">
         <meta name="description" content="A narrative about the Quantified Self community">
         <meta name="keywords" content="quantified self, narrative, infographic, community, tools, tech">
+        <link rel="stylesheet" type="text/css" href="http://cdn.knightlab.com/libs/timeline/latest/css/timeline.css">
         <link rel="stylesheet" href="assets/css/main.css" type="text/css">
         <link rel="stylesheet" href="assets/css/jquery.fullPage.css" type="text/css">
+        <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.10/jquery-ui.min.js"></script>
     </head>
     <body>
         <div id="fullpage">
@@ -193,7 +196,26 @@
             <!-- END FUTURE OF QS -->
             
             <!-- END -->
-            <div class="section"><h1>What questions do you have?</h1></div>
+            <div class="section">
+                <div id="bigbigbox">
+                <h1>User Stats</h1>
+ 
+                <p id="msg"></p>
+ 
+                <script type="text/javascript">
+                 
+                var i=0;
+
+                $('#bigbigbox').mousemove(function(event) {
+                  var mouse_position = ' Number of mouse moves : ' + i++;
+                  $('#msg').text(mouse_position);
+                });
+                 
+                </script>
+                
+                <h1>What questions do you have?</h1>
+
+            </div>
         </div>
     </body>
     <footer>

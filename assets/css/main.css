@@ -121,3 +121,16 @@ table {
 .house-icon {
     float: left;
 }
+
+#bigbigbox {
+
+background-color : #BBBBBB;
+height:100%;
+
+}
+#msg {
+
+color:#00000;
+font-size: 30px;
+
+}
