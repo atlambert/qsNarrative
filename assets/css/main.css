@@ -24,6 +24,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    
+    color: #fff;
+}
+
+p{
+    font-family: Inconsolata, Courier, sans-serif;
+    
+    color: #fff;
+}
+
 body {
     line-height: 1;
 }
@@ -51,13 +65,20 @@ table {
     flex: 1 auto;
 }
 
+.descriptive-profile__text h1, .descriptive-profile__text p{
+    color: #000;
+    text-align: center;
+}
+
 .descriptive-profile__photo img{
     max-height: 500px;
 }
 
 .profile-container {
+    background-color: #fff;
     float: left;
     max-width: 30%;
+    padding: 10px;
     
     display: flex;
     flex-flow: row;
@@ -106,8 +127,17 @@ table {
     flex: 1 100%;
 }
 
-#qs-bridge-slide .text-container{
-    flex: 2 auto;
+#qs-definition{
+    flex-flow: row wrap;
+}
+
+.qs-definition__icon {
+    max-height: 250px;
+    flex: 1 auto;
+}
+
+.qs-definition__text{
+    max-width: 600px;
 }
 
 #example-questions-slide .example-graph{
@@ -123,14 +153,63 @@ table {
 }
 
 #bigbigbox {
-
-background-color : #BBBBBB;
+background-color : #fff;
 height:100%;
-
 }
+
 #msg {
-
-color:#00000;
+color:#000;
 font-size: 30px;
+}
 
+#title {
+    background: url(/assets/img/background-img/iphone-hand.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.tint {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+    min-height: 100%;
+    min-width: 100%;
+    
+    background-color: rgba(0,0,0,0.4);
+}
+
+#title-header {
+    font-size: 3.5em;
+}
+
+#title-subhead {
+    font-family: Inconsolata, monospace;
+}
+
+.increased-linespace {
+    line-height: 150%;
+}
+
+.card-style {
+    background-color: #fff;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.6);
+}
+
+.misconception-card__text{
+    color: #000;
+    text-align: center;
+    
+    padding-top: 25px;
+}
+
+#misconceptions-slide {
+    justify-content: space-between;
+}
+
+#future-qs-slide {
+    background: url(/assets/img/background-img/grandcentral.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
