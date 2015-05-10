@@ -158,7 +158,7 @@ font-size: 30px;
 }
 
 #title {
-    background: url(assets/img/background-img/iphone-hand.jpg) no-repeat center center fixed;
+    background: url(/assets/img/background-img/iphone-hand.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -211,4 +211,8 @@ font-size: 30px;
     background: url(/assets/img/background-img/grandcentral.jpg) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+#mapviz-text {
+    color: #000;
 }
