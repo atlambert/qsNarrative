@@ -144,6 +144,14 @@ table {
     flex: 3 auto;
 }
 
+#example-questions-slide {
+    justify-content: space-between;
+}
+
+.example-graph {
+    max-width: 300px;
+}
+
 #personal-data-container{
     justify-content: space-between;
 }
@@ -207,4 +215,14 @@ font-size: 30px;
     background: url(/assets/img/background-img/grandcentral.jpg) no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+#question1, #question2 {
+    height: 250px;
+    width: 250px;
+}
+
+#question3 img {
+    max-height: 250px;
+    max-width: 250px;
 }
