@@ -2,7 +2,7 @@
 
 <workbook source-platform='mac' version='8.3' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <!-- build 8300.15.0114.2230                                -->
-  <repository-location id='QuantifiedSelfMeetups_0' path='/workbooks' revision='1.2' />
+  <repository-location id='QuantifiedSelfMeetups_0' path='/workbooks' revision='1.8' />
   <preferences>
   </preferences>
   <datasources>
@@ -962,6 +962,9 @@
           </strip>
         </edge>
       </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='2' />
+      </viewpoint>
       <highlight>
         <color-one-way>
           <field>[excel-direct.42131.667466446800].[none:meetup_groupName:nk]</field>
@@ -997,10 +1000,12 @@
       </highlight>
     </window>
     <window auto-hidden='0' class='dashboard' maximized='1' name='Dashboard'>
+      <active id='1' />
       <zones>
         <zone name='Quantified Self Meetups'>
           <viewpoint>
             <zoom type='entire-view' />
+            <floating-toolbar-visibility value='2' />
           </viewpoint>
         </zone>
         <zone name='Distribution of Meetups by Age'>
