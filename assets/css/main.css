@@ -192,6 +192,10 @@ font-size: 30px;
     box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.6);
 }
 
+.misconception-card{
+    max-height: 90%;
+}
+
 .misconception-card__text{
     color: #000;
     text-align: center;
