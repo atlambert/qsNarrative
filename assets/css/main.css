@@ -123,9 +123,11 @@ table {
 }
 
 #bigbigbox {
-
-background-color : #BBBBBB;
-height:100%;
+height: 100%;
+flex: 1 100%;
+background-color : #00000;
+align-content: center;
+justify-content: center;
 
 }
 #msg {
