@@ -12,8 +12,12 @@
         <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.1.min.js"></script>
         <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.10/jquery-ui.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Inconsolata|Roboto:400,500' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src ="paper.js"></script>
+        <script type ="text/javascript" src="line.js"></script>
+
     </head>
     <body>
+
         <div id="fullpage">
             <div class="section" id="title">
                 <div class="tint">
@@ -214,26 +218,26 @@
             <!-- END FUTURE OF QS -->
             
             <!-- END -->
-            <div class="section">
-                <div class="flex-container">
+            <<div class="section">
+            <div class="flex-container">
                     <h1>User Stats</h1>
 
+                    <!--Mouse move data-->
                     <p id="mousemove-msg"></p>
-
+                    <p id="array"></p>
                     <script type="text/javascript">
-
-                    var i=0;
-
-                    $('#fullpage').mousemove(function(event) {
-                      var mouse_position = ' Number of mouse moves : ' + i++;
-                      $('#mousemove-msg').text(mouse_position);
-                    });
+                        var i=0;
+                        $('#array').text()
+                        $('#fullpage').mousemove(function(event) {
+                          var mouse_position = ' position - x : ' + event.pageX + ' position - y: ' + event.pageY + ' Number of mouse moves : ' + i++;
+                          $('#mousemove-msg').text(mouse_position);
+                        });                   
                     </script>
 
                     <h1>What questions do you have?</h1>
-                </div>
-            </div>
+            </div> 
         </div>
+    </div>
     </body>
     <footer>
         <script src="assets/js/jquery.js"></script>
