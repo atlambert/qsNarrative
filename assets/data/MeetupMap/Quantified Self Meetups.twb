@@ -852,8 +852,8 @@
                 <run>&lt;[excel-direct.42131.667466446800].[none:meetup_location:nk]&gt;</run>
                 <run fontcolor='#787878'>&#10;Members: </run>
                 <run>&lt;[excel-direct.42131.667466446800].[sum:meetup_membersCount:qk]&gt;</run>
-                <run fontcolor='#787878'>&#10;Meetup Age: </run>
-                <run>&lt;[excel-direct.42131.667466446800].[sum:meetup_age (Years):qk]&gt; years&#10;&#10;To learn more, visit</run>
+                <run fontcolor='#787878'>&#10;Years since Meetup Created: </run>
+                <run>&lt;[excel-direct.42131.667466446800].[sum:meetup_age (Years):qk]&gt;&#10;&#10;To learn more, visit</run>
                 <run fontcolor='#787878'>Æ </run>
                 <run fontcolor='#297a98'>&lt;[excel-direct.42131.667466446800].[attr:meetup_groupurl:nk]&gt;</run>
               </formatted-text>
@@ -938,7 +938,7 @@
   </dashboards>
   <windows>
     <window class='schema' source-height='-1' />
-    <window auto-hidden='0' class='worksheet' maximized='0' name='Quantified Self Meetups'>
+    <window auto-hidden='0' class='worksheet' maximized='1' name='Quantified Self Meetups'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -991,17 +991,15 @@
           <field>[excel-direct.42131.667466446800].[sum:meetup_age (Years):qk]</field>
         </color-one-way>
       </highlight>
+      <viewpoint>
+      </viewpoint>
     </window>
-    <window auto-hidden='0' class='dashboard' maximized='1' name='Dashboard'>
+    <window auto-hidden='0' class='dashboard' maximized='0' name='Dashboard'>
       <zones>
         <zone name='Quantified Self Meetups'>
           <viewpoint>
             <zoom type='entire-view' />
           </viewpoint>
-          <highlight field='[excel-direct.42131.667466446800].[sum:meetup_membersCount:qk]' type='size'>
-            <bucket-selection>
-            </bucket-selection>
-          </highlight>
         </zone>
         <zone name='Distribution of Meetups by Age'>
           <viewpoint>
@@ -1010,8 +1008,8 @@
         </zone>
         <zone name='Quantified Self Meetups' pane-specification-id='0' param='[excel-direct.42131.667466446800].[sum:meetup_age (Years):qk]' type='color' />
         <zone forceUpdate='true' name='' type='text' />
-        <zone forceUpdate='true' name='' type='text' />
-        <zone forceUpdate='true' name='' type='text' />
+        <zone forceUpdate='true' h='5500' id='18' name='' type='text' w='15250' x='4750' y='17500' />
+        <zone forceUpdate='true' h='3667' id='19' name='' type='text' w='20875' x='78000' y='78667' />
       </zones>
     </window>
   </windows>
