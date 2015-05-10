@@ -154,6 +154,7 @@
                     <div id="community-info-container__content">
                         <img src="http://placehold.it/500x500" alt="place it!" class="house-icon">
                     <p>The first quantified self meetup took place in November 2008 in Kevin Kelley's basement. 28 people were in attendance.</p>
+                    <p>In September 2008, the first quantified self meetup took place in the basement of <a href="http://kk.org/">Kevin Kelly</a>, founding editor of WIRED Magazine. 28 people attended.</p>
                     </div>
                 </div>
             </div>
@@ -164,8 +165,8 @@
                 <div class="flex-container">
                     <h1>And ever since, the community has grown across the world</h1>
 
-                    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
-                    <div class='tableauPlaceholder' style='width: 1004px; height: 869px;'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetupMap&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='1004' height='869' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='QuantifiedSelfMeetupMap&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetupMap&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+                    <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 804px; height: 669px;'><noscript><a href='#'><img alt='Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetups_0&#47;Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='804' height='669' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='QuantifiedSelfMeetups_0&#47;Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetups_0&#47;Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+                    
                     </div>
             </div>
             <!-- END MAP VISUALIZATION -->
@@ -201,14 +202,12 @@
             <!-- END SECURITY -->
             
             <!-- FUTURE OF QS -->
-            <div class="section" id="future-qs-slide">
-                <div class="tint">
-                    <div class="flex-container">
-                        <h1>Involvement is steadily increasing, but the quantified self community has a lot of room for growth</h1>
-                        <p>Some predict that quantified self will grow beyond the individual...</p>
-
-                        <p>...to the quantified us; a community crowdsourcing similar data for public policy and infrastructure use.</p>
-                    </div>
+            <div class="section">
+                <div class="flex-container">
+                    <h1>The quantified self movement has a lot of opportunity for growth</h1>
+                    <p>Many predict that quantified self will grow beyond the individual...</p>
+                    
+                    <p>...to the quantified community.</p>
                 </div>
             </div>
             
@@ -219,7 +218,7 @@
                 <div class="flex-container">
                     <h1>User Stats</h1>
 
-                    <p id="msg"></p>
+                    <p id="mousemove-msg"></p>
 
                     <script type="text/javascript">
 
@@ -227,7 +226,7 @@
 
                     $('#fullpage').mousemove(function(event) {
                       var mouse_position = ' Number of mouse moves : ' + i++;
-                      $('#msg').text(mouse_position);
+                      $('#mousemove-msg').text(mouse_position);
                     });
                     </script>
 
@@ -253,5 +252,6 @@
 
             </script>
         </div>
+
     </footer>
 </html>
