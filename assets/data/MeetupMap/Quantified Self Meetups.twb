@@ -725,6 +725,10 @@
               <color column='[excel-direct.42131.667466446800].[sum:meetup_age (Years):qk]' />
               <text column='[excel-direct.42131.667466446800].[sum:meetup_age (Years):qk]' />
             </encodings>
+            <customized-tooltip>
+              <formatted-text>
+              </formatted-text>
+            </customized-tooltip>
             <style>
               <style-rule element='mark'>
                 <format attr='has-stroke' value='false' />
@@ -938,7 +942,7 @@
   </dashboards>
   <windows>
     <window class='schema' source-height='-1' />
-    <window auto-hidden='0' class='worksheet' maximized='1' name='Quantified Self Meetups'>
+    <window auto-hidden='0' class='worksheet' maximized='0' name='Quantified Self Meetups'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -991,10 +995,8 @@
           <field>[excel-direct.42131.667466446800].[sum:meetup_age (Years):qk]</field>
         </color-one-way>
       </highlight>
-      <viewpoint>
-      </viewpoint>
     </window>
-    <window auto-hidden='0' class='dashboard' maximized='0' name='Dashboard'>
+    <window auto-hidden='0' class='dashboard' maximized='1' name='Dashboard'>
       <zones>
         <zone name='Quantified Self Meetups'>
           <viewpoint>
@@ -1007,7 +1009,7 @@
           </viewpoint>
         </zone>
         <zone name='Quantified Self Meetups' pane-specification-id='0' param='[excel-direct.42131.667466446800].[sum:meetup_age (Years):qk]' type='color' />
-        <zone forceUpdate='true' name='' type='text' />
+        <zone forceUpdate='true' h='3667' id='19' name='' type='text' w='20875' x='78000' y='78667' />
         <zone forceUpdate='true' h='5500' id='18' name='' type='text' w='15250' x='4750' y='17500' />
         <zone forceUpdate='true' h='3667' id='19' name='' type='text' w='20875' x='78000' y='78667' />
       </zones>
