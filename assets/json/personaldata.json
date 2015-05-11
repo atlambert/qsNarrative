@@ -1,2193 +1,2192 @@
 {
-    "team":
+    "team": {
         "andrew": {
     
         },
-
         "ashwini": {
             
         },
-
         "ricky": {
-            "chart1":{[
-              {
-                "Date": "02-Feb-14",
-                "Steps": 7868
-              },
-              {
-                "Date": "03-Feb-14",
-                "Steps": 11531
-              },
-              {
-                "Date": "04-Feb-14",
-                "Steps": 14043
-              },
-              {
-                "Date": "05-Feb-14",
-                "Steps": 9033
-              },
-              {
-                "Date": "06-Feb-14",
-                "Steps": 9080
-              },
-              {
-                "Date": "07-Feb-14",
-                "Steps": 11705
-              },
-              {
-                "Date": "08-Feb-14",
-                "Steps": 6353
-              },
-              {
-                "Date": "09-Feb-14",
-                "Steps": 4514
-              },
-              {
-                "Date": "10-Feb-14",
-                "Steps": 8603
-              },
-              {
-                "Date": "11-Feb-14",
-                "Steps": 13009
-              },
-              {
-                "Date": "12-Feb-14",
-                "Steps": 13180
-              },
-              {
-                "Date": "12-Feb-14",
-                "Steps": 10853
-              },
-              {
-                "Date": "13-Feb-14",
-                "Steps": 11465
-              },
-              {
-                "Date": "13-Feb-14",
-                "Steps": 7792
-              },
-              {
-                "Date": "14-Feb-14",
-                "Steps": 20471
-              },
-              {
-                "Date": "14-Feb-14",
-                "Steps": 10918
-              },
-              {
-                "Date": "15-Feb-14",
-                "Steps": 29190
-              },
-              {
-                "Date": "15-Feb-14",
-                "Steps": 22653
-              },
-              {
-                "Date": "16-Feb-14",
-                "Steps": 30099
-              },
-              {
-                "Date": "16-Feb-14",
-                "Steps": 17219
-              },
-              {
-                "Date": "17-Feb-14",
-                "Steps": 10328
-              },
-              {
-                "Date": "17-Feb-14",
-                "Steps": 7908
-              },
-              {
-                "Date": "18-Feb-14",
-                "Steps": 12905
-              },
-              {
-                "Date": "18-Feb-14",
-                "Steps": 8483
-              },
-              {
-                "Date": "19-Feb-14",
-                "Steps": 9471
-              },
-              {
-                "Date": "19-Feb-14",
-                "Steps": 5613
-              },
-              {
-                "Date": "20-Feb-14",
-                "Steps": 12962
-              },
-              {
-                "Date": "20-Feb-14",
-                "Steps": 10306
-              },
-              {
-                "Date": "21-Feb-14",
-                "Steps": 11476
-              },
-              {
-                "Date": "21-Feb-14",
-                "Steps": 6916
-              },
-              {
-                "Date": "22-Feb-14",
-                "Steps": 9331
-              },
-              {
-                "Date": "22-Feb-14",
-                "Steps": 6704
-              },
-              {
-                "Date": "23-Feb-14",
-                "Steps": 11289
-              },
-              {
-                "Date": "23-Feb-14",
-                "Steps": 7791
-              },
-              {
-                "Date": "24-Feb-14",
-                "Steps": 11323
-              },
-              {
-                "Date": "24-Feb-14",
-                "Steps": 8269
-              },
-              {
-                "Date": "25-Feb-14",
-                "Steps": 11778
-              },
-              {
-                "Date": "25-Feb-14",
-                "Steps": 10020
-              },
-              {
-                "Date": "26-Feb-14",
-                "Steps": 10441
-              },
-              {
-                "Date": "26-Feb-14",
-                "Steps": 9339
-              },
-              {
-                "Date": "27-Feb-14",
-                "Steps": 10187
-              },
-              {
-                "Date": "27-Feb-14",
-                "Steps": 7627
-              },
-              {
-                "Date": "28-Feb-14",
-                "Steps": 9862
-              },
-              {
-                "Date": "28-Feb-14",
-                "Steps": 6339
-              },
-              {
-                "Date": "01-Mar-14",
-                "Steps": 10997
-              },
-              {
-                "Date": "02-Mar-14",
-                "Steps": 6298
-              },
-              {
-                "Date": "02-Mar-14",
-                "Steps": 4697
-              },
-              {
-                "Date": "03-Mar-14",
-                "Steps": 8990
-              },
-              {
-                "Date": "03-Mar-14",
-                "Steps": 7316
-              },
-              {
-                "Date": "04-Mar-14",
-                "Steps": 14610
-              },
-              {
-                "Date": "04-Mar-14",
-                "Steps": 10254
-              },
-              {
-                "Date": "05-Mar-14",
-                "Steps": 6922
-              },
-              {
-                "Date": "05-Mar-14",
-                "Steps": 3945
-              },
-              {
-                "Date": "06-Mar-14",
-                "Steps": 12671
-              },
-              {
-                "Date": "06-Mar-14",
-                "Steps": 2584
-              },
-              {
-                "Date": "07-Mar-14",
-                "Steps": 6229
-              },
-              {
-                "Date": "08-Mar-14",
-                "Steps": 4970
-              },
-              {
-                "Date": "09-Mar-14",
-                "Steps": 4229
-              },
-              {
-                "Date": "09-Mar-14",
-                "Steps": 59
-              },
-              {
-                "Date": "10-Mar-14",
-                "Steps": 7444
-              },
-              {
-                "Date": "11-Mar-14",
-                "Steps": 11793
-              },
-              {
-                "Date": "12-Mar-14",
-                "Steps": 8935
-              },
-              {
-                "Date": "13-Mar-14",
-                "Steps": 1465
-              },
-              {
-                "Date": "25-Mar-14",
-                "Steps": 5476
-              },
-              {
-                "Date": "26-Mar-14",
-                "Steps": 5527
-              },
-              {
-                "Date": "27-Mar-14",
-                "Steps": 9647
-              },
-              {
-                "Date": "28-Mar-14",
-                "Steps": 5775
-              },
-              {
-                "Date": "29-Mar-14",
-                "Steps": 5937
-              },
-              {
-                "Date": "30-Mar-14",
-                "Steps": 4705
-              },
-              {
-                "Date": "31-Mar-14",
-                "Steps": 9223
-              },
-              {
-                "Date": "01-Apr-14",
-                "Steps": 8217
-              },
-              {
-                "Date": "02-Apr-14",
-                "Steps": 7160
-              },
-              {
-                "Date": "03-Apr-14",
-                "Steps": 20565
-              },
-              {
-                "Date": "04-Apr-14",
-                "Steps": 9507
-              },
-              {
-                "Date": "05-Apr-14",
-                "Steps": 10016
-              },
-              {
-                "Date": "06-Apr-14",
-                "Steps": 5853
-              },
-              {
-                "Date": "07-Apr-14",
-                "Steps": 7328
-              },
-              {
-                "Date": "08-Apr-14",
-                "Steps": 10903
-              },
-              {
-                "Date": "09-Apr-14",
-                "Steps": 8567
-              },
-              {
-                "Date": "10-Apr-14",
-                "Steps": 13098
-              },
-              {
-                "Date": "11-Apr-14",
-                "Steps": 10140
-              },
-              {
-                "Date": "12-Apr-14",
-                "Steps": 14217
-              },
-              {
-                "Date": "13-Apr-14",
-                "Steps": 11344
-              },
-              {
-                "Date": "14-Apr-14",
-                "Steps": 11856
-              },
-              {
-                "Date": "15-Apr-14",
-                "Steps": 8998
-              },
-              {
-                "Date": "16-Apr-14",
-                "Steps": 5969
-              },
-              {
-                "Date": "17-Apr-14",
-                "Steps": 8993
-              },
-              {
-                "Date": "18-Apr-14",
-                "Steps": 1658
-              },
-              {
-                "Date": "19-Apr-14",
-                "Steps": 6470
-              },
-              {
-                "Date": "20-Apr-14",
-                "Steps": 11925
-              },
-              {
-                "Date": "21-Apr-14",
-                "Steps": 8302
-              },
-              {
-                "Date": "22-Apr-14",
-                "Steps": 13691
-              },
-              {
-                "Date": "23-Apr-14",
-                "Steps": 2075
-              },
-              {
-                "Date": "29-Apr-14",
-                "Steps": 8072
-              },
-              {
-                "Date": "30-Apr-14",
-                "Steps": 7534
-              },
-              {
-                "Date": "01-May-14",
-                "Steps": 7930
-              },
-              {
-                "Date": "02-May-14",
-                "Steps": 6578
-              },
-              {
-                "Date": "03-May-14",
-                "Steps": 7161
-              },
-              {
-                "Date": "04-May-14",
-                "Steps": 12361
-              },
-              {
-                "Date": "05-May-14",
-                "Steps": 12359
-              },
-              {
-                "Date": "06-May-14",
-                "Steps": 3022
-              },
-              {
-                "Date": "07-May-14",
-                "Steps": 10089
-              },
-              {
-                "Date": "08-May-14",
-                "Steps": 9244
-              },
-              {
-                "Date": "09-May-14",
-                "Steps": 10348
-              },
-              {
-                "Date": "10-May-14",
-                "Steps": 19535
-              },
-              {
-                "Date": "11-May-14",
-                "Steps": 22022
-              },
-              {
-                "Date": "12-May-14",
-                "Steps": 18941
-              },
-              {
-                "Date": "13-May-14",
-                "Steps": 1487
-              },
-              {
-                "Date": "14-May-14",
-                "Steps": 6506
-              },
-              {
-                "Date": "15-May-14",
-                "Steps": 1580
-              },
-              {
-                "Date": "16-May-14",
-                "Steps": 1144
-              },
-              {
-                "Date": "17-May-14",
-                "Steps": 619
-              },
-              {
-                "Date": "18-May-14",
-                "Steps": 7171
-              },
-              {
-                "Date": "19-May-14",
-                "Steps": 8471
-              },
-              {
-                "Date": "20-May-14",
-                "Steps": 1385
-              },
-              {
-                "Date": "21-May-14",
-                "Steps": 217
-              },
-              {
-                "Date": "22-May-14",
-                "Steps": 5602
-              },
-              {
-                "Date": "23-May-14",
-                "Steps": 8877
-              },
-              {
-                "Date": "24-May-14",
-                "Steps": 9953
-              },
-              {
-                "Date": "25-May-14",
-                "Steps": 3091
-              },
-              {
-                "Date": "01-Jun-14",
-                "Steps": 6412
-              },
-              {
-                "Date": "02-Jun-14",
-                "Steps": 804
-              },
-              {
-                "Date": "03-Jun-14",
-                "Steps": 5325
-              },
-              {
-                "Date": "04-Jun-14",
-                "Steps": 826
-              },
-              {
-                "Date": "05-Jun-14",
-                "Steps": 5553
-              },
-              {
-                "Date": "06-Jun-14",
-                "Steps": 14305
-              },
-              {
-                "Date": "07-Jun-14",
-                "Steps": 8399
-              },
-              {
-                "Date": "08-Jun-14",
-                "Steps": 5193
-              },
-              {
-                "Date": "09-Jun-14",
-                "Steps": 6827
-              },
-              {
-                "Date": "10-Jun-14",
-                "Steps": 4535
-              },
-              {
-                "Date": "11-Jun-14",
-                "Steps": 4591
-              },
-              {
-                "Date": "12-Jun-14",
-                "Steps": 8386
-              },
-              {
-                "Date": "13-Jun-14",
-                "Steps": 7603
-              },
-              {
-                "Date": "14-Jun-14",
-                "Steps": 9258
-              },
-              {
-                "Date": "15-Jun-14",
-                "Steps": 14606
-              },
-              {
-                "Date": "16-Jun-14",
-                "Steps": 13788
-              },
-              {
-                "Date": "17-Jun-14",
-                "Steps": 9956
-              },
-              {
-                "Date": "18-Jun-14",
-                "Steps": 5267
-              },
-              {
-                "Date": "19-Jun-14",
-                "Steps": 10602
-              },
-              {
-                "Date": "20-Jun-14",
-                "Steps": 7052
-              },
-              {
-                "Date": "21-Jun-14",
-                "Steps": 1697
-              },
-              {
-                "Date": "22-Jun-14",
-                "Steps": 5508
-              },
-              {
-                "Date": "23-Jun-14",
-                "Steps": 6516
-              },
-              {
-                "Date": "24-Jun-14",
-                "Steps": 12362
-              },
-              {
-                "Date": "25-Jun-14",
-                "Steps": 6022
-              },
-              {
-                "Date": "26-Jun-14",
-                "Steps": 7341
-              },
-              {
-                "Date": "27-Jun-14",
-                "Steps": 15026
-              },
-              {
-                "Date": "28-Jun-14",
-                "Steps": 14045
-              },
-              {
-                "Date": "29-Jun-14",
-                "Steps": 9674
-              },
-              {
-                "Date": "30-Jun-14",
-                "Steps": 5096
-              },
-              {
-                "Date": "01-Jul-14",
-                "Steps": 9373
-              },
-              {
-                "Date": "02-Jul-14",
-                "Steps": 7486
-              },
-              {
-                "Date": "03-Jul-14",
-                "Steps": 6262
-              },
-              {
-                "Date": "04-Jul-14",
-                "Steps": 6094
-              },
-              {
-                "Date": "05-Jul-14",
-                "Steps": 1296
-              },
-              {
-                "Date": "06-Jul-14",
-                "Steps": 5388
-              },
-              {
-                "Date": "07-Jul-14",
-                "Steps": 10257
-              },
-              {
-                "Date": "08-Jul-14",
-                "Steps": 3007
-              },
-              {
-                "Date": "09-Jul-14",
-                "Steps": 7529
-              },
-              {
-                "Date": "10-Jul-14",
-                "Steps": 10497
-              },
-              {
-                "Date": "11-Jul-14",
-                "Steps": 4747
-              },
-              {
-                "Date": "12-Jul-14",
-                "Steps": 13888
-              },
-              {
-                "Date": "13-Jul-14",
-                "Steps": 8083
-              },
-              {
-                "Date": "14-Jul-14",
-                "Steps": 6297
-              },
-              {
-                "Date": "15-Jul-14",
-                "Steps": 6766
-              },
-              {
-                "Date": "16-Jul-14",
-                "Steps": 3398
-              },
-              {
-                "Date": "17-Jul-14",
-                "Steps": 8961
-              },
-              {
-                "Date": "18-Jul-14",
-                "Steps": 11349
-              },
-              {
-                "Date": "19-Jul-14",
-                "Steps": 29174
-              },
-              {
-                "Date": "20-Jul-14",
-                "Steps": 17053
-              },
-              {
-                "Date": "21-Jul-14",
-                "Steps": 12271
-              },
-              {
-                "Date": "22-Jul-14",
-                "Steps": 9657
-              },
-              {
-                "Date": "23-Jul-14",
-                "Steps": 7201
-              },
-              {
-                "Date": "24-Jul-14",
-                "Steps": 5250
-              },
-              {
-                "Date": "25-Jul-14",
-                "Steps": 4823
-              },
-              {
-                "Date": "26-Jul-14",
-                "Steps": 2194
-              },
-              {
-                "Date": "27-Jul-14",
-                "Steps": 4847
-              },
-              {
-                "Date": "28-Jul-14",
-                "Steps": 4749
-              },
-              {
-                "Date": "29-Jul-14",
-                "Steps": 5300
-              },
-              {
-                "Date": "30-Jul-14",
-                "Steps": 4699
-              },
-              {
-                "Date": "31-Jul-14",
-                "Steps": 5186
-              },
-              {
-                "Date": "01-Aug-14",
-                "Steps": 8512
-              },
-              {
-                "Date": "02-Aug-14",
-                "Steps": 2995
-              },
-              {
-                "Date": "03-Aug-14",
-                "Steps": 2486
-              },
-              {
-                "Date": "04-Aug-14",
-                "Steps": 7076
-              },
-              {
-                "Date": "05-Aug-14",
-                "Steps": 6908
-              },
-              {
-                "Date": "06-Aug-14",
-                "Steps": 10758
-              },
-              {
-                "Date": "07-Aug-14",
-                "Steps": 10880
-              },
-              {
-                "Date": "08-Aug-14",
-                "Steps": 11382
-              },
-              {
-                "Date": "09-Aug-14",
-                "Steps": 26578
-              },
-              {
-                "Date": "10-Aug-14",
-                "Steps": 21828
-              },
-              {
-                "Date": "11-Aug-14",
-                "Steps": 7789
-              },
-              {
-                "Date": "12-Aug-14",
-                "Steps": 6755
-              },
-              {
-                "Date": "13-Aug-14",
-                "Steps": 17086
-              },
-              {
-                "Date": "14-Aug-14",
-                "Steps": 7960
-              },
-              {
-                "Date": "15-Aug-14",
-                "Steps": 19129
-              },
-              {
-                "Date": "16-Aug-14",
-                "Steps": 10725
-              },
-              {
-                "Date": "17-Aug-14",
-                "Steps": 5977
-              },
-              {
-                "Date": "18-Aug-14",
-                "Steps": 191
-              },
-              {
-                "Date": "19-Aug-14",
-                "Steps": 126
-              },
-              {
-                "Date": "20-Aug-14",
-                "Steps": 1168
-              },
-              {
-                "Date": "22-Aug-14",
-                "Steps": 4464
-              },
-              {
-                "Date": "22-Aug-14",
-                "Steps": 1200
-              },
-              {
-                "Date": "23-Aug-14",
-                "Steps": 13352
-              },
-              {
-                "Date": "24-Aug-14",
-                "Steps": 25216
-              },
-              {
-                "Date": "25-Aug-14",
-                "Steps": 12650
-              },
-              {
-                "Date": "26-Aug-14",
-                "Steps": 13734
-              },
-              {
-                "Date": "27-Aug-14",
-                "Steps": 6366
-              },
-              {
-                "Date": "28-Aug-14",
-                "Steps": 14063
-              },
-              {
-                "Date": "29-Aug-14",
-                "Steps": 7313
-              },
-              {
-                "Date": "30-Aug-14",
-                "Steps": 13584
-              },
-              {
-                "Date": "31-Aug-14",
-                "Steps": 7098
-              },
-              {
-                "Date": "01-Sep-14",
-                "Steps": 11722
-              },
-              {
-                "Date": "02-Sep-14",
-                "Steps": 8063
-              },
-              {
-                "Date": "03-Sep-14",
-                "Steps": 9048
-              },
-              {
-                "Date": "04-Sep-14",
-                "Steps": 7463
-              },
-              {
-                "Date": "05-Sep-14",
-                "Steps": 10341
-              },
-              {
-                "Date": "06-Sep-14",
-                "Steps": 4136
-              },
-              {
-                "Date": "07-Sep-14",
-                "Steps": 3887
-              },
-              {
-                "Date": "08-Sep-14",
-                "Steps": 6490
-              },
-              {
-                "Date": "09-Sep-14",
-                "Steps": 5679
-              },
-              {
-                "Date": "10-Sep-14",
-                "Steps": 5741
-              },
-              {
-                "Date": "11-Sep-14",
-                "Steps": 4214
-              },
-              {
-                "Date": "12-Sep-14",
-                "Steps": 8936
-              },
-              {
-                "Date": "13-Sep-14",
-                "Steps": 8236
-              },
-              {
-                "Date": "14-Sep-14",
-                "Steps": 16039
-              },
-              {
-                "Date": "15-Sep-14",
-                "Steps": 3801
-              },
-              {
-                "Date": "16-Sep-14",
-                "Steps": 7562
-              },
-              {
-                "Date": "17-Sep-14",
-                "Steps": 1662
-              },
-              {
-                "Date": "18-Sep-14",
-                "Steps": 7970
-              },
-              {
-                "Date": "19-Sep-14",
-                "Steps": 6455
-              },
-              {
-                "Date": "20-Sep-14",
-                "Steps": 11247
-              },
-              {
-                "Date": "21-Sep-14",
-                "Steps": 11388
-              },
-              {
-                "Date": "22-Sep-14",
-                "Steps": 12988
-              },
-              {
-                "Date": "23-Sep-14",
-                "Steps": 13339
-              },
-              {
-                "Date": "24-Sep-14",
-                "Steps": 7041
-              },
-              {
-                "Date": "25-Sep-14",
-                "Steps": 8780
-              },
-              {
-                "Date": "26-Sep-14",
-                "Steps": 6186
-              },
-              {
-                "Date": "27-Sep-14",
-                "Steps": 18492
-              },
-              {
-                "Date": "28-Sep-14",
-                "Steps": 3944
-              },
-              {
-                "Date": "29-Sep-14",
-                "Steps": 6882
-              },
-              {
-                "Date": "30-Sep-14",
-                "Steps": 5576
-              },
-              {
-                "Date": "01-Oct-14",
-                "Steps": 8919
-              },
-              {
-                "Date": "02-Oct-14",
-                "Steps": 7145
-              },
-              {
-                "Date": "03-Oct-14",
-                "Steps": 4549
-              },
-              {
-                "Date": "04-Oct-14",
-                "Steps": 4828
-              },
-              {
-                "Date": "05-Oct-14",
-                "Steps": 10902
-              },
-              {
-                "Date": "06-Oct-14",
-                "Steps": 8738
-              },
-              {
-                "Date": "07-Oct-14",
-                "Steps": 8205
-              },
-              {
-                "Date": "08-Oct-14",
-                "Steps": 9024
-              },
-              {
-                "Date": "09-Oct-14",
-                "Steps": 7847
-              },
-              {
-                "Date": "10-Oct-14",
-                "Steps": 12063
-              },
-              {
-                "Date": "11-Oct-14",
-                "Steps": 4587
-              },
-              {
-                "Date": "12-Oct-14",
-                "Steps": 8043
-              },
-              {
-                "Date": "13-Oct-14",
-                "Steps": 6639
-              },
-              {
-                "Date": "14-Oct-14",
-                "Steps": 3940
-              },
-              {
-                "Date": "15-Oct-14",
-                "Steps": 5314
-              },
-              {
-                "Date": "16-Oct-14",
-                "Steps": 9416
-              },
-              {
-                "Date": "17-Oct-14",
-                "Steps": 6983
-              },
-              {
-                "Date": "18-Oct-14",
-                "Steps": 10016
-              },
-              {
-                "Date": "19-Oct-14",
-                "Steps": 6941
-              },
-              {
-                "Date": "20-Oct-14",
-                "Steps": 7369
-              },
-              {
-                "Date": "21-Oct-14",
-                "Steps": 9272
-              },
-              {
-                "Date": "22-Oct-14",
-                "Steps": 6831
-              },
-              {
-                "Date": "23-Oct-14",
-                "Steps": 8686
-              },
-              {
-                "Date": "24-Oct-14",
-                "Steps": 7116
-              },
-              {
-                "Date": "25-Oct-14",
-                "Steps": 5812
-              },
-              {
-                "Date": "26-Oct-14",
-                "Steps": 7063
-              },
-              {
-                "Date": "27-Oct-14",
-                "Steps": 14968
-              },
-              {
-                "Date": "28-Oct-14",
-                "Steps": 3920
-              },
-              {
-                "Date": "29-Oct-14",
-                "Steps": 9620
-              },
-              {
-                "Date": "30-Oct-14",
-                "Steps": 14242
-              },
-              {
-                "Date": "31-Oct-14",
-                "Steps": 12532
-              },
-              {
-                "Date": "01-Nov-14",
-                "Steps": 11497
-              },
-              {
-                "Date": "02-Nov-14",
-                "Steps": 4183
-              },
-              {
-                "Date": "03-Nov-14",
-                "Steps": 7217
-              },
-              {
-                "Date": "04-Nov-14",
-                "Steps": 6236
-              },
-              {
-                "Date": "05-Nov-14",
-                "Steps": 6144
-              },
-              {
-                "Date": "06-Nov-14",
-                "Steps": 6619
-              },
-              {
-                "Date": "07-Nov-14",
-                "Steps": 25113
-              },
-              {
-                "Date": "08-Nov-14",
-                "Steps": 6359
-              },
-              {
-                "Date": "09-Nov-14",
-                "Steps": 17032
-              },
-              {
-                "Date": "10-Nov-14",
-                "Steps": 11450
-              },
-              {
-                "Date": "11-Nov-14",
-                "Steps": 8825
-              },
-              {
-                "Date": "12-Nov-14",
-                "Steps": 5949
-              },
-              {
-                "Date": "13-Nov-14",
-                "Steps": 0
-              },
-              {
-                "Date": "17-Nov-14",
-                "Steps": 2295
-              },
-              {
-                "Date": "18-Nov-14",
-                "Steps": 9479
-              },
-              {
-                "Date": "19-Nov-14",
-                "Steps": 16479
-              },
-              {
-                "Date": "20-Nov-14",
-                "Steps": 11541
-              },
-              {
-                "Date": "21-Nov-14",
-                "Steps": 6753
-              },
-              {
-                "Date": "22-Nov-14",
-                "Steps": 6551
-              },
-              {
-                "Date": "23-Nov-14",
-                "Steps": 9619
-              },
-              {
-                "Date": "24-Nov-14",
-                "Steps": 9106
-              },
-              {
-                "Date": "25-Nov-14",
-                "Steps": 6509
-              },
-              {
-                "Date": "26-Nov-14",
-                "Steps": 9798
-              },
-              {
-                "Date": "27-Nov-14",
-                "Steps": 5956
-              },
-              {
-                "Date": "28-Nov-14",
-                "Steps": 6428
-              },
-              {
-                "Date": "29-Nov-14",
-                "Steps": 24680
-              },
-              {
-                "Date": "30-Nov-14",
-                "Steps": 10223
-              },
-              {
-                "Date": "01-Dec-14",
-                "Steps": 9115
-              },
-              {
-                "Date": "02-Dec-14",
-                "Steps": 10079
-              },
-              {
-                "Date": "03-Dec-14",
-                "Steps": 5895
-              },
-              {
-                "Date": "04-Dec-14",
-                "Steps": 11533
-              },
-              {
-                "Date": "05-Dec-14",
-                "Steps": 12783
-              },
-              {
-                "Date": "06-Dec-14",
-                "Steps": 11097
-              },
-              {
-                "Date": "07-Dec-14",
-                "Steps": 4983
-              },
-              {
-                "Date": "08-Dec-14",
-                "Steps": 10623
-              },
-              {
-                "Date": "09-Dec-14",
-                "Steps": 9303
-              },
-              {
-                "Date": "10-Dec-14",
-                "Steps": 5903
-              },
-              {
-                "Date": "11-Dec-14",
-                "Steps": 2991
-              },
-              {
-                "Date": "12-Dec-14",
-                "Steps": 5243
-              },
-              {
-                "Date": "13-Dec-14",
-                "Steps": 6347
-              },
-              {
-                "Date": "14-Dec-14",
-                "Steps": 7007
-              },
-              {
-                "Date": "15-Dec-14",
-                "Steps": 2948
-              },
-              {
-                "Date": "16-Dec-14",
-                "Steps": 9032
-              },
-              {
-                "Date": "17-Dec-14",
-                "Steps": 4868
-              },
-              {
-                "Date": "18-Dec-14",
-                "Steps": 6492
-              },
-              {
-                "Date": "19-Dec-14",
-                "Steps": 4746
-              },
-              {
-                "Date": "20-Dec-14",
-                "Steps": 7732
-              },
-              {
-                "Date": "21-Dec-14",
-                "Steps": 9195
-              },
-              {
-                "Date": "22-Dec-14",
-                "Steps": 9090
-              },
-              {
-                "Date": "23-Dec-14",
-                "Steps": 793
-              },
-              {
-                "Date": "24-Dec-14",
-                "Steps": 2562
-              },
-              {
-                "Date": "25-Dec-14",
-                "Steps": 1455
-              },
-              {
-                "Date": "26-Dec-14",
-                "Steps": 5230
-              },
-              {
-                "Date": "27-Dec-14",
-                "Steps": 3147
-              },
-              {
-                "Date": "28-Dec-14",
-                "Steps": 6331
-              },
-              {
-                "Date": "29-Dec-14",
-                "Steps": 17381
-              },
-              {
-                "Date": "30-Dec-14",
-                "Steps": 1078
-              },
-              {
-                "Date": "31-Dec-14",
-                "Steps": 7805
-              },
-              {
-                "Date": "01-Jan-15",
-                "Steps": 12745
-              },
-              {
-                "Date": "02-Jan-15",
-                "Steps": 4856
-              },
-              {
-                "Date": "03-Jan-15",
-                "Steps": 5146
-              },
-              {
-                "Date": "04-Jan-15",
-                "Steps": 4430
-              },
-              {
-                "Date": "08-Jan-15",
-                "Steps": 1870
-              },
-              {
-                "Date": "09-Jan-15",
-                "Steps": 8703
-              },
-              {
-                "Date": "10-Jan-15",
-                "Steps": 8414
-              },
-              {
-                "Date": "11-Jan-15",
-                "Steps": 7057
-              },
-              {
-                "Date": "12-Jan-15",
-                "Steps": 10480
-              },
-              {
-                "Date": "13-Jan-15",
-                "Steps": 13972
-              },
-              {
-                "Date": "14-Jan-15",
-                "Steps": 6550
-              },
-              {
-                "Date": "15-Jan-15",
-                "Steps": 10348
-              },
-              {
-                "Date": "16-Jan-15",
-                "Steps": 14913
-              },
-              {
-                "Date": "17-Jan-15",
-                "Steps": 8421
-              },
-              {
-                "Date": "18-Jan-15",
-                "Steps": 20340
-              },
-              {
-                "Date": "19-Jan-15",
-                "Steps": 17873
-              },
-              {
-                "Date": "20-Jan-15",
-                "Steps": 11896
-              },
-              {
-                "Date": "21-Jan-15",
-                "Steps": 12240
-              },
-              {
-                "Date": "22-Jan-15",
-                "Steps": 6862
-              },
-              {
-                "Date": "23-Jan-15",
-                "Steps": 7759
-              },
-              {
-                "Date": "24-Jan-15",
-                "Steps": 0
-              },
-              {
-                "Date": "25-Jan-15",
-                "Steps": 7485
-              },
-              {
-                "Date": "26-Jan-15",
-                "Steps": 4477
-              },
-              {
-                "Date": "27-Jan-15",
-                "Steps": 6170
-              },
-              {
-                "Date": "28-Jan-15",
-                "Steps": 11482
-              },
-              {
-                "Date": "29-Jan-15",
-                "Steps": 7969
-              },
-              {
-                "Date": "30-Jan-15",
-                "Steps": 5755
-              },
-              {
-                "Date": "31-Jan-15",
-                "Steps": 3137
-              },
-              {
-                "Date": "01-Feb-15",
-                "Steps": 7535
-              },
-              {
-                "Date": "02-Feb-15",
-                "Steps": 0
-              },
-              {
-                "Date": "27-Mar-15",
-                "Steps": 8905
-              },
-              {
-                "Date": "28-Mar-15",
-                "Steps": 14912
-              },
-              {
-                "Date": "29-Mar-15",
-                "Steps": 16842
-              },
-              {
-                "Date": "30-Mar-15",
-                "Steps": 7587
-              },
-              {
-                "Date": "31-Mar-15",
-                "Steps": 11301
-              },
-              {
-                "Date": "01-Apr-15",
-                "Steps": 5114
-              },
-              {
-                "Date": "02-Apr-15",
-                "Steps": 9437
-              },
-              {
-                "Date": "03-Apr-15",
-                "Steps": 10142
-              },
-              {
-                "Date": "04-Apr-15",
-                "Steps": 5740
-              },
-              {
-                "Date": "05-Apr-15",
-                "Steps": 6496
-              },
-              {
-                "Date": "06-Apr-15",
-                "Steps": 6818
-              },
-              {
-                "Date": "07-Apr-15",
-                "Steps": 13037
-              },
-              {
-                "Date": "08-Apr-15",
-                "Steps": 11201
-              },
-              {
-                "Date": "09-Apr-15",
-                "Steps": 7859
-              },
-              {
-                "Date": "10-Apr-15",
-                "Steps": 16276
-              },
-              {
-                "Date": "11-Apr-15",
-                "Steps": 6285
-              },
-              {
-                "Date": "12-Apr-15",
-                "Steps": 12449
-              },
-              {
-                "Date": "13-Apr-15",
-                "Steps": 8144
-              },
-              {
-                "Date": "14-Apr-15",
-                "Steps": 9767
-              },
-              {
-                "Date": "15-Apr-15",
-                "Steps": 5304
-              },
-              {
-                "Date": "16-Apr-15",
-                "Steps": 5387
-              },
-              {
-                "Date": "17-Apr-15",
-                "Steps": 4538
-              },
-              {
-                "Date": "18-Apr-15",
-                "Steps": 8921
-              },
-              {
-                "Date": "19-Apr-15",
-                "Steps": 13264
-              },
-              {
-                "Date": "20-Apr-15",
-                "Steps": 6670
-              },
-              {
-                "Date": "21-Apr-15",
-                "Steps": 7434
-              },
-              {
-                "Date": "22-Apr-15",
-                "Steps": 6144
-              },
-              {
-                "Date": "23-Apr-15",
-                "Steps": 6521
-              },
-              {
-                "Date": "24-Apr-15",
-                "Steps": 6743
-              },
-              {
-                "Date": "25-Apr-15",
-                "Steps": 7639
-              },
-              {
-                "Date": "26-Apr-15",
-                "Steps": 10362
-              },
-              {
-                "Date": "27-Apr-15",
-                "Steps": 6102
-              },
-              {
-                "Date": "28-Apr-15",
-                "Steps": 8148
-              },
-              {
-                "Date": "29-Apr-15",
-                "Steps": 15698
-              },
-              {
-                "Date": "30-Apr-15",
-                "Steps": 16103
-              },
-              {
-                "Date": "01-May-15",
-                "Steps": 7525
-              },
-              {
-                "Date": "02-May-15",
-                "Steps": 5636
-              },
-              {
-                "Date": "03-May-15",
-                "Steps": 5543
-              },
-              {
-                "Date": "04-May-15",
-                "Steps": 8116
-              },
-              {
-                "Date": "05-May-15",
-                "Steps": 5305
-              },
-              {
-                "Date": "06-May-15",
-                "Steps": 7231
-              },
-              {
-                "Date": "07-May-15",
-                "Steps": 10670
-              },
-              {
-                "Date": "08-May-15",
-                "Steps": 8436
-              },
-              {
-                "Date": "09-May-15",
-                "Steps": 7838
-              }
-            ]},
-            "chart2":{[
-                  {
-                    "Sleep Quality": "32%",
-                    "Time Asleep": "3:55"
-                  },
-                  {
-                    "Sleep Quality": "46%",
-                    "Time Asleep": "3:59"
-                  },
-                  {
-                    "Sleep Quality": "65%",
-                    "Time Asleep": "5:53"
-                  },
-                  {
-                    "Sleep Quality": "36%",
-                    "Time Asleep": "3:19"
-                  },
-                  {
-                    "Sleep Quality": "84%",
-                    "Time Asleep": "8:33"
-                  },
-                  {
-                    "Sleep Quality": "65%",
-                    "Time Asleep": "6:02"
-                  },
-                  {
-                    "Sleep Quality": "35%",
-                    "Time Asleep": "3:09"
-                  },
-                  {
-                    "Sleep Quality": "14%",
-                    "Time Asleep": "1:23"
-                  },
-                  {
-                    "Sleep Quality": "70%",
-                    "Time Asleep": "7:08"
-                  },
-                  {
-                    "Sleep Quality": "57%",
-                    "Time Asleep": "5:27"
-                  },
-                  {
-                    "Sleep Quality": "31%",
-                    "Time Asleep": "2:41"
-                  },
-                  {
-                    "Sleep Quality": "56%",
-                    "Time Asleep": "5:31"
-                  },
-                  {
-                    "Sleep Quality": "56%",
-                    "Time Asleep": "5:27"
-                  },
-                  {
-                    "Sleep Quality": "50%",
-                    "Time Asleep": "4:52"
-                  },
-                  {
-                    "Sleep Quality": "66%",
-                    "Time Asleep": "6:06"
-                  },
-                  {
-                    "Sleep Quality": "70%",
-                    "Time Asleep": "6:18"
-                  },
-                  {
-                    "Sleep Quality": "61%",
-                    "Time Asleep": "5:22"
-                  },
-                  {
-                    "Sleep Quality": "57%",
-                    "Time Asleep": "5:12"
-                  },
-                  {
-                    "Sleep Quality": "35%",
-                    "Time Asleep": "3:03"
-                  },
-                  {
-                    "Sleep Quality": "46%",
-                    "Time Asleep": "5:00"
-                  },
-                  {
-                    "Sleep Quality": "26%",
-                    "Time Asleep": "4:11"
-                  },
-                  {
-                    "Sleep Quality": "51%",
-                    "Time Asleep": "4:41"
-                  },
-                  {
-                    "Sleep Quality": "20%",
-                    "Time Asleep": "3:19"
-                  },
-                  {
-                    "Sleep Quality": "33%",
-                    "Time Asleep": "3:04"
-                  },
-                  {
-                    "Sleep Quality": "78%",
-                    "Time Asleep": "7:18"
-                  },
-                  {
-                    "Sleep Quality": "53%",
-                    "Time Asleep": "5:42"
-                  },
-                  {
-                    "Sleep Quality": "30%",
-                    "Time Asleep": "2:55"
-                  },
-                  {
-                    "Sleep Quality": "19%",
-                    "Time Asleep": "1:51"
-                  },
-                  {
-                    "Sleep Quality": "44%",
-                    "Time Asleep": "4:01"
-                  },
-                  {
-                    "Sleep Quality": "33%",
-                    "Time Asleep": "3:03"
-                  },
-                  {
-                    "Sleep Quality": "56%",
-                    "Time Asleep": "4:57"
-                  },
-                  {
-                    "Sleep Quality": "63%",
-                    "Time Asleep": "6:27"
-                  },
-                  {
-                    "Sleep Quality": "36%",
-                    "Time Asleep": "3:57"
-                  },
-                  {
-                    "Sleep Quality": "56%",
-                    "Time Asleep": "5:12"
-                  },
-                  {
-                    "Sleep Quality": "36%",
-                    "Time Asleep": "3:30"
-                  },
-                  {
-                    "Sleep Quality": "62%",
-                    "Time Asleep": "5:35"
-                  },
-                  {
-                    "Sleep Quality": "52%",
-                    "Time Asleep": "5:05"
-                  },
-                  {
-                    "Sleep Quality": "39%",
-                    "Time Asleep": "4:08"
-                  },
-                  {
-                    "Sleep Quality": "70%",
-                    "Time Asleep": "6:18"
-                  },
-                  {
-                    "Sleep Quality": "23%",
-                    "Time Asleep": "2:13"
-                  },
-                  {
-                    "Sleep Quality": "72%",
-                    "Time Asleep": "6:43"
-                  },
-                  {
-                    "Sleep Quality": "43%",
-                    "Time Asleep": "3:57"
-                  },
-                  {
-                    "Sleep Quality": "76%",
-                    "Time Asleep": "7:13"
-                  },
-                  {
-                    "Sleep Quality": "63%",
-                    "Time Asleep": "5:40"
-                  },
-                  {
-                    "Sleep Quality": "45%",
-                    "Time Asleep": "4:48"
-                  },
-                  {
-                    "Sleep Quality": "65%",
-                    "Time Asleep": "5:59"
-                  },
-                  {
-                    "Sleep Quality": "54%",
-                    "Time Asleep": "5:05"
-                  },
-                  {
-                    "Sleep Quality": "48%",
-                    "Time Asleep": "4:44"
-                  },
-                  {
-                    "Sleep Quality": "60%",
-                    "Time Asleep": "5:30"
-                  },
-                  {
-                    "Sleep Quality": "69%",
-                    "Time Asleep": "6:11"
-                  },
-                  {
-                    "Sleep Quality": "39%",
-                    "Time Asleep": "4:03"
-                  },
-                  {
-                    "Sleep Quality": "58%",
-                    "Time Asleep": "5:29"
-                  },
-                  {
-                    "Sleep Quality": "30%",
-                    "Time Asleep": "2:49"
-                  },
-                  {
-                    "Sleep Quality": "29%",
-                    "Time Asleep": "2:33"
-                  },
-                  {
-                    "Sleep Quality": "76%",
-                    "Time Asleep": "7:16"
-                  },
-                  {
-                    "Sleep Quality": "60%",
-                    "Time Asleep": "5:37"
-                  },
-                  {
-                    "Sleep Quality": "54%",
-                    "Time Asleep": "5:32"
-                  },
-                  {
-                    "Sleep Quality": "40%",
-                    "Time Asleep": "4:10"
-                  },
-                  {
-                    "Sleep Quality": "30%",
-                    "Time Asleep": "3:46"
-                  },
-                  {
-                    "Sleep Quality": "51%",
-                    "Time Asleep": "6:42"
-                  },
-                  {
-                    "Sleep Quality": "57%",
-                    "Time Asleep": "6:03"
-                  },
-                  {
-                    "Sleep Quality": "57%",
-                    "Time Asleep": "6:17"
-                  },
-                  {
-                    "Sleep Quality": "51%",
-                    "Time Asleep": "4:37"
-                  },
-                  {
-                    "Sleep Quality": "52%",
-                    "Time Asleep": "5:16"
-                  },
-                  {
-                    "Sleep Quality": "37%",
-                    "Time Asleep": "4:19"
-                  },
-                  {
-                    "Sleep Quality": "64%",
-                    "Time Asleep": "5:55"
-                  },
-                  {
-                    "Sleep Quality": "65%",
-                    "Time Asleep": "6:37"
-                  },
-                  {
-                    "Sleep Quality": "71%",
-                    "Time Asleep": "6:35"
-                  },
-                  {
-                    "Sleep Quality": "58%",
-                    "Time Asleep": "5:43"
-                  },
-                  {
-                    "Sleep Quality": "63%",
-                    "Time Asleep": "6:10"
-                  },
-                  {
-                    "Sleep Quality": "90%",
-                    "Time Asleep": "9:01"
-                  },
-                  {
-                    "Sleep Quality": "76%",
-                    "Time Asleep": "6:54"
-                  },
-                  {
-                    "Sleep Quality": "50%",
-                    "Time Asleep": "5:25"
-                  },
-                  {
-                    "Sleep Quality": "67%",
-                    "Time Asleep": "6:33"
-                  },
-                  {
-                    "Sleep Quality": "12%",
-                    "Time Asleep": "0:58"
-                  },
-                  {
-                    "Sleep Quality": "63%",
-                    "Time Asleep": "7:02"
-                  },
-                  {
-                    "Sleep Quality": "32%",
-                    "Time Asleep": "2:54"
-                  },
-                  {
-                    "Sleep Quality": "69%",
-                    "Time Asleep": "6:40"
-                  },
-                  {
-                    "Sleep Quality": "81%",
-                    "Time Asleep": "7:45"
-                  },
-                  {
-                    "Sleep Quality": "56%",
-                    "Time Asleep": "5:09"
-                  },
-                  {
-                    "Sleep Quality": "88%",
-                    "Time Asleep": "8:08"
-                  },
-                  {
-                    "Sleep Quality": "56%",
-                    "Time Asleep": "5:49"
-                  },
-                  {
-                    "Sleep Quality": "7%",
-                    "Time Asleep": "0:33"
-                  },
-                  {
-                    "Sleep Quality": "64%",
-                    "Time Asleep": "6:49"
-                  },
-                  {
-                    "Sleep Quality": "70%",
-                    "Time Asleep": "7:59"
-                  },
-                  {
-                    "Sleep Quality": "24%",
-                    "Time Asleep": "2:14"
-                  },
-                  {
-                    "Sleep Quality": "42%",
-                    "Time Asleep": "4:42"
-                  },
-                  {
-                    "Sleep Quality": "67%",
-                    "Time Asleep": "6:03"
-                  },
-                  {
-                    "Sleep Quality": "50%",
-                    "Time Asleep": "5:20"
-                  },
-                  {
-                    "Sleep Quality": "45%",
-                    "Time Asleep": "4:12"
-                  },
-                  {
-                    "Sleep Quality": "55%",
-                    "Time Asleep": "4:50"
-                  },
-                  {
-                    "Sleep Quality": "74%",
-                    "Time Asleep": "6:43"
-                  },
-                  {
-                    "Sleep Quality": "49%",
-                    "Time Asleep": "4:46"
-                  },
-                  {
-                    "Sleep Quality": "58%",
-                    "Time Asleep": "5:16"
-                  },
-                  {
-                    "Sleep Quality": "43%",
-                    "Time Asleep": "3:47"
-                  },
-                  {
-                    "Sleep Quality": "34%",
-                    "Time Asleep": "3:22"
-                  },
-                  {
-                    "Sleep Quality": "34%",
-                    "Time Asleep": "3:23"
-                  },
-                  {
-                    "Sleep Quality": "34%",
-                    "Time Asleep": "3:48"
-                  },
-                  {
-                    "Sleep Quality": "41%",
-                    "Time Asleep": "3:50"
-                  },
-                  {
-                    "Sleep Quality": "23%",
-                    "Time Asleep": "2:00"
-                  },
-                  {
-                    "Sleep Quality": "0%",
-                    "Time Asleep": "0:00"
-                  },
-                  {
-                    "Sleep Quality": "57%",
-                    "Time Asleep": "6:03"
-                  },
-                  {
-                    "Sleep Quality": "40%",
-                    "Time Asleep": "4:18"
-                  },
-                  {
-                    "Sleep Quality": "49%",
-                    "Time Asleep": "4:41"
-                  },
-                  {
-                    "Sleep Quality": "47%",
-                    "Time Asleep": "4:39"
-                  },
-                  {
-                    "Sleep Quality": "32%",
-                    "Time Asleep": "3:14"
-                  },
-                  {
-                    "Sleep Quality": "56%",
-                    "Time Asleep": "5:09"
-                  },
-                  {
-                    "Sleep Quality": "57%",
-                    "Time Asleep": "5:20"
-                  },
-                  {
-                    "Sleep Quality": "69%",
-                    "Time Asleep": "7:10"
-                  },
-                  {
-                    "Sleep Quality": "45%",
-                    "Time Asleep": "4:09"
-                  },
-                  {
-                    "Sleep Quality": "35%",
-                    "Time Asleep": "3:52"
-                  },
-                  {
-                    "Sleep Quality": "55%",
-                    "Time Asleep": "5:23"
-                  },
-                  {
-                    "Sleep Quality": "40%",
-                    "Time Asleep": "5:22"
-                  },
-                  {
-                    "Sleep Quality": "48%",
-                    "Time Asleep": "4:11"
-                  },
-                  {
-                    "Sleep Quality": "0%",
-                    "Time Asleep": "0:00"
-                  },
-                  {
-                    "Sleep Quality": "60%",
-                    "Time Asleep": "5:19"
-                  },
-                  {
-                    "Sleep Quality": "66%",
-                    "Time Asleep": "5:55"
-                  },
-                  {
-                    "Sleep Quality": "59%",
-                    "Time Asleep": "5:29"
-                  },
-                  {
-                    "Sleep Quality": "70%",
-                    "Time Asleep": "6:25"
-                  },
-                  {
-                    "Sleep Quality": "50%",
-                    "Time Asleep": "4:27"
-                  },
-                  {
-                    "Sleep Quality": "53%",
-                    "Time Asleep": "5:25"
-                  },
-                  {
-                    "Sleep Quality": "70%",
-                    "Time Asleep": "7:16"
-                  },
-                  {
-                    "Sleep Quality": "17%",
-                    "Time Asleep": "1:23"
-                  },
-                  {
-                    "Sleep Quality": "77%",
-                    "Time Asleep": "7:09"
-                  },
-                  {
-                    "Sleep Quality": "68%",
-                    "Time Asleep": "6:04"
-                  },
-                  {
-                    "Sleep Quality": "64%",
-                    "Time Asleep": "5:53"
-                  },
-                  {
-                    "Sleep Quality": "67%",
-                    "Time Asleep": "6:04"
-                  },
-                  {
-                    "Sleep Quality": "51%",
-                    "Time Asleep": "4:40"
-                  },
-                  {
-                    "Sleep Quality": "37%",
-                    "Time Asleep": "3:16"
-                  },
-                  {
-                    "Sleep Quality": "61%",
-                    "Time Asleep": "5:43"
-                  },
-                  {
-                    "Sleep Quality": "36%",
-                    "Time Asleep": "3:52"
-                  },
-                  {
-                    "Sleep Quality": "67%",
-                    "Time Asleep": "7:01"
-                  },
-                  {
-                    "Sleep Quality": "54%",
-                    "Time Asleep": "4:53"
-                  },
-                  {
-                    "Sleep Quality": "79%",
-                    "Time Asleep": "7:18"
-                  },
-                  {
-                    "Sleep Quality": "68%",
-                    "Time Asleep": "6:20"
-                  },
-                  {
-                    "Sleep Quality": "76%",
-                    "Time Asleep": "7:14"
-                  },
-                  {
-                    "Sleep Quality": "37%",
-                    "Time Asleep": "3:26"
-                  },
-                  {
-                    "Sleep Quality": "63%",
-                    "Time Asleep": "6:53"
-                  },
-                  {
-                    "Sleep Quality": "73%",
-                    "Time Asleep": "8:28"
+            "chart1":[
+                  {
+                    "Date": "02-Feb-14",
+                    "Steps": 7868
+                  },
+                  {
+                    "Date": "03-Feb-14",
+                    "Steps": 11531
+                  },
+                  {
+                    "Date": "04-Feb-14",
+                    "Steps": 14043
+                  },
+                  {
+                    "Date": "05-Feb-14",
+                    "Steps": 9033
+                  },
+                  {
+                    "Date": "06-Feb-14",
+                    "Steps": 9080
+                  },
+                  {
+                    "Date": "07-Feb-14",
+                    "Steps": 11705
+                  },
+                  {
+                    "Date": "08-Feb-14",
+                    "Steps": 6353
+                  },
+                  {
+                    "Date": "09-Feb-14",
+                    "Steps": 4514
+                  },
+                  {
+                    "Date": "10-Feb-14",
+                    "Steps": 8603
+                  },
+                  {
+                    "Date": "11-Feb-14",
+                    "Steps": 13009
+                  },
+                  {
+                    "Date": "12-Feb-14",
+                    "Steps": 13180
+                  },
+                  {
+                    "Date": "12-Feb-14",
+                    "Steps": 10853
+                  },
+                  {
+                    "Date": "13-Feb-14",
+                    "Steps": 11465
+                  },
+                  {
+                    "Date": "13-Feb-14",
+                    "Steps": 7792
+                  },
+                  {
+                    "Date": "14-Feb-14",
+                    "Steps": 20471
+                  },
+                  {
+                    "Date": "14-Feb-14",
+                    "Steps": 10918
+                  },
+                  {
+                    "Date": "15-Feb-14",
+                    "Steps": 29190
+                  },
+                  {
+                    "Date": "15-Feb-14",
+                    "Steps": 22653
+                  },
+                  {
+                    "Date": "16-Feb-14",
+                    "Steps": 30099
+                  },
+                  {
+                    "Date": "16-Feb-14",
+                    "Steps": 17219
+                  },
+                  {
+                    "Date": "17-Feb-14",
+                    "Steps": 10328
+                  },
+                  {
+                    "Date": "17-Feb-14",
+                    "Steps": 7908
+                  },
+                  {
+                    "Date": "18-Feb-14",
+                    "Steps": 12905
+                  },
+                  {
+                    "Date": "18-Feb-14",
+                    "Steps": 8483
+                  },
+                  {
+                    "Date": "19-Feb-14",
+                    "Steps": 9471
+                  },
+                  {
+                    "Date": "19-Feb-14",
+                    "Steps": 5613
+                  },
+                  {
+                    "Date": "20-Feb-14",
+                    "Steps": 12962
+                  },
+                  {
+                    "Date": "20-Feb-14",
+                    "Steps": 10306
+                  },
+                  {
+                    "Date": "21-Feb-14",
+                    "Steps": 11476
+                  },
+                  {
+                    "Date": "21-Feb-14",
+                    "Steps": 6916
+                  },
+                  {
+                    "Date": "22-Feb-14",
+                    "Steps": 9331
+                  },
+                  {
+                    "Date": "22-Feb-14",
+                    "Steps": 6704
+                  },
+                  {
+                    "Date": "23-Feb-14",
+                    "Steps": 11289
+                  },
+                  {
+                    "Date": "23-Feb-14",
+                    "Steps": 7791
+                  },
+                  {
+                    "Date": "24-Feb-14",
+                    "Steps": 11323
+                  },
+                  {
+                    "Date": "24-Feb-14",
+                    "Steps": 8269
+                  },
+                  {
+                    "Date": "25-Feb-14",
+                    "Steps": 11778
+                  },
+                  {
+                    "Date": "25-Feb-14",
+                    "Steps": 10020
+                  },
+                  {
+                    "Date": "26-Feb-14",
+                    "Steps": 10441
+                  },
+                  {
+                    "Date": "26-Feb-14",
+                    "Steps": 9339
+                  },
+                  {
+                    "Date": "27-Feb-14",
+                    "Steps": 10187
+                  },
+                  {
+                    "Date": "27-Feb-14",
+                    "Steps": 7627
+                  },
+                  {
+                    "Date": "28-Feb-14",
+                    "Steps": 9862
+                  },
+                  {
+                    "Date": "28-Feb-14",
+                    "Steps": 6339
+                  },
+                  {
+                    "Date": "01-Mar-14",
+                    "Steps": 10997
+                  },
+                  {
+                    "Date": "02-Mar-14",
+                    "Steps": 6298
+                  },
+                  {
+                    "Date": "02-Mar-14",
+                    "Steps": 4697
+                  },
+                  {
+                    "Date": "03-Mar-14",
+                    "Steps": 8990
+                  },
+                  {
+                    "Date": "03-Mar-14",
+                    "Steps": 7316
+                  },
+                  {
+                    "Date": "04-Mar-14",
+                    "Steps": 14610
+                  },
+                  {
+                    "Date": "04-Mar-14",
+                    "Steps": 10254
+                  },
+                  {
+                    "Date": "05-Mar-14",
+                    "Steps": 6922
+                  },
+                  {
+                    "Date": "05-Mar-14",
+                    "Steps": 3945
+                  },
+                  {
+                    "Date": "06-Mar-14",
+                    "Steps": 12671
+                  },
+                  {
+                    "Date": "06-Mar-14",
+                    "Steps": 2584
+                  },
+                  {
+                    "Date": "07-Mar-14",
+                    "Steps": 6229
+                  },
+                  {
+                    "Date": "08-Mar-14",
+                    "Steps": 4970
+                  },
+                  {
+                    "Date": "09-Mar-14",
+                    "Steps": 4229
+                  },
+                  {
+                    "Date": "09-Mar-14",
+                    "Steps": 59
+                  },
+                  {
+                    "Date": "10-Mar-14",
+                    "Steps": 7444
+                  },
+                  {
+                    "Date": "11-Mar-14",
+                    "Steps": 11793
+                  },
+                  {
+                    "Date": "12-Mar-14",
+                    "Steps": 8935
+                  },
+                  {
+                    "Date": "13-Mar-14",
+                    "Steps": 1465
+                  },
+                  {
+                    "Date": "25-Mar-14",
+                    "Steps": 5476
+                  },
+                  {
+                    "Date": "26-Mar-14",
+                    "Steps": 5527
+                  },
+                  {
+                    "Date": "27-Mar-14",
+                    "Steps": 9647
+                  },
+                  {
+                    "Date": "28-Mar-14",
+                    "Steps": 5775
+                  },
+                  {
+                    "Date": "29-Mar-14",
+                    "Steps": 5937
+                  },
+                  {
+                    "Date": "30-Mar-14",
+                    "Steps": 4705
+                  },
+                  {
+                    "Date": "31-Mar-14",
+                    "Steps": 9223
+                  },
+                  {
+                    "Date": "01-Apr-14",
+                    "Steps": 8217
+                  },
+                  {
+                    "Date": "02-Apr-14",
+                    "Steps": 7160
+                  },
+                  {
+                    "Date": "03-Apr-14",
+                    "Steps": 20565
+                  },
+                  {
+                    "Date": "04-Apr-14",
+                    "Steps": 9507
+                  },
+                  {
+                    "Date": "05-Apr-14",
+                    "Steps": 10016
+                  },
+                  {
+                    "Date": "06-Apr-14",
+                    "Steps": 5853
+                  },
+                  {
+                    "Date": "07-Apr-14",
+                    "Steps": 7328
+                  },
+                  {
+                    "Date": "08-Apr-14",
+                    "Steps": 10903
+                  },
+                  {
+                    "Date": "09-Apr-14",
+                    "Steps": 8567
+                  },
+                  {
+                    "Date": "10-Apr-14",
+                    "Steps": 13098
+                  },
+                  {
+                    "Date": "11-Apr-14",
+                    "Steps": 10140
+                  },
+                  {
+                    "Date": "12-Apr-14",
+                    "Steps": 14217
+                  },
+                  {
+                    "Date": "13-Apr-14",
+                    "Steps": 11344
+                  },
+                  {
+                    "Date": "14-Apr-14",
+                    "Steps": 11856
+                  },
+                  {
+                    "Date": "15-Apr-14",
+                    "Steps": 8998
+                  },
+                  {
+                    "Date": "16-Apr-14",
+                    "Steps": 5969
+                  },
+                  {
+                    "Date": "17-Apr-14",
+                    "Steps": 8993
+                  },
+                  {
+                    "Date": "18-Apr-14",
+                    "Steps": 1658
+                  },
+                  {
+                    "Date": "19-Apr-14",
+                    "Steps": 6470
+                  },
+                  {
+                    "Date": "20-Apr-14",
+                    "Steps": 11925
+                  },
+                  {
+                    "Date": "21-Apr-14",
+                    "Steps": 8302
+                  },
+                  {
+                    "Date": "22-Apr-14",
+                    "Steps": 13691
+                  },
+                  {
+                    "Date": "23-Apr-14",
+                    "Steps": 2075
+                  },
+                  {
+                    "Date": "29-Apr-14",
+                    "Steps": 8072
+                  },
+                  {
+                    "Date": "30-Apr-14",
+                    "Steps": 7534
+                  },
+                  {
+                    "Date": "01-May-14",
+                    "Steps": 7930
+                  },
+                  {
+                    "Date": "02-May-14",
+                    "Steps": 6578
+                  },
+                  {
+                    "Date": "03-May-14",
+                    "Steps": 7161
+                  },
+                  {
+                    "Date": "04-May-14",
+                    "Steps": 12361
+                  },
+                  {
+                    "Date": "05-May-14",
+                    "Steps": 12359
+                  },
+                  {
+                    "Date": "06-May-14",
+                    "Steps": 3022
+                  },
+                  {
+                    "Date": "07-May-14",
+                    "Steps": 10089
+                  },
+                  {
+                    "Date": "08-May-14",
+                    "Steps": 9244
+                  },
+                  {
+                    "Date": "09-May-14",
+                    "Steps": 10348
+                  },
+                  {
+                    "Date": "10-May-14",
+                    "Steps": 19535
+                  },
+                  {
+                    "Date": "11-May-14",
+                    "Steps": 22022
+                  },
+                  {
+                    "Date": "12-May-14",
+                    "Steps": 18941
+                  },
+                  {
+                    "Date": "13-May-14",
+                    "Steps": 1487
+                  },
+                  {
+                    "Date": "14-May-14",
+                    "Steps": 6506
+                  },
+                  {
+                    "Date": "15-May-14",
+                    "Steps": 1580
+                  },
+                  {
+                    "Date": "16-May-14",
+                    "Steps": 1144
+                  },
+                  {
+                    "Date": "17-May-14",
+                    "Steps": 619
+                  },
+                  {
+                    "Date": "18-May-14",
+                    "Steps": 7171
+                  },
+                  {
+                    "Date": "19-May-14",
+                    "Steps": 8471
+                  },
+                  {
+                    "Date": "20-May-14",
+                    "Steps": 1385
+                  },
+                  {
+                    "Date": "21-May-14",
+                    "Steps": 217
+                  },
+                  {
+                    "Date": "22-May-14",
+                    "Steps": 5602
+                  },
+                  {
+                    "Date": "23-May-14",
+                    "Steps": 8877
+                  },
+                  {
+                    "Date": "24-May-14",
+                    "Steps": 9953
+                  },
+                  {
+                    "Date": "25-May-14",
+                    "Steps": 3091
+                  },
+                  {
+                    "Date": "01-Jun-14",
+                    "Steps": 6412
+                  },
+                  {
+                    "Date": "02-Jun-14",
+                    "Steps": 804
+                  },
+                  {
+                    "Date": "03-Jun-14",
+                    "Steps": 5325
+                  },
+                  {
+                    "Date": "04-Jun-14",
+                    "Steps": 826
+                  },
+                  {
+                    "Date": "05-Jun-14",
+                    "Steps": 5553
+                  },
+                  {
+                    "Date": "06-Jun-14",
+                    "Steps": 14305
+                  },
+                  {
+                    "Date": "07-Jun-14",
+                    "Steps": 8399
+                  },
+                  {
+                    "Date": "08-Jun-14",
+                    "Steps": 5193
+                  },
+                  {
+                    "Date": "09-Jun-14",
+                    "Steps": 6827
+                  },
+                  {
+                    "Date": "10-Jun-14",
+                    "Steps": 4535
+                  },
+                  {
+                    "Date": "11-Jun-14",
+                    "Steps": 4591
+                  },
+                  {
+                    "Date": "12-Jun-14",
+                    "Steps": 8386
+                  },
+                  {
+                    "Date": "13-Jun-14",
+                    "Steps": 7603
+                  },
+                  {
+                    "Date": "14-Jun-14",
+                    "Steps": 9258
+                  },
+                  {
+                    "Date": "15-Jun-14",
+                    "Steps": 14606
+                  },
+                  {
+                    "Date": "16-Jun-14",
+                    "Steps": 13788
+                  },
+                  {
+                    "Date": "17-Jun-14",
+                    "Steps": 9956
+                  },
+                  {
+                    "Date": "18-Jun-14",
+                    "Steps": 5267
+                  },
+                  {
+                    "Date": "19-Jun-14",
+                    "Steps": 10602
+                  },
+                  {
+                    "Date": "20-Jun-14",
+                    "Steps": 7052
+                  },
+                  {
+                    "Date": "21-Jun-14",
+                    "Steps": 1697
+                  },
+                  {
+                    "Date": "22-Jun-14",
+                    "Steps": 5508
+                  },
+                  {
+                    "Date": "23-Jun-14",
+                    "Steps": 6516
+                  },
+                  {
+                    "Date": "24-Jun-14",
+                    "Steps": 12362
+                  },
+                  {
+                    "Date": "25-Jun-14",
+                    "Steps": 6022
+                  },
+                  {
+                    "Date": "26-Jun-14",
+                    "Steps": 7341
+                  },
+                  {
+                    "Date": "27-Jun-14",
+                    "Steps": 15026
+                  },
+                  {
+                    "Date": "28-Jun-14",
+                    "Steps": 14045
+                  },
+                  {
+                    "Date": "29-Jun-14",
+                    "Steps": 9674
+                  },
+                  {
+                    "Date": "30-Jun-14",
+                    "Steps": 5096
+                  },
+                  {
+                    "Date": "01-Jul-14",
+                    "Steps": 9373
+                  },
+                  {
+                    "Date": "02-Jul-14",
+                    "Steps": 7486
+                  },
+                  {
+                    "Date": "03-Jul-14",
+                    "Steps": 6262
+                  },
+                  {
+                    "Date": "04-Jul-14",
+                    "Steps": 6094
+                  },
+                  {
+                    "Date": "05-Jul-14",
+                    "Steps": 1296
+                  },
+                  {
+                    "Date": "06-Jul-14",
+                    "Steps": 5388
+                  },
+                  {
+                    "Date": "07-Jul-14",
+                    "Steps": 10257
+                  },
+                  {
+                    "Date": "08-Jul-14",
+                    "Steps": 3007
+                  },
+                  {
+                    "Date": "09-Jul-14",
+                    "Steps": 7529
+                  },
+                  {
+                    "Date": "10-Jul-14",
+                    "Steps": 10497
+                  },
+                  {
+                    "Date": "11-Jul-14",
+                    "Steps": 4747
+                  },
+                  {
+                    "Date": "12-Jul-14",
+                    "Steps": 13888
+                  },
+                  {
+                    "Date": "13-Jul-14",
+                    "Steps": 8083
+                  },
+                  {
+                    "Date": "14-Jul-14",
+                    "Steps": 6297
+                  },
+                  {
+                    "Date": "15-Jul-14",
+                    "Steps": 6766
+                  },
+                  {
+                    "Date": "16-Jul-14",
+                    "Steps": 3398
+                  },
+                  {
+                    "Date": "17-Jul-14",
+                    "Steps": 8961
+                  },
+                  {
+                    "Date": "18-Jul-14",
+                    "Steps": 11349
+                  },
+                  {
+                    "Date": "19-Jul-14",
+                    "Steps": 29174
+                  },
+                  {
+                    "Date": "20-Jul-14",
+                    "Steps": 17053
+                  },
+                  {
+                    "Date": "21-Jul-14",
+                    "Steps": 12271
+                  },
+                  {
+                    "Date": "22-Jul-14",
+                    "Steps": 9657
+                  },
+                  {
+                    "Date": "23-Jul-14",
+                    "Steps": 7201
+                  },
+                  {
+                    "Date": "24-Jul-14",
+                    "Steps": 5250
+                  },
+                  {
+                    "Date": "25-Jul-14",
+                    "Steps": 4823
+                  },
+                  {
+                    "Date": "26-Jul-14",
+                    "Steps": 2194
+                  },
+                  {
+                    "Date": "27-Jul-14",
+                    "Steps": 4847
+                  },
+                  {
+                    "Date": "28-Jul-14",
+                    "Steps": 4749
+                  },
+                  {
+                    "Date": "29-Jul-14",
+                    "Steps": 5300
+                  },
+                  {
+                    "Date": "30-Jul-14",
+                    "Steps": 4699
+                  },
+                  {
+                    "Date": "31-Jul-14",
+                    "Steps": 5186
+                  },
+                  {
+                    "Date": "01-Aug-14",
+                    "Steps": 8512
+                  },
+                  {
+                    "Date": "02-Aug-14",
+                    "Steps": 2995
+                  },
+                  {
+                    "Date": "03-Aug-14",
+                    "Steps": 2486
+                  },
+                  {
+                    "Date": "04-Aug-14",
+                    "Steps": 7076
+                  },
+                  {
+                    "Date": "05-Aug-14",
+                    "Steps": 6908
+                  },
+                  {
+                    "Date": "06-Aug-14",
+                    "Steps": 10758
+                  },
+                  {
+                    "Date": "07-Aug-14",
+                    "Steps": 10880
+                  },
+                  {
+                    "Date": "08-Aug-14",
+                    "Steps": 11382
+                  },
+                  {
+                    "Date": "09-Aug-14",
+                    "Steps": 26578
+                  },
+                  {
+                    "Date": "10-Aug-14",
+                    "Steps": 21828
+                  },
+                  {
+                    "Date": "11-Aug-14",
+                    "Steps": 7789
+                  },
+                  {
+                    "Date": "12-Aug-14",
+                    "Steps": 6755
+                  },
+                  {
+                    "Date": "13-Aug-14",
+                    "Steps": 17086
+                  },
+                  {
+                    "Date": "14-Aug-14",
+                    "Steps": 7960
+                  },
+                  {
+                    "Date": "15-Aug-14",
+                    "Steps": 19129
+                  },
+                  {
+                    "Date": "16-Aug-14",
+                    "Steps": 10725
+                  },
+                  {
+                    "Date": "17-Aug-14",
+                    "Steps": 5977
+                  },
+                  {
+                    "Date": "18-Aug-14",
+                    "Steps": 191
+                  },
+                  {
+                    "Date": "19-Aug-14",
+                    "Steps": 126
+                  },
+                  {
+                    "Date": "20-Aug-14",
+                    "Steps": 1168
+                  },
+                  {
+                    "Date": "22-Aug-14",
+                    "Steps": 4464
+                  },
+                  {
+                    "Date": "22-Aug-14",
+                    "Steps": 1200
+                  },
+                  {
+                    "Date": "23-Aug-14",
+                    "Steps": 13352
+                  },
+                  {
+                    "Date": "24-Aug-14",
+                    "Steps": 25216
+                  },
+                  {
+                    "Date": "25-Aug-14",
+                    "Steps": 12650
+                  },
+                  {
+                    "Date": "26-Aug-14",
+                    "Steps": 13734
+                  },
+                  {
+                    "Date": "27-Aug-14",
+                    "Steps": 6366
+                  },
+                  {
+                    "Date": "28-Aug-14",
+                    "Steps": 14063
+                  },
+                  {
+                    "Date": "29-Aug-14",
+                    "Steps": 7313
+                  },
+                  {
+                    "Date": "30-Aug-14",
+                    "Steps": 13584
+                  },
+                  {
+                    "Date": "31-Aug-14",
+                    "Steps": 7098
+                  },
+                  {
+                    "Date": "01-Sep-14",
+                    "Steps": 11722
+                  },
+                  {
+                    "Date": "02-Sep-14",
+                    "Steps": 8063
+                  },
+                  {
+                    "Date": "03-Sep-14",
+                    "Steps": 9048
+                  },
+                  {
+                    "Date": "04-Sep-14",
+                    "Steps": 7463
+                  },
+                  {
+                    "Date": "05-Sep-14",
+                    "Steps": 10341
+                  },
+                  {
+                    "Date": "06-Sep-14",
+                    "Steps": 4136
+                  },
+                  {
+                    "Date": "07-Sep-14",
+                    "Steps": 3887
+                  },
+                  {
+                    "Date": "08-Sep-14",
+                    "Steps": 6490
+                  },
+                  {
+                    "Date": "09-Sep-14",
+                    "Steps": 5679
+                  },
+                  {
+                    "Date": "10-Sep-14",
+                    "Steps": 5741
+                  },
+                  {
+                    "Date": "11-Sep-14",
+                    "Steps": 4214
+                  },
+                  {
+                    "Date": "12-Sep-14",
+                    "Steps": 8936
+                  },
+                  {
+                    "Date": "13-Sep-14",
+                    "Steps": 8236
+                  },
+                  {
+                    "Date": "14-Sep-14",
+                    "Steps": 16039
+                  },
+                  {
+                    "Date": "15-Sep-14",
+                    "Steps": 3801
+                  },
+                  {
+                    "Date": "16-Sep-14",
+                    "Steps": 7562
+                  },
+                  {
+                    "Date": "17-Sep-14",
+                    "Steps": 1662
+                  },
+                  {
+                    "Date": "18-Sep-14",
+                    "Steps": 7970
+                  },
+                  {
+                    "Date": "19-Sep-14",
+                    "Steps": 6455
+                  },
+                  {
+                    "Date": "20-Sep-14",
+                    "Steps": 11247
+                  },
+                  {
+                    "Date": "21-Sep-14",
+                    "Steps": 11388
+                  },
+                  {
+                    "Date": "22-Sep-14",
+                    "Steps": 12988
+                  },
+                  {
+                    "Date": "23-Sep-14",
+                    "Steps": 13339
+                  },
+                  {
+                    "Date": "24-Sep-14",
+                    "Steps": 7041
+                  },
+                  {
+                    "Date": "25-Sep-14",
+                    "Steps": 8780
+                  },
+                  {
+                    "Date": "26-Sep-14",
+                    "Steps": 6186
+                  },
+                  {
+                    "Date": "27-Sep-14",
+                    "Steps": 18492
+                  },
+                  {
+                    "Date": "28-Sep-14",
+                    "Steps": 3944
+                  },
+                  {
+                    "Date": "29-Sep-14",
+                    "Steps": 6882
+                  },
+                  {
+                    "Date": "30-Sep-14",
+                    "Steps": 5576
+                  },
+                  {
+                    "Date": "01-Oct-14",
+                    "Steps": 8919
+                  },
+                  {
+                    "Date": "02-Oct-14",
+                    "Steps": 7145
+                  },
+                  {
+                    "Date": "03-Oct-14",
+                    "Steps": 4549
+                  },
+                  {
+                    "Date": "04-Oct-14",
+                    "Steps": 4828
+                  },
+                  {
+                    "Date": "05-Oct-14",
+                    "Steps": 10902
+                  },
+                  {
+                    "Date": "06-Oct-14",
+                    "Steps": 8738
+                  },
+                  {
+                    "Date": "07-Oct-14",
+                    "Steps": 8205
+                  },
+                  {
+                    "Date": "08-Oct-14",
+                    "Steps": 9024
+                  },
+                  {
+                    "Date": "09-Oct-14",
+                    "Steps": 7847
+                  },
+                  {
+                    "Date": "10-Oct-14",
+                    "Steps": 12063
+                  },
+                  {
+                    "Date": "11-Oct-14",
+                    "Steps": 4587
+                  },
+                  {
+                    "Date": "12-Oct-14",
+                    "Steps": 8043
+                  },
+                  {
+                    "Date": "13-Oct-14",
+                    "Steps": 6639
+                  },
+                  {
+                    "Date": "14-Oct-14",
+                    "Steps": 3940
+                  },
+                  {
+                    "Date": "15-Oct-14",
+                    "Steps": 5314
+                  },
+                  {
+                    "Date": "16-Oct-14",
+                    "Steps": 9416
+                  },
+                  {
+                    "Date": "17-Oct-14",
+                    "Steps": 6983
+                  },
+                  {
+                    "Date": "18-Oct-14",
+                    "Steps": 10016
+                  },
+                  {
+                    "Date": "19-Oct-14",
+                    "Steps": 6941
+                  },
+                  {
+                    "Date": "20-Oct-14",
+                    "Steps": 7369
+                  },
+                  {
+                    "Date": "21-Oct-14",
+                    "Steps": 9272
+                  },
+                  {
+                    "Date": "22-Oct-14",
+                    "Steps": 6831
+                  },
+                  {
+                    "Date": "23-Oct-14",
+                    "Steps": 8686
+                  },
+                  {
+                    "Date": "24-Oct-14",
+                    "Steps": 7116
+                  },
+                  {
+                    "Date": "25-Oct-14",
+                    "Steps": 5812
+                  },
+                  {
+                    "Date": "26-Oct-14",
+                    "Steps": 7063
+                  },
+                  {
+                    "Date": "27-Oct-14",
+                    "Steps": 14968
+                  },
+                  {
+                    "Date": "28-Oct-14",
+                    "Steps": 3920
+                  },
+                  {
+                    "Date": "29-Oct-14",
+                    "Steps": 9620
+                  },
+                  {
+                    "Date": "30-Oct-14",
+                    "Steps": 14242
+                  },
+                  {
+                    "Date": "31-Oct-14",
+                    "Steps": 12532
+                  },
+                  {
+                    "Date": "01-Nov-14",
+                    "Steps": 11497
+                  },
+                  {
+                    "Date": "02-Nov-14",
+                    "Steps": 4183
+                  },
+                  {
+                    "Date": "03-Nov-14",
+                    "Steps": 7217
+                  },
+                  {
+                    "Date": "04-Nov-14",
+                    "Steps": 6236
+                  },
+                  {
+                    "Date": "05-Nov-14",
+                    "Steps": 6144
+                  },
+                  {
+                    "Date": "06-Nov-14",
+                    "Steps": 6619
+                  },
+                  {
+                    "Date": "07-Nov-14",
+                    "Steps": 25113
+                  },
+                  {
+                    "Date": "08-Nov-14",
+                    "Steps": 6359
+                  },
+                  {
+                    "Date": "09-Nov-14",
+                    "Steps": 17032
+                  },
+                  {
+                    "Date": "10-Nov-14",
+                    "Steps": 11450
+                  },
+                  {
+                    "Date": "11-Nov-14",
+                    "Steps": 8825
+                  },
+                  {
+                    "Date": "12-Nov-14",
+                    "Steps": 5949
+                  },
+                  {
+                    "Date": "13-Nov-14",
+                    "Steps": 0
+                  },
+                  {
+                    "Date": "17-Nov-14",
+                    "Steps": 2295
+                  },
+                  {
+                    "Date": "18-Nov-14",
+                    "Steps": 9479
+                  },
+                  {
+                    "Date": "19-Nov-14",
+                    "Steps": 16479
+                  },
+                  {
+                    "Date": "20-Nov-14",
+                    "Steps": 11541
+                  },
+                  {
+                    "Date": "21-Nov-14",
+                    "Steps": 6753
+                  },
+                  {
+                    "Date": "22-Nov-14",
+                    "Steps": 6551
+                  },
+                  {
+                    "Date": "23-Nov-14",
+                    "Steps": 9619
+                  },
+                  {
+                    "Date": "24-Nov-14",
+                    "Steps": 9106
+                  },
+                  {
+                    "Date": "25-Nov-14",
+                    "Steps": 6509
+                  },
+                  {
+                    "Date": "26-Nov-14",
+                    "Steps": 9798
+                  },
+                  {
+                    "Date": "27-Nov-14",
+                    "Steps": 5956
+                  },
+                  {
+                    "Date": "28-Nov-14",
+                    "Steps": 6428
+                  },
+                  {
+                    "Date": "29-Nov-14",
+                    "Steps": 24680
+                  },
+                  {
+                    "Date": "30-Nov-14",
+                    "Steps": 10223
+                  },
+                  {
+                    "Date": "01-Dec-14",
+                    "Steps": 9115
+                  },
+                  {
+                    "Date": "02-Dec-14",
+                    "Steps": 10079
+                  },
+                  {
+                    "Date": "03-Dec-14",
+                    "Steps": 5895
+                  },
+                  {
+                    "Date": "04-Dec-14",
+                    "Steps": 11533
+                  },
+                  {
+                    "Date": "05-Dec-14",
+                    "Steps": 12783
+                  },
+                  {
+                    "Date": "06-Dec-14",
+                    "Steps": 11097
+                  },
+                  {
+                    "Date": "07-Dec-14",
+                    "Steps": 4983
+                  },
+                  {
+                    "Date": "08-Dec-14",
+                    "Steps": 10623
+                  },
+                  {
+                    "Date": "09-Dec-14",
+                    "Steps": 9303
+                  },
+                  {
+                    "Date": "10-Dec-14",
+                    "Steps": 5903
+                  },
+                  {
+                    "Date": "11-Dec-14",
+                    "Steps": 2991
+                  },
+                  {
+                    "Date": "12-Dec-14",
+                    "Steps": 5243
+                  },
+                  {
+                    "Date": "13-Dec-14",
+                    "Steps": 6347
+                  },
+                  {
+                    "Date": "14-Dec-14",
+                    "Steps": 7007
+                  },
+                  {
+                    "Date": "15-Dec-14",
+                    "Steps": 2948
+                  },
+                  {
+                    "Date": "16-Dec-14",
+                    "Steps": 9032
+                  },
+                  {
+                    "Date": "17-Dec-14",
+                    "Steps": 4868
+                  },
+                  {
+                    "Date": "18-Dec-14",
+                    "Steps": 6492
+                  },
+                  {
+                    "Date": "19-Dec-14",
+                    "Steps": 4746
+                  },
+                  {
+                    "Date": "20-Dec-14",
+                    "Steps": 7732
+                  },
+                  {
+                    "Date": "21-Dec-14",
+                    "Steps": 9195
+                  },
+                  {
+                    "Date": "22-Dec-14",
+                    "Steps": 9090
+                  },
+                  {
+                    "Date": "23-Dec-14",
+                    "Steps": 793
+                  },
+                  {
+                    "Date": "24-Dec-14",
+                    "Steps": 2562
+                  },
+                  {
+                    "Date": "25-Dec-14",
+                    "Steps": 1455
+                  },
+                  {
+                    "Date": "26-Dec-14",
+                    "Steps": 5230
+                  },
+                  {
+                    "Date": "27-Dec-14",
+                    "Steps": 3147
+                  },
+                  {
+                    "Date": "28-Dec-14",
+                    "Steps": 6331
+                  },
+                  {
+                    "Date": "29-Dec-14",
+                    "Steps": 17381
+                  },
+                  {
+                    "Date": "30-Dec-14",
+                    "Steps": 1078
+                  },
+                  {
+                    "Date": "31-Dec-14",
+                    "Steps": 7805
+                  },
+                  {
+                    "Date": "01-Jan-15",
+                    "Steps": 12745
+                  },
+                  {
+                    "Date": "02-Jan-15",
+                    "Steps": 4856
+                  },
+                  {
+                    "Date": "03-Jan-15",
+                    "Steps": 5146
+                  },
+                  {
+                    "Date": "04-Jan-15",
+                    "Steps": 4430
+                  },
+                  {
+                    "Date": "08-Jan-15",
+                    "Steps": 1870
+                  },
+                  {
+                    "Date": "09-Jan-15",
+                    "Steps": 8703
+                  },
+                  {
+                    "Date": "10-Jan-15",
+                    "Steps": 8414
+                  },
+                  {
+                    "Date": "11-Jan-15",
+                    "Steps": 7057
+                  },
+                  {
+                    "Date": "12-Jan-15",
+                    "Steps": 10480
+                  },
+                  {
+                    "Date": "13-Jan-15",
+                    "Steps": 13972
+                  },
+                  {
+                    "Date": "14-Jan-15",
+                    "Steps": 6550
+                  },
+                  {
+                    "Date": "15-Jan-15",
+                    "Steps": 10348
+                  },
+                  {
+                    "Date": "16-Jan-15",
+                    "Steps": 14913
+                  },
+                  {
+                    "Date": "17-Jan-15",
+                    "Steps": 8421
+                  },
+                  {
+                    "Date": "18-Jan-15",
+                    "Steps": 20340
+                  },
+                  {
+                    "Date": "19-Jan-15",
+                    "Steps": 17873
+                  },
+                  {
+                    "Date": "20-Jan-15",
+                    "Steps": 11896
+                  },
+                  {
+                    "Date": "21-Jan-15",
+                    "Steps": 12240
+                  },
+                  {
+                    "Date": "22-Jan-15",
+                    "Steps": 6862
+                  },
+                  {
+                    "Date": "23-Jan-15",
+                    "Steps": 7759
+                  },
+                  {
+                    "Date": "24-Jan-15",
+                    "Steps": 0
+                  },
+                  {
+                    "Date": "25-Jan-15",
+                    "Steps": 7485
+                  },
+                  {
+                    "Date": "26-Jan-15",
+                    "Steps": 4477
+                  },
+                  {
+                    "Date": "27-Jan-15",
+                    "Steps": 6170
+                  },
+                  {
+                    "Date": "28-Jan-15",
+                    "Steps": 11482
+                  },
+                  {
+                    "Date": "29-Jan-15",
+                    "Steps": 7969
+                  },
+                  {
+                    "Date": "30-Jan-15",
+                    "Steps": 5755
+                  },
+                  {
+                    "Date": "31-Jan-15",
+                    "Steps": 3137
+                  },
+                  {
+                    "Date": "01-Feb-15",
+                    "Steps": 7535
+                  },
+                  {
+                    "Date": "02-Feb-15",
+                    "Steps": 0
+                  },
+                  {
+                    "Date": "27-Mar-15",
+                    "Steps": 8905
+                  },
+                  {
+                    "Date": "28-Mar-15",
+                    "Steps": 14912
+                  },
+                  {
+                    "Date": "29-Mar-15",
+                    "Steps": 16842
+                  },
+                  {
+                    "Date": "30-Mar-15",
+                    "Steps": 7587
+                  },
+                  {
+                    "Date": "31-Mar-15",
+                    "Steps": 11301
+                  },
+                  {
+                    "Date": "01-Apr-15",
+                    "Steps": 5114
+                  },
+                  {
+                    "Date": "02-Apr-15",
+                    "Steps": 9437
+                  },
+                  {
+                    "Date": "03-Apr-15",
+                    "Steps": 10142
+                  },
+                  {
+                    "Date": "04-Apr-15",
+                    "Steps": 5740
+                  },
+                  {
+                    "Date": "05-Apr-15",
+                    "Steps": 6496
+                  },
+                  {
+                    "Date": "06-Apr-15",
+                    "Steps": 6818
+                  },
+                  {
+                    "Date": "07-Apr-15",
+                    "Steps": 13037
+                  },
+                  {
+                    "Date": "08-Apr-15",
+                    "Steps": 11201
+                  },
+                  {
+                    "Date": "09-Apr-15",
+                    "Steps": 7859
+                  },
+                  {
+                    "Date": "10-Apr-15",
+                    "Steps": 16276
+                  },
+                  {
+                    "Date": "11-Apr-15",
+                    "Steps": 6285
+                  },
+                  {
+                    "Date": "12-Apr-15",
+                    "Steps": 12449
+                  },
+                  {
+                    "Date": "13-Apr-15",
+                    "Steps": 8144
+                  },
+                  {
+                    "Date": "14-Apr-15",
+                    "Steps": 9767
+                  },
+                  {
+                    "Date": "15-Apr-15",
+                    "Steps": 5304
+                  },
+                  {
+                    "Date": "16-Apr-15",
+                    "Steps": 5387
+                  },
+                  {
+                    "Date": "17-Apr-15",
+                    "Steps": 4538
+                  },
+                  {
+                    "Date": "18-Apr-15",
+                    "Steps": 8921
+                  },
+                  {
+                    "Date": "19-Apr-15",
+                    "Steps": 13264
+                  },
+                  {
+                    "Date": "20-Apr-15",
+                    "Steps": 6670
+                  },
+                  {
+                    "Date": "21-Apr-15",
+                    "Steps": 7434
+                  },
+                  {
+                    "Date": "22-Apr-15",
+                    "Steps": 6144
+                  },
+                  {
+                    "Date": "23-Apr-15",
+                    "Steps": 6521
+                  },
+                  {
+                    "Date": "24-Apr-15",
+                    "Steps": 6743
+                  },
+                  {
+                    "Date": "25-Apr-15",
+                    "Steps": 7639
+                  },
+                  {
+                    "Date": "26-Apr-15",
+                    "Steps": 10362
+                  },
+                  {
+                    "Date": "27-Apr-15",
+                    "Steps": 6102
+                  },
+                  {
+                    "Date": "28-Apr-15",
+                    "Steps": 8148
+                  },
+                  {
+                    "Date": "29-Apr-15",
+                    "Steps": 15698
+                  },
+                  {
+                    "Date": "30-Apr-15",
+                    "Steps": 16103
+                  },
+                  {
+                    "Date": "01-May-15",
+                    "Steps": 7525
+                  },
+                  {
+                    "Date": "02-May-15",
+                    "Steps": 5636
+                  },
+                  {
+                    "Date": "03-May-15",
+                    "Steps": 5543
+                  },
+                  {
+                    "Date": "04-May-15",
+                    "Steps": 8116
+                  },
+                  {
+                    "Date": "05-May-15",
+                    "Steps": 5305
+                  },
+                  {
+                    "Date": "06-May-15",
+                    "Steps": 7231
+                  },
+                  {
+                    "Date": "07-May-15",
+                    "Steps": 10670
+                  },
+                  {
+                    "Date": "08-May-15",
+                    "Steps": 8436
+                  },
+                  {
+                    "Date": "09-May-15",
+                    "Steps": 7838
                   }
-                ]}
-            }
+            ],
+            "chart2":[
+                  {
+                    "Sleep Quality": 0.32,
+                    "Time Asleep": 235
+                  },
+                  {
+                    "Sleep Quality": 0.46,
+                    "Time Asleep": 239
+                  },
+                  {
+                    "Sleep Quality": 0.65,
+                    "Time Asleep": 353
+                  },
+                  {
+                    "Sleep Quality": 0.36,
+                    "Time Asleep": 199
+                  },
+                  {
+                    "Sleep Quality": 0.84,
+                    "Time Asleep": 513
+                  },
+                  {
+                    "Sleep Quality": 0.65,
+                    "Time Asleep": 362
+                  },
+                  {
+                    "Sleep Quality": 0.35,
+                    "Time Asleep": 189
+                  },
+                  {
+                    "Sleep Quality": 0.14,
+                    "Time Asleep": 83
+                  },
+                  {
+                    "Sleep Quality": 0.7,
+                    "Time Asleep": 428
+                  },
+                  {
+                    "Sleep Quality": 0.57,
+                    "Time Asleep": 327
+                  },
+                  {
+                    "Sleep Quality": 0.31,
+                    "Time Asleep": 161
+                  },
+                  {
+                    "Sleep Quality": 0.56,
+                    "Time Asleep": 331
+                  },
+                  {
+                    "Sleep Quality": 0.56,
+                    "Time Asleep": 327
+                  },
+                  {
+                    "Sleep Quality": 0.5,
+                    "Time Asleep": 292
+                  },
+                  {
+                    "Sleep Quality": 0.66,
+                    "Time Asleep": 366
+                  },
+                  {
+                    "Sleep Quality": 0.7,
+                    "Time Asleep": 378
+                  },
+                  {
+                    "Sleep Quality": 0.61,
+                    "Time Asleep": 322
+                  },
+                  {
+                    "Sleep Quality": 0.57,
+                    "Time Asleep": 312
+                  },
+                  {
+                    "Sleep Quality": 0.35,
+                    "Time Asleep": 183
+                  },
+                  {
+                    "Sleep Quality": 0.46,
+                    "Time Asleep": 300
+                  },
+                  {
+                    "Sleep Quality": 0.26,
+                    "Time Asleep": 251
+                  },
+                  {
+                    "Sleep Quality": 0.51,
+                    "Time Asleep": 281
+                  },
+                  {
+                    "Sleep Quality": 0.2,
+                    "Time Asleep": 199
+                  },
+                  {
+                    "Sleep Quality": 0.33,
+                    "Time Asleep": 184
+                  },
+                  {
+                    "Sleep Quality": 0.78,
+                    "Time Asleep": 438
+                  },
+                  {
+                    "Sleep Quality": 0.53,
+                    "Time Asleep": 342
+                  },
+                  {
+                    "Sleep Quality": 0.3,
+                    "Time Asleep": 175
+                  },
+                  {
+                    "Sleep Quality": 0.19,
+                    "Time Asleep": 111
+                  },
+                  {
+                    "Sleep Quality": 0.44,
+                    "Time Asleep": 241
+                  },
+                  {
+                    "Sleep Quality": 0.33,
+                    "Time Asleep": 183
+                  },
+                  {
+                    "Sleep Quality": 0.56,
+                    "Time Asleep": 297
+                  },
+                  {
+                    "Sleep Quality": 0.63,
+                    "Time Asleep": 387
+                  },
+                  {
+                    "Sleep Quality": 0.36,
+                    "Time Asleep": 237
+                  },
+                  {
+                    "Sleep Quality": 0.56,
+                    "Time Asleep": 312
+                  },
+                  {
+                    "Sleep Quality": 0.36,
+                    "Time Asleep": 210
+                  },
+                  {
+                    "Sleep Quality": 0.62,
+                    "Time Asleep": 335
+                  },
+                  {
+                    "Sleep Quality": 0.52,
+                    "Time Asleep": 305
+                  },
+                  {
+                    "Sleep Quality": 0.39,
+                    "Time Asleep": 248
+                  },
+                  {
+                    "Sleep Quality": 0.7,
+                    "Time Asleep": 378
+                  },
+                  {
+                    "Sleep Quality": 0.23,
+                    "Time Asleep": 133
+                  },
+                  {
+                    "Sleep Quality": 0.72,
+                    "Time Asleep": 403
+                  },
+                  {
+                    "Sleep Quality": 0.43,
+                    "Time Asleep": 237
+                  },
+                  {
+                    "Sleep Quality": 0.76,
+                    "Time Asleep": 433
+                  },
+                  {
+                    "Sleep Quality": 0.63,
+                    "Time Asleep": 340
+                  },
+                  {
+                    "Sleep Quality": 0.45,
+                    "Time Asleep": 288
+                  },
+                  {
+                    "Sleep Quality": 0.65,
+                    "Time Asleep": 359
+                  },
+                  {
+                    "Sleep Quality": 0.54,
+                    "Time Asleep": 305
+                  },
+                  {
+                    "Sleep Quality": 0.48,
+                    "Time Asleep": 284
+                  },
+                  {
+                    "Sleep Quality": 0.6,
+                    "Time Asleep": 330
+                  },
+                  {
+                    "Sleep Quality": 0.69,
+                    "Time Asleep": 371
+                  },
+                  {
+                    "Sleep Quality": 0.39,
+                    "Time Asleep": 243
+                  },
+                  {
+                    "Sleep Quality": 0.58,
+                    "Time Asleep": 329
+                  },
+                  {
+                    "Sleep Quality": 0.3,
+                    "Time Asleep": 169
+                  },
+                  {
+                    "Sleep Quality": 0.29,
+                    "Time Asleep": 153
+                  },
+                  {
+                    "Sleep Quality": 0.76,
+                    "Time Asleep": 436
+                  },
+                  {
+                    "Sleep Quality": 0.6,
+                    "Time Asleep": 337
+                  },
+                  {
+                    "Sleep Quality": 0.54,
+                    "Time Asleep": 332
+                  },
+                  {
+                    "Sleep Quality": 0.4,
+                    "Time Asleep": 250
+                  },
+                  {
+                    "Sleep Quality": 0.3,
+                    "Time Asleep": 226
+                  },
+                  {
+                    "Sleep Quality": 0.51,
+                    "Time Asleep": 402
+                  },
+                  {
+                    "Sleep Quality": 0.57,
+                    "Time Asleep": 363
+                  },
+                  {
+                    "Sleep Quality": 0.57,
+                    "Time Asleep": 377
+                  },
+                  {
+                    "Sleep Quality": 0.51,
+                    "Time Asleep": 277
+                  },
+                  {
+                    "Sleep Quality": 0.52,
+                    "Time Asleep": 316
+                  },
+                  {
+                    "Sleep Quality": 0.37,
+                    "Time Asleep": 259
+                  },
+                  {
+                    "Sleep Quality": 0.64,
+                    "Time Asleep": 355
+                  },
+                  {
+                    "Sleep Quality": 0.65,
+                    "Time Asleep": 397
+                  },
+                  {
+                    "Sleep Quality": 0.71,
+                    "Time Asleep": 395
+                  },
+                  {
+                    "Sleep Quality": 0.58,
+                    "Time Asleep": 343
+                  },
+                  {
+                    "Sleep Quality": 0.63,
+                    "Time Asleep": 370
+                  },
+                  {
+                    "Sleep Quality": 0.9,
+                    "Time Asleep": 541
+                  },
+                  {
+                    "Sleep Quality": 0.76,
+                    "Time Asleep": 414
+                  },
+                  {
+                    "Sleep Quality": 0.5,
+                    "Time Asleep": 325
+                  },
+                  {
+                    "Sleep Quality": 0.67,
+                    "Time Asleep": 393
+                  },
+                  {
+                    "Sleep Quality": 0.12,
+                    "Time Asleep": 58
+                  },
+                  {
+                    "Sleep Quality": 0.63,
+                    "Time Asleep": 422
+                  },
+                  {
+                    "Sleep Quality": 0.32,
+                    "Time Asleep": 174
+                  },
+                  {
+                    "Sleep Quality": 0.69,
+                    "Time Asleep": 400
+                  },
+                  {
+                    "Sleep Quality": 0.81,
+                    "Time Asleep": 465
+                  },
+                  {
+                    "Sleep Quality": 0.56,
+                    "Time Asleep": 309
+                  },
+                  {
+                    "Sleep Quality": 0.88,
+                    "Time Asleep": 488
+                  },
+                  {
+                    "Sleep Quality": 0.56,
+                    "Time Asleep": 349
+                  },
+                  {
+                    "Sleep Quality": 0.07,
+                    "Time Asleep": 33
+                  },
+                  {
+                    "Sleep Quality": 0.64,
+                    "Time Asleep": 409
+                  },
+                  {
+                    "Sleep Quality": 0.7,
+                    "Time Asleep": 479
+                  },
+                  {
+                    "Sleep Quality": 0.24,
+                    "Time Asleep": 134
+                  },
+                  {
+                    "Sleep Quality": 0.42,
+                    "Time Asleep": 282
+                  },
+                  {
+                    "Sleep Quality": 0.67,
+                    "Time Asleep": 363
+                  },
+                  {
+                    "Sleep Quality": 0.5,
+                    "Time Asleep": 320
+                  },
+                  {
+                    "Sleep Quality": 0.45,
+                    "Time Asleep": 252
+                  },
+                  {
+                    "Sleep Quality": 0.55,
+                    "Time Asleep": 290
+                  },
+                  {
+                    "Sleep Quality": 0.74,
+                    "Time Asleep": 403
+                  },
+                  {
+                    "Sleep Quality": 0.49,
+                    "Time Asleep": 286
+                  },
+                  {
+                    "Sleep Quality": 0.58,
+                    "Time Asleep": 316
+                  },
+                  {
+                    "Sleep Quality": 0.43,
+                    "Time Asleep": 227
+                  },
+                  {
+                    "Sleep Quality": 0.34,
+                    "Time Asleep": 202
+                  },
+                  {
+                    "Sleep Quality": 0.34,
+                    "Time Asleep": 203
+                  },
+                  {
+                    "Sleep Quality": 0.34,
+                    "Time Asleep": 228
+                  },
+                  {
+                    "Sleep Quality": 0.41,
+                    "Time Asleep": 230
+                  },
+                  {
+                    "Sleep Quality": 0.23,
+                    "Time Asleep": 120
+                  },
+                  {
+                    "Sleep Quality": 0,
+                    "Time Asleep": 0
+                  },
+                  {
+                    "Sleep Quality": 0.57,
+                    "Time Asleep": 363
+                  },
+                  {
+                    "Sleep Quality": 0.4,
+                    "Time Asleep": 258
+                  },
+                  {
+                    "Sleep Quality": 0.49,
+                    "Time Asleep": 281
+                  },
+                  {
+                    "Sleep Quality": 0.47,
+                    "Time Asleep": 279
+                  },
+                  {
+                    "Sleep Quality": 0.32,
+                    "Time Asleep": 194
+                  },
+                  {
+                    "Sleep Quality": 0.56,
+                    "Time Asleep": 309
+                  },
+                  {
+                    "Sleep Quality": 0.57,
+                    "Time Asleep": 320
+                  },
+                  {
+                    "Sleep Quality": 0.69,
+                    "Time Asleep": 430
+                  },
+                  {
+                    "Sleep Quality": 0.45,
+                    "Time Asleep": 249
+                  },
+                  {
+                    "Sleep Quality": 0.35,
+                    "Time Asleep": 232
+                  },
+                  {
+                    "Sleep Quality": 0.55,
+                    "Time Asleep": 323
+                  },
+                  {
+                    "Sleep Quality": 0.4,
+                    "Time Asleep": 322
+                  },
+                  {
+                    "Sleep Quality": 0.48,
+                    "Time Asleep": 251
+                  },
+                  {
+                    "Sleep Quality": 0,
+                    "Time Asleep": 0
+                  },
+                  {
+                    "Sleep Quality": 0.6,
+                    "Time Asleep": 319
+                  },
+                  {
+                    "Sleep Quality": 0.66,
+                    "Time Asleep": 355
+                  },
+                  {
+                    "Sleep Quality": 0.59,
+                    "Time Asleep": 329
+                  },
+                  {
+                    "Sleep Quality": 0.7,
+                    "Time Asleep": 385
+                  },
+                  {
+                    "Sleep Quality": 0.5,
+                    "Time Asleep": 267
+                  },
+                  {
+                    "Sleep Quality": 0.53,
+                    "Time Asleep": 325
+                  },
+                  {
+                    "Sleep Quality": 0.7,
+                    "Time Asleep": 436
+                  },
+                  {
+                    "Sleep Quality": 0.17,
+                    "Time Asleep": 83
+                  },
+                  {
+                    "Sleep Quality": 0.77,
+                    "Time Asleep": 429
+                  },
+                  {
+                    "Sleep Quality": 0.68,
+                    "Time Asleep": 364
+                  },
+                  {
+                    "Sleep Quality": 0.64,
+                    "Time Asleep": 353
+                  },
+                  {
+                    "Sleep Quality": 0.67,
+                    "Time Asleep": 364
+                  },
+                  {
+                    "Sleep Quality": 0.51,
+                    "Time Asleep": 280
+                  },
+                  {
+                    "Sleep Quality": 0.37,
+                    "Time Asleep": 196
+                  },
+                  {
+                    "Sleep Quality": 0.61,
+                    "Time Asleep": 343
+                  },
+                  {
+                    "Sleep Quality": 0.36,
+                    "Time Asleep": 232
+                  },
+                  {
+                    "Sleep Quality": 0.67,
+                    "Time Asleep": 421
+                  },
+                  {
+                    "Sleep Quality": 0.54,
+                    "Time Asleep": 293
+                  },
+                  {
+                    "Sleep Quality": 0.79,
+                    "Time Asleep": 438
+                  },
+                  {
+                    "Sleep Quality": 0.68,
+                    "Time Asleep": 380
+                  },
+                  {
+                    "Sleep Quality": 0.76,
+                    "Time Asleep": 434
+                  },
+                  {
+                    "Sleep Quality": 0.37,
+                    "Time Asleep": 206
+                  },
+                  {
+                    "Sleep Quality": 0.63,
+                    "Time Asleep": 413
+                  },
+                  {
+                    "Sleep Quality": 0.73,
+                    "Time Asleep": 508
+                  }
+                ]
+        }
+    }
 }

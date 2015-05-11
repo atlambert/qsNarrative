@@ -235,3 +235,8 @@ font-size: 30px;
     color: #000;
 }
 
+
+.inferential-profile__graph {
+    max-height: 200px;
+    max-width: 200px;
+}

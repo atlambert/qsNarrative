@@ -12,8 +12,6 @@
         <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.1.min.js"></script>
         <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.10/jquery-ui.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Inconsolata|Roboto:400,500' rel='stylesheet' type='text/css'>
-        <script type="text/javascript" src ="paper.js"></script>
-        <script type ="text/javascript" src="line.js"></script>
 
     </head>
     <body>
@@ -141,14 +139,14 @@
                                 <img src="assets/img/personal-profile/ricky.png" alt="a picture"/>
                             </div>
                             <div class="descriptive-profile__text">
-                                <h1>Ricky Holtz</h1>
+                                <h1>Ricky<br> Holtz</h1>
                                 <p>Age: 23</p>
                                 <p>Height: 188cm</p>
                             </div>
                         </div>
                         <div class="inferential-profile">
                             <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
-                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
+                            <div class="inferential-profile__graph" id="ricky-chart2" style="height: 200px; max-width: 200px;"></div>
                             <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
                         </div>
                     </div>
@@ -223,7 +221,7 @@
             <!-- END FUTURE OF QS -->
             
             <!-- END -->
-            <<div class="section">
+            <div class="section">
             <div class="flex-container">
                     <h1>User Stats</h1>
 
@@ -236,11 +234,11 @@
                         $('#fullpage').mousemove(function(event) {
                           var mouse_position = ' position - x : ' + event.pageX + ' position - y: ' + event.pageY + ' Number of mouse moves : ' + i++;
                           $('#mousemove-msg').text(mouse_position);
-                        });                   
+                        });
                     </script>
 
                     <h1>What questions do you have?</h1>
-            </div> 
+            </div>
         </div>
     </div>
     </body>
@@ -249,7 +247,8 @@
         <script src="assets/js/jquery.fullPage.min.js"></script>
         <script src="assets/js/highcharts.js"></script>
         <script src="assets/js/exporting.js"></script>
-
+        <script type="text/javascript" src="assets/json/personaldata.json"></script>
+        <script type="text/javascript" src="assets/js/personaldata.js"></script>
 
         <div>
             <script type="text/javascript">
@@ -258,12 +257,21 @@
                 $('#fullpage').fullpage({
                     //need to work on these tags
                     anchors:['', 'dictionarydef', 'timeline', 'process', 'misconceptions', 'authordata', 'firstmeetup', 'worldmap', 'viewpoints', 'stories', 'security', 'future', 'userstats'],
-                    sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c']
+                    sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c'],
+                    afterLoad: function(anchorLink, index){
+                        if (anchorLink = 'authordata'){
+                            var rickyChart2 = null;
+                            $(function(){
+                                rickyChart2Processor();
+                                var rickyChart2 = new Highcharts.Chart(rickyChart2Options);
+                            });
+                        };
+                    }
                 });
             });
 
 
-            // this line chart corresponds to slide 5 - example questions. specifically, "How has my weight changed in 2015?" 
+            // this line chart corresponds to slide 5 - example questions. specifically, "How has my weight changed in 2015?"
             $(function () {
                 $('#question1').highcharts({
                     title: {
@@ -303,9 +311,9 @@
                 });
             });
             // end of "How has my weight changed in 2015?" line chart
+            
 
-
-            // this line chart corresponds to slide 5 - example questions. specifically, "Is there a relationship between how many Montague's sandwiches I eat and my weight?" 
+            // this line chart corresponds to slide 5 - example questions. specifically, "Is there a relationship between how many Montague's sandwiches I eat and my weight?"
             $(function () {
                 $('#question2').highcharts({
                     chart: {
