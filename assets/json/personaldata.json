@@ -1,7 +1,78 @@
 {
     "team": {
         "andrew": {
-    
+            "chart1":[
+                  {
+                    "Productive": 255,
+                    "Unproductive": 160
+                  },
+                  {
+                    "Productive": 215,
+                    "Unproductive": 130
+                  },
+                  {
+                    "Productive": 149,
+                    "Unproductive": 57
+                  },
+                  {
+                    "Productive": 285,
+                    "Unproductive": 259
+                  },
+                  {
+                    "Productive": 397,
+                    "Unproductive": 200
+                  },
+                  {
+                    "Productive": 236,
+                    "Unproductive": 346
+                  },
+                  {
+                    "Productive": 197,
+                    "Unproductive": 157
+                  },
+                  {
+                    "Productive": 269,
+                    "Unproductive": 188
+                  },
+                  {
+                    "Productive": 239,
+                    "Unproductive": 132
+                  },
+                  {
+                    "Productive": 194,
+                    "Unproductive": 158
+                  },
+                  {
+                    "Productive": 146,
+                    "Unproductive": 185
+                  },
+                  {
+                    "Productive": 188,
+                    "Unproductive": 205
+                  }
+                ],
+            "chart2":[
+                {
+                    "Smoothie Trips": 2,
+                    "Total Spent": 9.50
+                },
+                {
+                    "Smoothie Trips": 4,
+                    "Total Spent": 19.00
+                },
+                {
+                    "Smoothie Trips": 5,
+                    "Total Spent": 37.20
+                },
+                {
+                    "Smoothie Trips": 4,
+                    "Total Spent": 17.54
+                },
+                {
+                    "Smoothie Trips": 5,
+                    "Total Spent": 33.96
+                }
+            ]
         },
         "ashwini": {
             
@@ -2185,6 +2256,132 @@
                   {
                     "Sleep Quality": 0.73,
                     "Time Asleep": 508
+                  }
+                ],
+            "chart3":[
+                  {
+                    "Day Index": "4/10/15",
+                    "Sessions": 5
+                  },
+                  {
+                    "Day Index": "4/11/15",
+                    "Sessions": 0
+                  },
+                  {
+                    "Day Index": "4/12/15",
+                    "Sessions": 1
+                  },
+                  {
+                    "Day Index": "4/13/15",
+                    "Sessions": 0
+                  },
+                  {
+                    "Day Index": "4/14/15",
+                    "Sessions": 0
+                  },
+                  {
+                    "Day Index": "4/15/15",
+                    "Sessions": 1
+                  },
+                  {
+                    "Day Index": "4/16/15",
+                    "Sessions": 6
+                  },
+                  {
+                    "Day Index": "4/17/15",
+                    "Sessions": 2
+                  },
+                  {
+                    "Day Index": "4/18/15",
+                    "Sessions": 12
+                  },
+                  {
+                    "Day Index": "4/19/15",
+                    "Sessions": 4
+                  },
+                  {
+                    "Day Index": "4/20/15",
+                    "Sessions": 3
+                  },
+                  {
+                    "Day Index": "4/21/15",
+                    "Sessions": 5
+                  },
+                  {
+                    "Day Index": "4/22/15",
+                    "Sessions": 6
+                  },
+                  {
+                    "Day Index": "4/23/15",
+                    "Sessions": 12
+                  },
+                  {
+                    "Day Index": "4/24/15",
+                    "Sessions": 21
+                  },
+                  {
+                    "Day Index": "4/25/15",
+                    "Sessions": 1
+                  },
+                  {
+                    "Day Index": "4/26/15",
+                    "Sessions": 18
+                  },
+                  {
+                    "Day Index": "4/27/15",
+                    "Sessions": 28
+                  },
+                  {
+                    "Day Index": "4/28/15",
+                    "Sessions": 91
+                  },
+                  {
+                    "Day Index": "4/29/15",
+                    "Sessions": 21
+                  },
+                  {
+                    "Day Index": "4/30/15",
+                    "Sessions": 7
+                  },
+                  {
+                    "Day Index": "5/1/15",
+                    "Sessions": 22
+                  },
+                  {
+                    "Day Index": "5/2/15",
+                    "Sessions": 67
+                  },
+                  {
+                    "Day Index": "5/3/15",
+                    "Sessions": 40
+                  },
+                  {
+                    "Day Index": "5/4/15",
+                    "Sessions": 19
+                  },
+                  {
+                    "Day Index": "5/5/15",
+                    "Sessions": 22
+                  },
+                  {
+                    "Day Index": "5/6/15",
+                    "Sessions": 39
+                  },
+                  {
+                    "Day Index": "5/7/15",
+                    "Sessions": 22
+                  },
+                  {
+                    "Day Index": "5/8/15",
+                    "Sessions": 34
+                  },
+                  {
+                    "Day Index": "5/9/15",
+                    "Sessions": 44
+                  },
+                  {
+                    "Day Index": "5/10/15",
+                    "Sessions": 3
                   }
                 ]
         }
