@@ -49,17 +49,22 @@
                 <div class="flex-container" id="example-questions-slide">
                     <h1>The quantified self is more than just tools, though; it's about starting with a question</h1>
                     <div class="example-graph">
-                        <img src="http://placehold.it/250x250"/>
-                        <p>Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <p>How has my weight changed in 2015?</p>
+                        <div id="question1" class="example-graph__chart"></div>
+                        <!-- <img src="http://placehold.it/250x250"/> -->
+
                     </div>
                     <div class="example-graph">
-                        <img src="http://placehold.it/250x250"/>
-                        <p>Curabitur blandit tempus porttitor.</p>
+                        <p>Is there a relationship between how many Montague's sandwiches I've eaten and my weight?</p>
+                        <div id="question2" class="example-graph__chart"></div>
+                        <!-- <img src="http://placehold.it/250x250"/> -->
                     </div>
                     <div class="example-graph">
-                        <img src="http://placehold.it/250x250"/>
-                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                    </div>
+                        <p>Why did I decide to go to Montague's?</p>
+                        <div id="question3" class="example-graph">
+                            <img class="example-graph__chart" src="assets/img/exampleQuestions-q3-spreadsheet.png" />
+                        </div>
+                    </div> <!-- end of example-graph element -->
                 </div>
             </div>
             
@@ -238,6 +243,9 @@
     <footer>
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/jquery.fullPage.min.js"></script>
+        <script src="assets/js/highcharts.js"></script>
+        <script src="assets/js/exporting.js"></script>
+
 
         <div>
             <script type="text/javascript">
@@ -249,6 +257,96 @@
                     sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c']
                 });
             });
+
+
+            // this line chart corresponds to slide 5 - example questions. specifically, "How has my weight changed in 2015?" 
+            $(function () {
+                $('#question1').highcharts({
+                    title: {
+                        text: 'How has my weight changed in 2015 so far?',
+                        x: -20 //center
+                    },
+                    //subtitle: {
+                    //    text: 'Source: WorldClimate.com',
+                    //    x: -20
+                    //},
+                    xAxis: {
+                        categories: ['Jan', 'Feb', 'Mar', 'Apr']
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'Weight (lbs)'
+                        },
+                        plotLines: [{
+                            value: 0,
+                            width: 1,
+                            color: '#808080'
+                        }]
+                    },
+                    tooltip: {
+                        valueSuffix: 'lbs'
+                    },
+                    legend: {
+                        layout: 'vertical',
+                        align: 'right',
+                        verticalAlign: 'middle',
+                        borderWidth: 0
+                    },
+                    series: [{
+                        name: 'Weight',
+                        data: [160, 165, 167, 175]
+                    }]
+                });
+            });
+            // end of "How has my weight changed in 2015?" line chart
+
+
+            // this line chart corresponds to slide 5 - example questions. specifically, "Is there a relationship between how many Montague's sandwiches I eat and my weight?" 
+            $(function () {
+                $('#question2').highcharts({
+                    chart: {
+                        type: 'scatter',
+                        zoomType: 'xy'
+                    },
+                    xAxis: {
+                        // min: -0.5,
+                        // max: 5.5
+                        title: {
+                            text: "Number of Montague's Sandwiches Eaten per Month"
+                        }
+                    },
+                    yAxis: {
+                        // min: 0
+                        title: {
+                            text: 'Weight (lbs)'
+                        }
+                    },
+                    /*
+                    title: {
+                        text: "Is there a relationship between how many Montague's sandwiches I've eaten and my weight?"
+                    },
+                    */
+                    plotOptions: {
+                        scatter: {
+                            tooltip: {
+                                headerFormat: '<b>Weight vs. Number of Sandwiches per Month</b><br>',
+                                pointFormat: '{point.x} sandwiches per month, {point.y} lbs',
+                            }
+                        }
+                    },
+                    series: [{
+                        name: 'Weight vs. Number of Sandwiches',
+                        data: [ [5,160], [8, 165], [10, 167], [14, 175] ], // what i want
+                        // data: [1, 1.5, 2.8, 3.5],
+                        marker: {
+                            radius: 4
+                        }
+                    }] // end of series
+
+                });
+            });
+            // end of "Is there a relationship between how many Montague's sandwiches I eat and my weight?" scatter plot
+
 
             </script>
         </div>
