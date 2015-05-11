@@ -12,8 +12,10 @@
         <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.1.min.js"></script>
         <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.10/jquery-ui.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Inconsolata|Roboto:400,500' rel='stylesheet' type='text/css'>
+
     </head>
     <body>
+
         <div id="fullpage">
             <div class="section" id="title">
                 <div class="tint">
@@ -49,17 +51,22 @@
                 <div class="flex-container" id="example-questions-slide">
                     <h1>The quantified self is more than just tools, though; it's about starting with a question</h1>
                     <div class="example-graph">
-                        <img src="http://placehold.it/250x250"/>
-                        <p>Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                        <p>How has my weight changed in 2015?</p>
+                        <div id="question1" class="example-graph__chart"></div>
+                        <!-- <img src="http://placehold.it/250x250"/> -->
+
                     </div>
                     <div class="example-graph">
-                        <img src="http://placehold.it/250x250"/>
-                        <p>Curabitur blandit tempus porttitor.</p>
+                        <p>Is there a relationship between how many Montague's sandwiches I've eaten and my weight?</p>
+                        <div id="question2" class="example-graph__chart"></div>
+                        <!-- <img src="http://placehold.it/250x250"/> -->
                     </div>
                     <div class="example-graph">
-                        <img src="http://placehold.it/250x250"/>
-                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                    </div>
+                        <p>Why did I decide to go to Montague's?</p>
+                        <div id="question3" class="example-graph">
+                            <img class="example-graph__chart" src="assets/img/exampleQuestions-q3-spreadsheet.png" />
+                        </div>
+                    </div> <!-- end of example-graph element -->
                 </div>
             </div>
             
@@ -132,14 +139,14 @@
                                 <img src="assets/img/personal-profile/ricky.png" alt="a picture"/>
                             </div>
                             <div class="descriptive-profile__text">
-                                <h1>Ricky Holtz</h1>
+                                <h1>Ricky<br> Holtz</h1>
                                 <p>Age: 23</p>
                                 <p>Height: 188cm</p>
                             </div>
                         </div>
                         <div class="inferential-profile">
                             <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
-                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
+                            <div class="inferential-profile__graph" id="ricky-chart2" style="height: 200px; max-width: 200px;"></div>
                             <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
                         </div>
                     </div>
@@ -163,7 +170,7 @@
             <!-- MAP VISUALIZATION -->
             <div class="section">
                 <div class="flex-container">
-                    <h1>And ever since, the community has grown across the world</h1>
+                    <h1 id="mapviz-text">And ever since, the community has grown across the world</h1>
 
                     <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 804px; height: 669px;'><noscript><a href='#'><img alt='Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetups_0&#47;Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='804' height='669' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='QuantifiedSelfMeetups_0&#47;Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetups_0&#47;Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
                     
@@ -215,29 +222,33 @@
             
             <!-- END -->
             <div class="section">
-                <div class="flex-container">
+            <div class="flex-container">
                     <h1>User Stats</h1>
 
+                    <!--Mouse move data-->
                     <p id="mousemove-msg"></p>
-
+                    <p id="array"></p>
                     <script type="text/javascript">
-
-                    var i=0;
-
-                    $('#fullpage').mousemove(function(event) {
-                      var mouse_position = ' Number of mouse moves : ' + i++;
-                      $('#mousemove-msg').text(mouse_position);
-                    });
+                        var i=0;
+                        $('#array').text()
+                        $('#fullpage').mousemove(function(event) {
+                          var mouse_position = ' position - x : ' + event.pageX + ' position - y: ' + event.pageY + ' Number of mouse moves : ' + i++;
+                          $('#mousemove-msg').text(mouse_position);
+                        });
                     </script>
 
                     <h1>What questions do you have?</h1>
-                </div>
             </div>
         </div>
+    </div>
     </body>
     <footer>
         <script src="assets/js/jquery.js"></script>
         <script src="assets/js/jquery.fullPage.min.js"></script>
+        <script src="assets/js/highcharts.js"></script>
+        <script src="assets/js/exporting.js"></script>
+        <script type="text/javascript" src="assets/json/personaldata.json"></script>
+        <script type="text/javascript" src="assets/js/personaldata.js"></script>
 
         <div>
             <script type="text/javascript">
@@ -246,9 +257,108 @@
                 $('#fullpage').fullpage({
                     //need to work on these tags
                     anchors:['', 'dictionarydef', 'timeline', 'process', 'misconceptions', 'authordata', 'firstmeetup', 'worldmap', 'viewpoints', 'stories', 'security', 'future', 'userstats'],
-                    sectionsColor : ['#e74c3c', '#2ecc71', '#f39c12', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c']
+                    sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c'],
+                    afterLoad: function(anchorLink, index){
+                        if (anchorLink = 'authordata'){
+                            var rickyChart2 = null;
+                            $(function(){
+                                rickyChart2Processor();
+                                var rickyChart2 = new Highcharts.Chart(rickyChart2Options);
+                            });
+                        };
+                    }
                 });
             });
+
+
+            // this line chart corresponds to slide 5 - example questions. specifically, "How has my weight changed in 2015?"
+            $(function () {
+                $('#question1').highcharts({
+                    title: {
+                        text: 'How has my weight changed in 2015 so far?',
+                        x: -20 //center
+                    },
+                    //subtitle: {
+                    //    text: 'Source: WorldClimate.com',
+                    //    x: -20
+                    //},
+                    xAxis: {
+                        categories: ['Jan', 'Feb', 'Mar', 'Apr']
+                    },
+                    yAxis: {
+                        title: {
+                            text: 'Weight (lbs)'
+                        },
+                        plotLines: [{
+                            value: 0,
+                            width: 1,
+                            color: '#808080'
+                        }]
+                    },
+                    tooltip: {
+                        valueSuffix: 'lbs'
+                    },
+                    legend: {
+                        layout: 'vertical',
+                        align: 'right',
+                        verticalAlign: 'middle',
+                        borderWidth: 0
+                    },
+                    series: [{
+                        name: 'Weight',
+                        data: [160, 165, 167, 175]
+                    }]
+                });
+            });
+            // end of "How has my weight changed in 2015?" line chart
+            
+
+            // this line chart corresponds to slide 5 - example questions. specifically, "Is there a relationship between how many Montague's sandwiches I eat and my weight?"
+            $(function () {
+                $('#question2').highcharts({
+                    chart: {
+                        type: 'scatter',
+                        zoomType: 'xy'
+                    },
+                    xAxis: {
+                        // min: -0.5,
+                        // max: 5.5
+                        title: {
+                            text: "Number of Montague's Sandwiches Eaten per Month"
+                        }
+                    },
+                    yAxis: {
+                        // min: 0
+                        title: {
+                            text: 'Weight (lbs)'
+                        }
+                    },
+                    /*
+                    title: {
+                        text: "Is there a relationship between how many Montague's sandwiches I've eaten and my weight?"
+                    },
+                    */
+                    plotOptions: {
+                        scatter: {
+                            tooltip: {
+                                headerFormat: '<b>Weight vs. Number of Sandwiches per Month</b><br>',
+                                pointFormat: '{point.x} sandwiches per month, {point.y} lbs',
+                            }
+                        }
+                    },
+                    series: [{
+                        name: 'Weight vs. Number of Sandwiches',
+                        data: [ [5,160], [8, 165], [10, 167], [14, 175] ], // what i want
+                        // data: [1, 1.5, 2.8, 3.5],
+                        marker: {
+                            radius: 4
+                        }
+                    }] // end of series
+
+                });
+            });
+            // end of "Is there a relationship between how many Montague's sandwiches I eat and my weight?" scatter plot
+
 
             </script>
         </div>
