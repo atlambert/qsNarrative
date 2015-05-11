@@ -13,6 +13,7 @@ var rickyChart1Options = {
             }
         },
         xAxis: {
+            min: 0,
             labels:{
                 enabled: false
             },
@@ -25,7 +26,7 @@ var rickyChart1Options = {
             },
         },
         yAxis: {
-            min: 0,
+            max: 31000,
             labels:{
               styles:{
                   fontSize: '.5em'
