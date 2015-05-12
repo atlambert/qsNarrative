@@ -358,3 +358,23 @@ font-size: 30px;
     height: 90%;
     padding: 2%;
 }
+
+.diversity-info__card {
+    max-height: 600px;
+    max-width: 400px;
+    background-color: #fff;
+    float: left;
+}
+
+.diversity-info__card > *{
+    color: #000;
+}
+
+#meetup-bar {
+    height: 500px;
+    width: 400px;
+}
+
+#diversity-info__content {
+    
+}
