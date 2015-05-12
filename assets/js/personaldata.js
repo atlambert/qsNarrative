@@ -167,7 +167,7 @@ $(function () {
             shared: true,
             useHTML: true,
             style:{
-                  fontSize: '.5em'
+                  fontSize: '.75em'
                 }
         },
         plotOptions: {
