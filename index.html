@@ -158,12 +158,7 @@
                     <div class="community-info-card card-style">
                         <img src="assets/img/content/meetupgroup.jpg" alt="photo from the first quantified self meetup" id="community-info-card__style">
                         <div class="community-info-card__content">
-<<<<<<< HEAD
                             <p class="community-card__text">In September 2008, <a href="http://kk.org/">Kevin Kelly</a>, the founding editor of WIRED magazine, held the first quantified self meetup group. 28 people attended. After the Meetup, Kelly remarked, "I was blown away by the energy and fire-power of this group of pioneers. I learned tons, and more importantly, wanted to hear from each of you. Will have to do that again."</p>
-=======
-                            <p>In September 2008, <a href="http://kk.org/">Kevin Kelly</a>, the founding editor of WIRED magazine, held the first quantified self meetup group. 28 people attended.</p>
-                            <p>After the Meetup, Kelly remarked, "I was blown away by the energy and fire-power of this group of pioneers. I learned tons, and more importantly, wanted to hear from each of you. Will have to do that again."</p>
->>>>>>> 78df2b3b7aef46ffa084665fabc2797a284ee42e
                         </div>
                     </div>
                 </div>
@@ -224,25 +219,31 @@
             <div class="flex-container">
                     <h1>User Stats</h1>
                     <!--Mouse move data-->
-                    <p id="mouse_x"></p> <!--mouse x coordinate-->
-                    <p id="mouse_y"></p> <!--mouse y coordinate-->
-                    <p id="mouse_moves"></p> <!--mouse moves counter-->
+                <div class="mousemove-card card-style">
+                    <p id="cardtitle">x coordinate</p></p><p id="mouse_x"></p> <!--mouse x coordinate-->
+                </div>
+                <div class="mousemove-card card-style">
+                    <p id="cardtitle">y coordinate</p><p id="mouse_y"></p> <!--mouse y coordinate-->
+                </div>
+                 <div class="mousemove-card card-style">
+                 <p id="cardtitle">mouse move count</p><p id="mouse_moves"></p> <!--mouse moves counter-->
+                </div>
                     <p id="array"></p>
                       
                     <script type="text/javascript">
                         var i=0;
+                        var j =0;
                         $('#array').text()
                         $('#fullpage').mousemove(function(event) {
-                          var mouse_x = ' x : ' + event.pageX + '';
-                            var mouse_y= ' y: ' + event.pageY + '';
-                            var mouse_moves= ' Number of mouse moves : ' + i++;
-                          $('#mouse_x').text(mouse_x);
+                            var mouse_x = event.pageX + '';
+                            var mouse_y= event.pageY + '';
+                            var mouse_moves=  i++;
+                            $('#mouse_x').text(mouse_x);
                             $('#mouse_y').text(mouse_y);
                             $('#mouse_moves').text(mouse_moves);
                             
                         });
                     </script>
-
                     <h1>What questions do you have?</h1>
             </div>
         </div>
