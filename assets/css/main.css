@@ -159,6 +159,7 @@ table {
 }
 
 .example-graph p{
+    padding: 10px;
     color: #000;
     text-align: center;
 }

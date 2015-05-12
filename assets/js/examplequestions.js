@@ -1,7 +1,7 @@
 var personalWeight = function () {
                 $('#question1').highcharts({
                     title: {
-                        text: 'How has my weight changed in 2015?',
+                        text: 'Weight in 2015',
                         x: -20 //center
                     },
                     //subtitle: {
@@ -25,13 +25,11 @@ var personalWeight = function () {
                         valueSuffix: 'lbs'
                     },
                     legend: {
-                        layout: 'vertical',
-                        align: 'right',
-                        verticalAlign: 'middle',
                         borderWidth: 0
                     },
                     series: [{
                         name: 'Weight',
+                        color: 'rgba(52, 152, 219,0.6)',
                         data: [160, 165, 167, 175]
                     }]
                 });
@@ -47,7 +45,7 @@ var personalWeight = function () {
                         zoomType: 'xy'
                     },
                     title: {
-                        text: 'How many Sandwiches have I eaten per month?'
+                        text: 'Sandwiches v. Weight'
                     },
                     xAxis: {
                         // min: -0.5,
@@ -77,7 +75,8 @@ var personalWeight = function () {
                     },
                     series: [{
                         name: 'Weight vs. Number of Sandwiches',
-                        data: [ [5,160], [8, 165], [10, 167], [14, 175] ], // what i want
+                        data: [ [5,160], [8, 165], [10, 167], [14, 175] ],
+                        color: 'rgba(52, 152, 219,0.6)',
                         marker: {
                             radius: 4
                         }
