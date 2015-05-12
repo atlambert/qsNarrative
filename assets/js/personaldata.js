@@ -209,7 +209,7 @@ var lambertChart3Options = {
 //#########################################
 
 
-$(function () {
+var ashwiniChart1 = function () {
     $('#ashwini-chart1').highcharts({
         chart: {
             type: 'column',
@@ -276,31 +276,37 @@ $(function () {
         },
         series: [{
             name: '2010',
+            color: 'rgba(8,60,50,.6)',
             data: [0, 0, 101, 121, 64, 57, 265, 481, 635, 142, 64, 45]
 
         }, {
             name: '2011',
+            color: 'rgba(17,124,103,.6)',
             data: [490, 96, 87, 225, 74, 89, 123, 450, 651, 235, 334, 175]
 
         }, {
             name: '2012',
+            color: 'rgba(22,162,135,.6)',
             data: [490, 96, 87, 225, 74, 89, 123, 450, 651, 235, 334, 175]
 
         }, {
             name: '2013',
+            color: 'rgba(26,188,156,.6)',
             data: [505, 125, 230, 89, 400, 245, 123, 80, 56, 439, 143, 256]
 
         },  {
             name: '2014',
+            color: 'rgba(28,201,167,.6)',
             data: [126, 540, 210, 87, 75, 152, 321, 21, 45, 28, 32, 190]
 
         },  {
             name: '2015',
+            color: 'rgba(30,214,178,0.6)',
             data: [320, 123, 430, 23, 10, 0, 0, 0, 0, 0, 0, 0]
 
         }]
     });
-});
+};
 
 var ashwiniChart2Options = {
         chart:{
@@ -360,12 +366,13 @@ var ashwiniChart2Options = {
         }]
     };
 
-$(function () {
+var ashwiniChart3 = function () {
     $('#ashwini-chart3').highcharts({
         chart: {
             type: 'funnel',
             marginleft: '50px'
         },
+        colors: ['rgba(26, 188, 156,0.6)', 'rgba(8,60,50,.6)'],
         title: {
             text: 'The Internship Struggle',
             style:{
@@ -377,7 +384,6 @@ $(function () {
                 dataLabels: {
                     enabled: false,
                     format: '<b>{point.name}</b>',
-                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
                     softConnector: false
                 },
                 neckWidth: '30%',
@@ -392,19 +398,19 @@ $(function () {
             enabled: false
         },
         series: [{
-            name: 'Internship Stats',
+            //name: 'Internship Stats',
             data: [
-                ['Applications',   80],
-                ['Rejects',       20],
+                ['Applications', 80],
+                ['Rejects', 20],
                 ['Callbacks', 30],
-                ['Phone Interviews',    15],
-                ['On Site Interviews',    2],
+                ['Phone Interviews', 15],
+                ['On Site Interviews', 2],
                 ['Offers Made', 2],
                 ['Accepted', 1]
             ]
         }]
     });
-});
+};
 
 //#########################################
 //Options for Ricky Chart Data
@@ -637,6 +643,17 @@ var rickyChart3 = function(data){
 //#########################################
 //Chart functions for Ashwini's personal data
 //#########################################
+/*var ashwiniChart1 = function(data) {
+    console.log("Processing data for Ashwini's 1st chart");
+    //sets chart options from
+    $.map(data.team.ashwini.chart1, function(blogObject, int){
+        var year = toString(blogObject['Year']);
+        var months = blogObject['Months'];
+        ashwiniChart1Options.series[int].data = months;
+        ashwiniChart1Options.series[int].name = year;
+        });
+};*/
+
 var ashwiniChart2 = function(data) {
     console.log("Processing data for Ashwini's 2nd chart");
     var ashwiniChart2Categories = new Array();
@@ -701,7 +718,9 @@ var lambertChartProcessor = function(data){
 //Batch Processor for Ashwini's charts
 //#########################################
 var ashwiniChartProcessor = function(data){
+    ashwiniChart1();
     ashwiniChart2(data);
+    ashwiniChart3();
 }
 
 
@@ -718,6 +737,7 @@ var rickyChartProcessor = function(data){
 //Calling personaldata.json and populating charts
 //###############################################
 var chartProcessor = function () {
+    console.log("running chart processor");
     var url =  "assets/json/personaldata.json";
     $.getJSON(url,function(data){
         lambertChartProcessor(data);
