@@ -37,8 +37,7 @@ var lambertChart1Options = {
     },
     plotOptions: {
         tooltip: {
-            headerFormat: '<b>{series.name}</b><br>',
-            pointFormat: '{point.y} mins'
+            headerFormat: '<b>{series.name}</b><br>'
         },
         column: {
             pointPadding: 0.2,
@@ -201,6 +200,8 @@ var lambertChart3Options = {
 //#########################################
 //Options & Functions for Ashwini Data
 //#########################################
+
+
 $(function () {
     $('#ashwini-chart1').highcharts({
         chart: {
@@ -253,15 +254,12 @@ $(function () {
             }
         },
         tooltip: {
-            headerFormat: '<span style="font-size:5px">{point.key}</span><table>',
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
             pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
                 '<td style="padding:0"><b>{point.y:.1f}</b></td></tr>',
             footerFormat: '</table>',
             shared: true,
-            useHTML: true,
-            style:{
-                  fontSize: '.75em'
-                }
+            useHTML: true
         },
         plotOptions: {
             column: {
@@ -353,6 +351,52 @@ var ashwiniChart2Options = {
             data: []
         }]
     };
+
+$(function () {
+    $('#ashwini-chart3').highcharts({
+        chart: {
+            type: 'funnel',
+            marginleft: '50px'
+        },
+        title: {
+            text: 'The Internship Struggle',
+            style:{
+                fontSize: '.75em'
+            }
+        },
+        plotOptions: {
+            series: {
+                dataLabels: {
+                    enabled: false,
+                    format: '<b>{point.name}</b>',
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
+                    softConnector: false
+                },
+                neckWidth: '30%',
+                neckHeight: '25%'
+
+                //-- Other available options
+                // height: pixels or percent
+                // width: pixels or percent
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        series: [{
+            name: 'Internship Stats',
+            data: [
+                ['Applications',   80],
+                ['Rejects',       20],
+                ['Callbacks', 30],
+                ['Phone Interviews',    15],
+                ['On Site Interviews',    2],
+                ['Offers Made', 2],
+                ['Accepted', 1]
+            ]
+        }]
+    });
+});
 
 //#########################################
 //Options for Ricky Chart Data
