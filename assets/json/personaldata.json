@@ -72,7 +72,11 @@
                     "Smoothie Trips": 5,
                     "Total Spent": 33.96
                 }
-            ]
+            ],
+            "chart3":{
+                "Good Sleep": [8.75, 7.85, 8.95, 8.25, 7.15, 7.65, 7.3],
+                "Bad Sleep": [6, 5.5, 10, 6, 8, 3.35, 7]
+            }
         },
         "ashwini": {
             "chart2":[

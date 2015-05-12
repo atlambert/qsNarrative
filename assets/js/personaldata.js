@@ -136,6 +136,68 @@ var lambertChart2Options = {
         }]
     };
 
+var lambertChart3Options = {
+        chart:{
+            renderTo: 'lambert-chart3',
+            style: {
+                fontFamily: 'Inconsolata'
+            }
+        },
+        legend: {
+          itemStyle: {
+             fontSize: '.75em',
+          },
+        },
+        title: {
+            text: 'Good vs. Bad Sleep Weeks',
+            style:{
+                    fontSize: '.90em'
+                }
+        },
+        xAxis: {
+            labels:{
+              style:{
+                  fontSize: '.5em'
+                }
+            },
+            categories: [],
+            style:{
+                    fontSize: '.5em'
+                }
+        },
+        yAxis: {
+            labels:{
+              style:{
+                  fontSize: '.5em'
+                }
+            },
+            title: {
+                text: 'Hours'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }],
+        },
+        tooltip: {
+            valueSuffix: 'plays',
+            styles:{
+                  fontSize: '.5em'
+                }
+        },
+        series: [{
+            name: 'Good Sleep',
+            color: 'rgba(243, 156, 18,0.6)',
+            data: []
+            },{
+            name: 'Bad Sleep',
+            color: 'rgba(211, 84, 0,0.6)',
+            data: []
+            },
+        ]
+    };
+
 //#########################################
 //Options & Functions for Ashwini Data
 //#########################################
@@ -568,12 +630,19 @@ var lambertChart2 = function(data){
     lambertChart2Options.series[0].data = lambertChart2Data;
 };
 
+var lambertChart3 = function(data){
+    console.log("Processing data for Lambert's 3rd chart");
+    lambertChart3Options.series[0].data = data.team.andrew.chart3['Good Sleep'];
+    lambertChart3Options.series[1].data = data.team.andrew.chart3['Bad Sleep'];
+};
+
 //#########################################
 //Batch Processor for Lambert's charts
 //#########################################
 var lambertChartProcessor = function(data){
     lambertChart1(data);
     lambertChart2(data);
+    lambertChart3(data);
 }
 
 //#########################################

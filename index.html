@@ -108,7 +108,7 @@
                         <div class="inferential-profile">
                             <div class="inferential-profile__graph" id="lambert-chart1" style="height: 200px; max-width: 200px;"></div>
                             <div class="inferential-profile__graph" id="lambert-chart2" style="height: 200px; max-width: 200px;"></div>
-                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
+                            <div class="inferential-profile__graph" id="lambert-chart3" style="height: 200px; max-width: 200px;"></div>
                         </div>
                     </div>
                     <!-- ASHWINI -->
@@ -258,15 +258,25 @@
                     anchors:['', 'dictionarydef', 'timeline', 'process', 'misconceptions', 'authordata', 'firstmeetup', 'worldmap', 'viewpoints', 'stories', 'security', 'future', 'userstats'],
                     sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c'],
                     afterLoad: function(anchorLink, index){
-                     if (anchorLink= 'process'){
-                         $(function(){
-                             exampleQuestionDisplay();
-                         });
-                        };
+                        var loadedSection = $(this);
+                         if (anchorLink= 'process'){
+                             $(function(){
+                                 exampleQuestionDisplay();
+                             });
+                            };
+
+                        if(anchorLink == 'misconceptions'){
+                            $(function(){
+                                $('.misconception-card').each(function(currentCard){
+                                    $(this).delay((currentCard) * 500).fadeIn(slow);
+                                    })
+                                });
+                            };
                         
                         if (anchorLink = 'authordata'){
                             var lambertChart1= null;
                             var lambertChart2= null;
+                            var lambertChart3= null;
                             var ashwiniChart2= null;
                             var rickyChart1 = null;
                             var rickyChart2 = null;
@@ -275,6 +285,7 @@
                                 chartProcessor();
                                 var lambertChart1 = new Highcharts.Chart(lambertChart1Options);
                                 var lambertChart2 = new Highcharts.Chart(lambertChart2Options);
+                                var lambertChart3 = new Highcharts.Chart(lambertChart3Options);
                                 var ashwiniChart2 = new Highcharts.Chart(ashwiniChart2Options);
                                 var rickyChart1 = new Highcharts.Chart(rickyChart1Options);
                                 var rickyChart2 = new Highcharts.Chart(rickyChart2Options);
