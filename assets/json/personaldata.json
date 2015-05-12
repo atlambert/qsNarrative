@@ -72,10 +72,46 @@
                     "Smoothie Trips": 5,
                     "Total Spent": 33.96
                 }
-            ]
+            ],
+            "chart3":{
+                "Good Sleep": [8.75, 7.85, 8.95, 8.25, 7.15, 7.65, 7.3],
+                "Bad Sleep": [6, 5.5, 10, 6, 8, 3.35, 7]
+            }
         },
         "ashwini": {
-            
+            "chart2":[
+                  {
+                    "Year": 2008,
+                    "Hits": 0
+                  },
+                  {
+                    "Year": 2009,
+                    "Hits": 0
+                  },
+                  {
+                    "Year": 2010,
+                    "Hits": 0
+                  },
+                  {
+                    "Year": 2011,
+                    "Hits": 212
+                  },
+                  {
+                    "Year": 2012,
+                    "Hits": 687
+                  },
+                  {
+                    "Year": 2013,
+                    "Hits": 1215
+                  },
+                  {
+                    "Year": 2014,
+                    "Hits": 1800
+                  },
+                  {
+                    "Year": 2015,
+                    "Hits": 427
+                  }]
         },
         "ricky": {
             "chart1":[

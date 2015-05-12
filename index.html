@@ -49,19 +49,19 @@
             <!-- EXAMPLE QUESTIONS -->
             <div class="section">
                 <div class="flex-container" id="example-questions-slide">
-                    <h1>The quantified self is more than just tools, though; it's about starting with a question</h1>
+                    <h1>The quantified self is more than just tools, though; it's about asking good questions and finding smart answers.</h1>
                     <div class="example-graph card-style">
                         <div id="question1" class="example-graph__chart"></div>
-                        <p>How has my weight changed in 2015?</p>
+                        <p>It's easier than ever to find interesting patterns in commonly collected data; here, a person notices their weight increasing.</p>
                     </div>
                     <div class="example-graph card-style">
                         <div id="question2" class="example-graph__chart"></div>
-                        <p>Is there a relationship between how many Montague's sandwiches I've eaten and my weight?</p>
+                        <p>Based on our observations, we can start to ask new questions about ourselves to find correlations and trends; here, that an increase in visits to the local sandwich shop is correlated with weight gain.</p>
                     </div>
                     <div class="example-graph card-style">
                         <div id="question3" class="example-graph">
                             <img class="example-graph__chart" src="assets/img/exampleQuestions-q3-spreadsheet.png" />
-                            <p>Why did I decide to go to Montague's?</p>
+                            <p>These </p>
                         </div>
                     </div> <!-- end of example-graph element -->
                 </div>
@@ -92,7 +92,7 @@
             <!-- BEGIN PERSONAL DATA SLIDES -->
             <div class="section">
                 <div class="flex-container" id="personal-data-container">
-                    <h1> For example, quantified self could look like this:</h1>
+                    <h1>Quantified Self look a little more like this:</h1>
                     <!-- LAMBERT -->
                     <div class="profile-container card-style">
                         <div class="descriptive-profile">
@@ -107,8 +107,8 @@
                         </div>
                         <div class="inferential-profile">
                             <div class="inferential-profile__graph" id="lambert-chart1" style="height: 200px; max-width: 200px;"></div>
-                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
-                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
+                            <div class="inferential-profile__graph" id="lambert-chart2" style="height: 200px; max-width: 200px;"></div>
+                            <div class="inferential-profile__graph" id="lambert-chart3" style="height: 200px; max-width: 200px;"></div>
                         </div>
                     </div>
                     <!-- ASHWINI -->
@@ -124,8 +124,8 @@
                             </div>
                         </div>
                         <div class="inferential-profile">
-                            <div class="inferential-profile__graph" id="ashwini-chart2" style="height: 200px; max-width: 200px;"></div>
-                            <div class="inferential-profile__graph" id= "ashwini-chart1" style="height: 200px; max-width: 200px;"></div>
+                            <div class="inferential-profile__graph" id="ashwini-chart1" style="height: 200px; max-width: 200px;"></div>
+                            <div class="inferential-profile__graph" id= "ashwini-chart2" style="height: 200px; max-width: 200px;"></div>
                             <img src="assets/img/personal-profile/coffee.png" alt="coffee" class="inferential-profile__graph">
 
                         </div>
@@ -258,20 +258,35 @@
                     anchors:['', 'dictionarydef', 'timeline', 'process', 'misconceptions', 'authordata', 'firstmeetup', 'worldmap', 'viewpoints', 'stories', 'security', 'future', 'userstats'],
                     sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c'],
                     afterLoad: function(anchorLink, index){
-                     if (anchorLink= 'process'){
-                         $(function(){
-                             exampleQuestionDisplay();
-                         });
-                        };
+                        var loadedSection = $(this);
+                         if (anchorLink= 'process'){
+                             $(function(){
+                                 exampleQuestionDisplay();
+                             });
+                            };
+
+                        if(anchorLink == 'misconceptions'){
+                            $(function(){
+                                $('.misconception-card').each(function(currentCard){
+                                    $(this).delay((currentCard) * 500).fadeIn(slow);
+                                    })
+                                });
+                            };
                         
                         if (anchorLink = 'authordata'){
                             var lambertChart1= null;
+                            var lambertChart2= null;
+                            var lambertChart3= null;
+                            var ashwiniChart2= null;
                             var rickyChart1 = null;
                             var rickyChart2 = null;
                             var rickyChart3 = null;
                             $(function(){
                                 chartProcessor();
                                 var lambertChart1 = new Highcharts.Chart(lambertChart1Options);
+                                var lambertChart2 = new Highcharts.Chart(lambertChart2Options);
+                                var lambertChart3 = new Highcharts.Chart(lambertChart3Options);
+                                var ashwiniChart2 = new Highcharts.Chart(ashwiniChart2Options);
                                 var rickyChart1 = new Highcharts.Chart(rickyChart1Options);
                                 var rickyChart2 = new Highcharts.Chart(rickyChart2Options);
                                 var rickyChart3 = new Highcharts.Chart(rickyChart3Options);
