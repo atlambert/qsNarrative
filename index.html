@@ -74,15 +74,15 @@
                 <div class="flex-container" id="misconceptions-slide">
                     <h1>All of these tools and questions often create some misconceptions; <br>quantified self is not about:</h1>
                     <div class="misconception-card card-style">
-                        <img src="/assets/img/content/minorityreport.jpg" class="misconception-card__img">
+                        <img src="assets/img/content/minorityreport.jpg" class="misconception-card__img">
                         <p class="misconception-card__text">Tech Utopianism</p>
                     </div>
                     <div class="misconception-card card-style">
-                        <img src="/assets/img/content/socialgraph.png" class="misconception-card__img">
+                        <img src="assets/img/content/socialgraph.png" class="misconception-card__img">
                         <p class="misconception-card__text">Reducing people to data</p>
                     </div>
                     <div class="misconception-card card-style">
-                        <img src="/assets/img/content/frankenmonster.jpg" class="misconception-card__img">
+                        <img src="assets/img/content/frankenmonster.jpg" class="misconception-card__img">
                         <p class="misconception-card__text">Creating superhumans</p>
                     </div>
                 </div>
@@ -156,10 +156,9 @@
                 <div class="flex-container" id="community-info-container">
                     <h1> Those three are part of a broader community.</h1>
                     <div class="community-info-card card-style">
-                        <img src="/assets/img/content/meetupgroup.jpg" alt="photo from the first quantified self meetup" id="community-info-card__style">
+                        <img src="assets/img/content/meetupgroup.jpg" alt="photo from the first quantified self meetup" id="community-info-card__style">
                         <div class="community-info-card__content">
-                            <p>In September 2008, <a href="http://kk.org/">Kevin Kelly</a>, the founding editor of WIRED magazine, held the first quantified self meetup group. 28 people attended.</p>
-                            <p>After the Meetup, Kelly remarked, "I was blown away by the energy and fire-power of this group of pioneers. I learned tons, and more importantly, wanted to hear from each of you. Will have to do that again."</p>
+                            <p class="community-card__text">In September 2008, <a href="http://kk.org/">Kevin Kelly</a>, the founding editor of WIRED magazine, held the first quantified self meetup group. 28 people attended. After the Meetup, Kelly remarked, "I was blown away by the energy and fire-power of this group of pioneers. I learned tons, and more importantly, wanted to hear from each of you. Will have to do that again."</p>
                         </div>
                     </div>
                 </div>
@@ -180,67 +179,56 @@
             <!-- LOL DIVERSITY -->
             <div class="section">
                 <div class="flex-container" id="diversity-info">
-                    <h1>The quantified self represents a diverse number of viewpoints on its aims.</h1>
+                    <h1>Security, Diversity and the Future</h1>
                     <div id="diversity-info__content">
-                        <p>Some in the community want it to be more rigorous and academic; others believe in a more casual approach.</p>
+                        <h1>Quantified Self tools can be a security risk.</h1>
+                    <p>Today, it is unclear whether it is valuable to steal activity tracker data.                      There may be some value in the location data, however.</p>
+                    <p>The data from your general purpose wearables (e.g., smartwatch) will be more                     valuable to steal than from your fitness tracker.</p>
+                    <p>In the future, “grey market” data brokers may want to collect all the data                           possible about you to build more complete profiles for advertising.</p>
+                        <p>Some in the community want it to be more rigorous and academic; others                              believe in a more casual approach.</p>
+                        <h1>The quantified self movement has a lot of opportunity for growth.</h1>
+                    
+                    <p>Many predict that quantified self will grow beyond the individual...</p>
+                    
+                    <p>...to the quantified community.</p>
                         <img src="http://placehold.it/500x250" alt="place it!">
                     </div>
                     <p>In the end, it's probably beneficial that people are thinking critically and asking questions about data, regardless of background.</p>
                 </div>
             </div>
             <!-- END DIVERSITY; THIS NEEDS WAY BETTER COPY -->
-            
-            <!--STORIES -->
-            <div class="section">
-                <div class="flex-container">
-                    QS STORIES?!
-                </div>
-            </div>
-            <!-- END STORIES -->
-            
-            <!-- SECURITY SECTION -->
-            <div class="section">
-                <div class="flex-container">
-                    <h1>Quantified Self tools can be a security risk.</h1>
-                    <p>Today, it is unclear whether it is valuable to steal activity tracker data. There may be some value in the location data, however.</p>
-                    <p>The data from your general purpose wearables (e.g., smartwatch) will be more valuable to steal than from your fitness tracker.</p>
-                    <p>In the future, “grey market” data brokers may want to collect all the data possible about you to build more complete profiles for advertising.</p>
-
-                </div>
-            </div>
-            <!-- END SECURITY -->
-            
-            <!-- FUTURE OF QS -->
-            <div class="section">
-                <div class="flex-container">
-                    <h1>The quantified self movement has a lot of opportunity for growth.</h1>
-                    
-                    <p>Many predict that quantified self will grow beyond the individual...</p>
-                    
-                    <p>...to the quantified community.</p>
-                </div>
-            </div>
-            
-            <!-- END FUTURE OF QS -->
-            
-            <!-- END -->
+   
             <div class="section">
             <div class="flex-container">
-                    <h1>User Stats</h1>
-
+                    <h1>Quantify Yourself</h1>
                     <!--Mouse move data-->
-                    <p id="mousemove-msg"></p>
+                <div class="mousemove-card card-style">
+                    <p id="cardtitle">x coordinate</p></p><p id="mouse_x"></p> <!--mouse x coordinate-->
+                </div>
+                <div class="mousemove-card card-style">
+                    <p id="cardtitle">y coordinate</p><p id="mouse_y"></p> <!--mouse y coordinate-->
+                </div>
+                 <div class="mousemove-card card-style">
+                 <p id="cardtitle">mouse move count</p><p id="mouse_moves"></p> <!--mouse moves counter-->
+                </div>
                     <p id="array"></p>
+                      
                     <script type="text/javascript">
                         var i=0;
+                        var j =0;
                         $('#array').text()
                         $('#fullpage').mousemove(function(event) {
-                          var mouse_position = ' position - x : ' + event.pageX + ' position - y: ' + event.pageY + ' Number of mouse moves : ' + i++;
-                          $('#mousemove-msg').text(mouse_position);
+                            var mouse_x = event.pageX + '';
+                            var mouse_y= event.pageY + '';
+                            var mouse_moves=  i++;
+                            $('#mouse_x').text(mouse_x);
+                            $('#mouse_y').text(mouse_y);
+                            $('#mouse_moves').text(mouse_moves);
+                            
                         });
                     </script>
-
-                    <h1>What questions do you have?</h1>
+                    <h1>Congratulations, you are quantifying yourself! See how easy it is?</h1>
+                    <h1>You can also join the Quantified Self community: <a href="http://www.meetup.com/quantifiedself/" target="_blank"> Bay Area Meetup Group</a></h1>
             </div>
         </div>
     </div>
@@ -292,7 +280,9 @@
                                 var lambertChart1 = new Highcharts.Chart(lambertChart1Options);
                                 var lambertChart2 = new Highcharts.Chart(lambertChart2Options);
                                 var lambertChart3 = new Highcharts.Chart(lambertChart3Options);
+                                
                                 var ashwiniChart2 = new Highcharts.Chart(ashwiniChart2Options);
+                                
                                 var rickyChart1 = new Highcharts.Chart(rickyChart1Options);
                                 var rickyChart2 = new Highcharts.Chart(rickyChart2Options);
                                 var rickyChart3 = new Highcharts.Chart(rickyChart3Options);
