@@ -94,6 +94,7 @@ table {
 
 .descriptive-profile{
     float: left;
+    max-width: 185px;
 }
 
 .text-container {
@@ -214,6 +215,8 @@ font-size: 30px;
 
 .misconception-card{
     max-height: 90%;
+    max-width: 400px;
+    overflow: hidden;
 }
 
 .misconception-card__text{
@@ -255,4 +258,27 @@ font-size: 30px;
 .highcharts-container{
     width:100% !important;
     height:100% !important;
+}
+
+#mapviz{
+    justify-content: center;
+}
+
+.misconception-card__img {
+    overflow: hidden;
+    height: 500px;
+}
+
+#community-info-container {
+    justify-content: space-between;
+}
+
+.community-info-card{
+    background-color: #fff;
+    width: 400px;
+    overflow: hidden;
+}
+
+.community-info-card__content p{
+    color: #000;
 }
