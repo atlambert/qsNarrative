@@ -137,66 +137,73 @@ var lambertChart2Options = {
     };
 
 var lambertChart3Options = {
-        chart:{
-            renderTo: 'lambert-chart3',
-            style: {
-                fontFamily: 'Inconsolata'
+    chart:{
+        renderTo: 'lambert-chart3',
+        style: {
+            fontFamily: 'Inconsolata'
+        }
+    },
+    legend: {
+      itemStyle: {
+         fontSize: '.75em',
+      },
+    },
+    title: {
+        text: 'Good vs. Bad Sleep Weeks',
+        style:{
+                fontSize: '.90em'
+            }
+    },
+    xAxis: {
+        labels:{
+          style:{
+              fontSize: '.5em'
             }
         },
-        legend: {
-          itemStyle: {
-             fontSize: '.75em',
-          },
+        categories: [],
+        style:{
+                fontSize: '.5em'
+            }
+    },
+    yAxis: {
+        labels:{
+          style:{
+              fontSize: '.5em'
+            }
         },
         title: {
-            text: 'Good vs. Bad Sleep Weeks',
-            style:{
-                    fontSize: '.90em'
-                }
+            text: 'Hours'
         },
-        xAxis: {
-            labels:{
-              style:{
-                  fontSize: '.5em'
-                }
-            },
-            categories: [],
-            style:{
-                    fontSize: '.5em'
-                }
+        plotLines: [{
+            value: 0,
+            width: 1,
+            color: '#808080'
+        }],
+    },
+    plotOptions: {
+        line: {
+            marker: {
+                enabled: false
+            }
+        }
+    },
+    tooltip: {
+        valueSuffix: 'plays',
+        styles:{
+              fontSize: '.5em'
+            }
+    },
+    series: [{
+        name: 'Good Sleep',
+        color: 'rgba(243, 156, 18,0.6)',
+        data: []
+        },{
+        name: 'Bad Sleep',
+        color: 'rgba(211, 84, 0,0.6)',
+        data: []
         },
-        yAxis: {
-            labels:{
-              style:{
-                  fontSize: '.5em'
-                }
-            },
-            title: {
-                text: 'Hours'
-            },
-            plotLines: [{
-                value: 0,
-                width: 1,
-                color: '#808080'
-            }],
-        },
-        tooltip: {
-            valueSuffix: 'plays',
-            styles:{
-                  fontSize: '.5em'
-                }
-        },
-        series: [{
-            name: 'Good Sleep',
-            color: 'rgba(243, 156, 18,0.6)',
-            data: []
-            },{
-            name: 'Bad Sleep',
-            color: 'rgba(211, 84, 0,0.6)',
-            data: []
-            },
-        ]
-    };
+    ]
+};
 
 //#########################################
 //Options & Functions for Ashwini Data
@@ -327,6 +334,7 @@ var ashwiniChart2Options = {
                 }
         },
         yAxis: {
+            min: 0,
             labels:{
               style:{
                   fontSize: '.5em'
