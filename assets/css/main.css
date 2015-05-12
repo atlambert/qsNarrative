@@ -188,7 +188,7 @@ font-size: 30px;
 }
 
 #title {
-    background: url(/assets/img/background-img/iphone-hand.jpg) no-repeat center center fixed;
+    background: url(assets/img/background-img/iphone-hand.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     background-size: cover;
 }
