@@ -151,9 +151,9 @@
             </div>
             <!-- END PERSONAL DATA SLIDES -->
             
-            <!-- INTRODUCING BROADER COMMUNITY -->
+            <!-- INTRODUCING BROADER COMMUNITY 
             <div class="section">
-                <div class="flex-container" id="community-info-container">
+                <div class="flex-container">
                     <h1> Those three are part of a broader community.</h1>
                     <div class="community-info-card card-style">
                         <img src="assets/img/content/meetupgroup.jpg" alt="photo from the first quantified self meetup" id="community-info-card__style">
@@ -163,12 +163,12 @@
                     </div>
                 </div>
             </div>
-            <!-- END INTRO OF BROADER COMMUNITY -->
+             END INTRO OF BROADER COMMUNITY -->
             
             <!-- MAP VISUALIZATION -->
             <div class="section">
                 <div class="flex-container" id="mapviz">
-                    <h1 id="mapviz-text">And ever since, the community has grown across the world.</h1>
+                    <h1 id="mapviz-text">The first QS meetup happened in Kevin Kelly's basement, the community has grown across the world ever since.</h1>
 
                     <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 804px; height: 669px;'><noscript><a href='#'><img alt='Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetups_0&#47;Dashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='804' height='669' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='QuantifiedSelfMeetups_0&#47;Dashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qu&#47;QuantifiedSelfMeetups_0&#47;Dashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
                     
@@ -249,8 +249,8 @@
             $(document).ready(function() {
                 $('#fullpage').fullpage({
                     //need to work on these tags
-                    anchors:['', 'dictionarydef', 'timeline', 'process', 'misconceptions', 'authordata', 'firstmeetup', 'worldmap', 'viewpoints', 'stories', 'security', 'future', 'userstats'],
-                    sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c'],
+                    anchors:['', 'dictionarydef', 'timeline', 'process', 'misconceptions', 'authordata', 'worldmap', 'viewpoints', 'stories', 'security', 'future', 'userstats'],
+                    sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#f3f3f5', '#9b59b6', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c'],
                     afterLoad: function(anchorLink, index){
                         var loadedSection = $(this);
                          if (anchorLink= 'process'){
