@@ -4,24 +4,31 @@ var lambertChart1Options = {
     chart: {
         type: 'bar',
         renderTo: 'lambert-chart1',
-        backgroundColor:'rgba(255, 255, 255, 0)'
+        backgroundColor:'rgba(255, 255, 255, 0)',
+            style: {
+                fontFamily: 'Inconsolata'
+            }
+    },
+    legend: {
+      itemStyle: {
+         fontSize: '.75em',
+      },
     },
     title: {
-        text: 'Productivity',
+        text: 'Daily Computer Usage',
         style: {
-            fontSize: '.75em'
+            fontSize: '.90em'
         }
     },
     xAxis: [{
+        minorTickLength: 0,
         max: 11,
         tickInterval: 1,
         reversed: false
     }, { // mirror axis on right side
-        max: 11,
-        tickInterval: 1,
+        minorTickLength: 0,
         opposite: true,
         reversed: false,
-        linkedTo: 0
     }],
     yAxis: {
         title: {
@@ -35,26 +42,115 @@ var lambertChart1Options = {
         column: {
             pointPadding: 0.2,
             borderWidth: 0
+        },
+        series: {
+            stacking: 'normal'
         }
     },
     series: [{
-        name: 'Productive',
+        name: 'Productive (min)',
+        color: 'rgba(243, 156, 18,0.6)',
         data: []
     }, {
-        name: 'Unproductive',
+        name: 'Unproductive (min)',
+        color: 'rgba(211, 84, 0,0.6)',
         data: []
     }]
     };
 
-//#########################################
-//Options & Functions for Ashwini Data
-//#########################################
-$(function () {
-    $('#ashwini-chart1').highcharts({
+var lambertChart2Options = {
+        chart: {
+            type: 'scatter',
+            zoomType: 'xy',
+            renderTo: 'lambert-chart2',
+            backgroundColor:'rgba(255, 255, 255, 0)',
+            style: {
+                fontFamily: 'Inconsolata'
+            }
+        },
+        legend: {
+          itemStyle: {
+             fontSize: '.75em',
+          },
+        },
         title: {
-            text: 'SoundCloud Hits',
-            style:{
+            text: 'Smoothie Trips v Cost',
+            style: {
+                fontSize: '.90em'
+            }
+        },
+        xAxis: {
+            min: 0,
+            title: {
+                enabled: true,
+                text: 'Number of Trips',
+                style:{
                     fontSize: '.75em'
+                }
+            },
+            showLastLabel: true
+        },
+        yAxis: {
+            min: 0,
+            labels:{
+              styles:{
+                  fontSize: '.75em'
+                }
+            },
+            title: {
+                text: 'Cost (USD)',
+                style:{
+                    fontSize: '.5em'
+                }
+            },
+        },
+        plotOptions: {
+            scatter: {
+                marker: {
+                    radius: 5,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+                states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<b>{series.name}</b><br>',
+                    pointFormat: '{point.x} min, {point.y}%'
+                }
+            }
+        },
+        series: [{
+            name: 'Smoothie Trip',
+            color: 'rgba(243, 156, 18,0.6)',
+            data: []
+        }]
+    };
+
+var lambertChart3Options = {
+        chart:{
+            renderTo: 'lambert-chart3',
+            style: {
+                fontFamily: 'Inconsolata'
+            }
+        },
+        legend: {
+          itemStyle: {
+             fontSize: '.75em',
+          },
+        },
+        title: {
+            text: 'Good vs. Bad Sleep Weeks',
+            style:{
+                    fontSize: '.90em'
                 }
         },
         xAxis: {
@@ -63,8 +159,7 @@ $(function () {
                   fontSize: '.5em'
                 }
             },
-            categories: ['2008', '2009', '2010', '2011', '2012', '2013',
-                '2014', '2015'],
+            categories: [],
             style:{
                     fontSize: '.5em'
                 }
@@ -76,7 +171,7 @@ $(function () {
                 }
             },
             title: {
-                text: 'Plays'
+                text: 'Hours'
             },
             plotLines: [{
                 value: 0,
@@ -91,63 +186,34 @@ $(function () {
                 }
         },
         series: [{
-            name: 'Soundcloud Plays',
-            data: [0,0, 0,212,687,1215,1800,427]
-        }]
-    });
-});
+            name: 'Good Sleep',
+            color: 'rgba(243, 156, 18,0.6)',
+            data: []
+            },{
+            name: 'Bad Sleep',
+            color: 'rgba(211, 84, 0,0.6)',
+            data: []
+            },
+        ]
+    };
+
+//#########################################
+//Options & Functions for Ashwini Data
+//#########################################
+
 
 $(function () {
-
-    $('#ashwini').highcharts({
+    $('#ashwini-chart1').highcharts({
         chart: {
-            type: 'funnel',
-            marginleft: '50px'
-        },
-        title: {
-            text: 'The Internship Struggle',
-            style:{
-                fontSize: '.75em'
-            }
-        },
-        plotOptions: {
-            series: {
-                dataLabels: {
-                    enabled: false,
-                    format: '<b>{point.name}</b>',
-                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
-                    softConnector: false
-                },
-                neckWidth: '30%',
-                neckHeight: '25%'
-
-                //-- Other available options
-                // height: pixels or percent
-                // width: pixels or percent
+            type: 'column',
+            style: {
+                fontFamily: 'Inconsolata'
             }
         },
         legend: {
-            enabled: false
-        },
-        series: [{
-            name: 'Internship Stats',
-            data: [
-                ['Applications',   80],
-                ['Rejects',       20],
-                ['Callbacks', 30],
-                ['Phone Interviews',    15],
-                ['On Site Interviews',    2],
-                ['Offers Made', 2],
-                ['Accepted', 1]
-            ]
-        }]
-    });
-});
-
-$(function () {
-    $('#ashwini-chart2').highcharts({
-        chart: {
-            type: 'column'
+          itemStyle: {
+             fontSize: '.75em',
+          },
         },
         legend: {
             layout: 'horizontal',
@@ -229,6 +295,109 @@ $(function () {
     });
 });
 
+var ashwiniChart2Options = {
+        chart:{
+            renderTo: 'ashwini-chart2',
+            style: {
+                fontFamily: 'Inconsolata'
+            }
+        },
+        legend: {
+          itemStyle: {
+             fontSize: '.75em',
+          },
+        },
+        title: {
+            text: 'SoundCloud Hits',
+            style:{
+                    fontSize: '.90em'
+                }
+        },
+        xAxis: {
+            labels:{
+              style:{
+                  fontSize: '.5em'
+                }
+            },
+            categories: [],
+            style:{
+                    fontSize: '.5em'
+                }
+        },
+        yAxis: {
+            labels:{
+              style:{
+                  fontSize: '.5em'
+                }
+            },
+            title: {
+                text: 'Plays'
+            },
+            plotLines: [{
+                value: 0,
+                width: 1,
+                color: '#808080'
+            }],
+        },
+        tooltip: {
+            valueSuffix: 'plays',
+            styles:{
+                  fontSize: '.5em'
+                }
+        },
+        series: [{
+            name: 'Soundcloud Plays',
+            color: 'rgba(26, 188, 156,0.6)',
+            data: []
+        }]
+    };
+
+$(function () {
+    $('#ashwini-chart3').highcharts({
+        chart: {
+            type: 'funnel',
+            marginleft: '50px'
+        },
+        title: {
+            text: 'The Internship Struggle',
+            style:{
+                fontSize: '.75em'
+            }
+        },
+        plotOptions: {
+            series: {
+                dataLabels: {
+                    enabled: false,
+                    format: '<b>{point.name}</b>',
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black',
+                    softConnector: false
+                },
+                neckWidth: '30%',
+                neckHeight: '25%'
+
+                //-- Other available options
+                // height: pixels or percent
+                // width: pixels or percent
+            }
+        },
+        legend: {
+            enabled: false
+        },
+        series: [{
+            name: 'Internship Stats',
+            data: [
+                ['Applications',   80],
+                ['Rejects',       20],
+                ['Callbacks', 30],
+                ['Phone Interviews',    15],
+                ['On Site Interviews',    2],
+                ['Offers Made', 2],
+                ['Accepted', 1]
+            ]
+        }]
+    });
+});
+
 //#########################################
 //Options for Ricky Chart Data
 //#########################################
@@ -237,12 +406,20 @@ var rickyChart1Options = {
         chart: {
             type: 'column',
             renderTo: 'ricky-chart1',
-            backgroundColor:'rgba(255, 255, 255, 0)'
+            backgroundColor:'rgba(255, 255, 255, 0)',
+            style: {
+                fontFamily: 'Inconsolata'
+            }
+        },
+        legend: {
+          itemStyle: {
+             fontSize: '.75em',
+          },
         },
         title: {
             text: 'Daily Steps',
             style: {
-                fontSize: '.75em'
+                fontSize: '.90em'
             }
         },
         xAxis: {
@@ -291,12 +468,20 @@ var rickyChart2Options = {
             type: 'scatter',
             zoomType: 'xy',
             renderTo: 'ricky-chart2',
-            backgroundColor:'rgba(255, 255, 255, 0)'
+            backgroundColor:'rgba(255, 255, 255, 0)',
+            style: {
+                fontFamily: 'Inconsolata'
+            }
+        },
+        legend: {
+          itemStyle: {
+             fontSize: '.75em',
+          },
         },
         title: {
             text: 'Time Asleep v. Sleep Quality',
             style: {
-                fontSize: '.75em'
+                fontSize: '.90em'
             }
         },
         xAxis: {
@@ -359,12 +544,20 @@ var rickyChart2Options = {
 var rickyChart3Options = {
         chart: {
             renderTo: 'ricky-chart3',
-            backgroundColor:'rgba(255, 255, 255, 0)'
+            backgroundColor:'rgba(255, 255, 255, 0)',
+            style: {
+                fontFamily: 'Inconsolata'
+            }
+        },
+        legend: {
+          itemStyle: {
+             fontSize: '.75em',
+          },
         },
         title: {
             text: 'Portfolio Traffic',
             style: {
-                fontSize: '.75em'
+                fontSize: '.90em'
             }
         },
         xAxis: {
@@ -434,6 +627,25 @@ var rickyChart3 = function(data){
 };
 
 //#########################################
+//Chart functions for Ashwini's personal data
+//#########################################
+var ashwiniChart2 = function(data) {
+    console.log("Processing data for Ashwini's 2nd chart");
+    var ashwiniChart2Categories = new Array();
+    var ashwiniChart2Data = new Array();
+    //populates the arrays with data from personaldata JSON
+    $.map(data.team.ashwini.chart2, function(soundCloudObject, int){
+        var years = soundCloudObject['Year'];
+        var hits = soundCloudObject['Hits'];
+        ashwiniChart2Categories.push(years);
+        ashwiniChart2Data.push(hits);
+        });
+    //pushes data to the series in lambertchart1options
+    ashwiniChart2Options.series[0].data = ashwiniChart2Data;
+    ashwiniChart2Options.xAxis.categories = ashwiniChart2Categories;
+};
+
+//#########################################
 //Chart functions for Lambert's personal data
 //#########################################
 var lambertChart1 = function(data) {
@@ -452,6 +664,39 @@ var lambertChart1 = function(data) {
     lambertChart1Options.series[1].data = lambertChart1Productive;
 };
 
+var lambertChart2 = function(data){
+    console.log("Processing data for Lambert's 2nd chart");
+    var lambertChart2Data = new Array();
+        $.map(data.team.andrew.chart2, function(smoothieObject, int){
+            var seriesData = [smoothieObject['Smoothie Trips'], smoothieObject['Total Spent']];
+            lambertChart2Data.push(seriesData);
+        });
+    lambertChart2Options.series[0].data = lambertChart2Data;
+};
+
+var lambertChart3 = function(data){
+    console.log("Processing data for Lambert's 3rd chart");
+    lambertChart3Options.series[0].data = data.team.andrew.chart3['Good Sleep'];
+    lambertChart3Options.series[1].data = data.team.andrew.chart3['Bad Sleep'];
+};
+
+//#########################################
+//Batch Processor for Lambert's charts
+//#########################################
+var lambertChartProcessor = function(data){
+    lambertChart1(data);
+    lambertChart2(data);
+    lambertChart3(data);
+}
+
+//#########################################
+//Batch Processor for Ashwini's charts
+//#########################################
+var ashwiniChartProcessor = function(data){
+    ashwiniChart2(data);
+}
+
+
 //#########################################
 //Batch Processor for Ricky's charts
 //#########################################
@@ -461,13 +706,6 @@ var rickyChartProcessor = function(data){
     rickyChart3(data);
 }
 
-//#########################################
-//Batch Processor for Lambert's charts
-//#########################################
-var lambertChartProcessor = function(data){
-    lambertChart1(data);
-}
-
 //###############################################
 //Calling personaldata.json and populating charts
 //###############################################
@@ -475,6 +713,7 @@ var chartProcessor = function () {
     var url =  "assets/json/personaldata.json";
     $.getJSON(url,function(data){
         lambertChartProcessor(data);
+        ashwiniChartProcessor(data);
         rickyChartProcessor(data);
     });
 };
