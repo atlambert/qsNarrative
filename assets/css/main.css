@@ -219,11 +219,19 @@ font-size: 30px;
     overflow: hidden;
 }
 
+
+
 .misconception-card__text{
     color: #000;
     text-align: center;
     
     padding-top: 25px;
+}
+
+.community-card__text{
+    color: #000;
+    text-align: center;
+    padding: 25px;
 }
 
 #misconceptions-slide {
@@ -248,6 +256,23 @@ font-size: 30px;
 
 #mapviz-text {
     color: #000;
+}
+
+.inline{
+    display:inline;
+}
+
+#mouse_x{
+    font-size: 5em;
+}
+
+#mouse_y{
+    font-size:5em;
+}
+
+#mouse_moves {
+    
+font-size:5em;
 }
 
 .inferential-profile__graph {
