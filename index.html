@@ -133,7 +133,7 @@
                         </div>
                     </div>
                     <!-- RICKY -->
-                    <div class="profile-container">
+                    <div class="profile-container card-style">
                         <div class="descriptive-profile">
                             <div class="descriptive-profile__photo">
                                 <img src="assets/img/personal-profile/ricky.png" alt="a picture"/>
@@ -145,9 +145,9 @@
                             </div>
                         </div>
                         <div class="inferential-profile">
-                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
+                            <div class="inferential-profile__graph" id="ricky-chart1" style="height: 200px; max-width: 200px;"></div>
                             <div class="inferential-profile__graph" id="ricky-chart2" style="height: 200px; max-width: 200px;"></div>
-                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
+                            <div class="inferential-profile__graph" id="ricky-chart3" style="height: 200px; max-width: 200px;"></div>
                         </div>
                     </div>
                 </div>
@@ -260,10 +260,14 @@
                     sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c'],
                     afterLoad: function(anchorLink, index){
                         if (anchorLink = 'authordata'){
+                            var rickyChart1 = null;
                             var rickyChart2 = null;
+                            var rickyChart3 = null;
                             $(function(){
-                                rickyChart2Processor();
+                                chartProcessor();
+                                var rickyChart1 = new Highcharts.Chart(rickyChart1Options);
                                 var rickyChart2 = new Highcharts.Chart(rickyChart2Options);
+                                var rickyChart3 = new Highcharts.Chart(rickyChart3Options);
                             });
                         };
                     }
