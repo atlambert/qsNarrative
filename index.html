@@ -214,16 +214,23 @@
             <div class="section">
             <div class="flex-container">
                     <h1>User Stats</h1>
-
                     <!--Mouse move data-->
-                    <p id="mousemove-msg"></p>
+                    <p id="mouse_x"></p> <!--mouse x coordinate-->
+                    <p id="mouse_y"></p> <!--mouse y coordinate-->
+                    <p id="mouse_moves"></p> <!--mouse moves counter-->
                     <p id="array"></p>
+                      
                     <script type="text/javascript">
                         var i=0;
                         $('#array').text()
                         $('#fullpage').mousemove(function(event) {
-                          var mouse_position = ' position - x : ' + event.pageX + ' position - y: ' + event.pageY + ' Number of mouse moves : ' + i++;
-                          $('#mousemove-msg').text(mouse_position);
+                          var mouse_x = ' x : ' + event.pageX + '';
+                            var mouse_y= ' y: ' + event.pageY + '';
+                            var mouse_moves= ' Number of mouse moves : ' + i++;
+                          $('#mouse_x').text(mouse_x);
+                            $('#mouse_y').text(mouse_y);
+                            $('#mouse_moves').text(mouse_moves);
+                            
                         });
                     </script>
 
