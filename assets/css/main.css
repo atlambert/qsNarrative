@@ -226,6 +226,13 @@ font-size: 30px;
     padding-top: 25px;
 }
 
+.community-card__text{
+    color: #000;
+    text-align: center;
+    
+    padding: 25px;
+}
+
 #misconceptions-slide {
     justify-content: space-between;
 }
