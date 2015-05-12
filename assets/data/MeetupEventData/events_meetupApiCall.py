@@ -20,7 +20,10 @@ def main():
             offset = 0
             while (results_we_got == per_page):
                 # Meetup.com documentation here: http://www.meetup.com/meetup_api/docs/2/groups/
-                response=get_results({"sign":"true", "group_urlname":groupUrlName, "key":api_key, "page":per_page, "offset":offset })
+                # response=get_results({"sign":"true", "group_urlname":groupUrlName, "key":api_key, "page":per_page, "offset":offset })
+
+                response=get_results({"sign":"true", "group_urlname":groupUrlName, "key":api_key, "page":per_page, "offset":offset, "status":"past" })
+                
                 time.sleep(1)
                 offset += 1
                 results_we_got = response['meta']['count']
@@ -37,7 +40,7 @@ def main():
                     if "category" in group:
                         category = group['category']['name']
                     # print "," .join(map(unicode, [city, group['name'].replace(","," "), group['created'], group['city'],group.get('state',""),category,group['members'], group.get('who',"").replace(","," ")]))
-                    print "," .join(map(unicode, [groupUrlName, group['created'], group['yes_rsvp_count'], group['name'].replace(","," "), group['event_url'] ] )) # another possibility: group['group'], group['description']
+                    print "," .join(map(unicode, [ g roupUrlName, group['created'], group['yes_rsvp_count'], group['name'].replace(","," "), group['event_url'], group['group'] ] )) # group['description'],
 
 
             time.sleep(1)
