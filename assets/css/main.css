@@ -325,16 +325,15 @@ font-size: 30px;
     height: 500px;
 }
 
-#community-info-container {
-    justify-content: space-between;
-}
 
 .community-info-card{
     background-color: #fff;
-    width: 400px;
+    width: 100%;
     overflow: hidden;
+    margin-bottom: 5%;
 }
 
 .community-info-card__content p{
     color: #000;
+    font-size: 1.5em;
 }
