@@ -46,25 +46,22 @@
             </div>
             <!-- END TIMELINE SLIDE -->
             
-            <!-- BEGIN SLIDE 5; EXAMPLE QUESTIONS -->
+            <!-- EXAMPLE QUESTIONS -->
             <div class="section">
                 <div class="flex-container" id="example-questions-slide">
                     <h1>The quantified self is more than just tools, though; it's about starting with a question</h1>
-                    <div class="example-graph">
-                        <p>How has my weight changed in 2015?</p>
+                    <div class="example-graph card-style">
                         <div id="question1" class="example-graph__chart"></div>
-                        <!-- <img src="http://placehold.it/250x250"/> -->
-
+                        <p>How has my weight changed in 2015?</p>
                     </div>
-                    <div class="example-graph">
-                        <p>Is there a relationship between how many Montague's sandwiches I've eaten and my weight?</p>
+                    <div class="example-graph card-style">
                         <div id="question2" class="example-graph__chart"></div>
-                        <!-- <img src="http://placehold.it/250x250"/> -->
+                        <p>Is there a relationship between how many Montague's sandwiches I've eaten and my weight?</p>
                     </div>
-                    <div class="example-graph">
-                        <p>Why did I decide to go to Montague's?</p>
+                    <div class="example-graph card-style">
                         <div id="question3" class="example-graph">
                             <img class="example-graph__chart" src="assets/img/exampleQuestions-q3-spreadsheet.png" />
+                            <p>Why did I decide to go to Montague's?</p>
                         </div>
                     </div> <!-- end of example-graph element -->
                 </div>
@@ -77,15 +74,15 @@
                 <div class="flex-container" id="misconceptions-slide">
                     <h1>All of these tools and questions often create some misconceptions; quantified self is not about:</h1>
                     <div class="misconception-card card-style">
-                        <img src="http://placehold.it/400x600" class="misconception-card__img">
+                        <img src="http://placehold.it/400x500" class="misconception-card__img">
                         <p class="misconception-card__text">Tech Utopianism</p>
                     </div>
                     <div class="misconception-card card-style">
-                        <img src="http://placehold.it/400x600" class="misconception-card__img">
+                        <img src="http://placehold.it/400x500" class="misconception-card__img">
                         <p class="misconception-card__text">Creating superhumans</p>
                     </div>
                     <div class="misconception-card card-style">
-                        <img src="http://placehold.it/400x600" class="misconception-card__img">
+                        <img src="http://placehold.it/400x500" class="misconception-card__img">
                         <p class="misconception-card__text">Reducing people to data</p>
                     </div>
                 </div>
@@ -109,7 +106,7 @@
                             </div>
                         </div>
                         <div class="inferential-profile">
-                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
+                            <div class="inferential-profile__graph" id="lambert-chart1" style="height: 200px; max-width: 200px;"></div>
                             <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
                             <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
                         </div>
@@ -129,7 +126,7 @@
                         <div class="inferential-profile">
                             <div class="inferential-profile__graph" id="ashwini-chart2" style="height: 200px; max-width: 200px;"></div>
                             <div class="inferential-profile__graph" id= "ashwini-chart1" style="height: 200px; max-width: 200px;"></div>
-                                <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
+                            <img src="http://placehold.it/200x200" alt="place it!" class="inferential-profile__graph">
                         </div>
                     </div>
                     <!-- RICKY -->
@@ -247,6 +244,7 @@
         <script src="assets/js/jquery.fullPage.min.js"></script>
         <script src="assets/js/highcharts.js"></script>
         <script src="assets/js/exporting.js"></script>
+        <script type="text/javascript" src="assets/js/examplequestions.js"></script>
         <script type="text/javascript" src="assets/json/personaldata.json"></script>
         <script type="text/javascript" src="assets/js/personaldata.js"></script>
 
@@ -259,12 +257,20 @@
                     anchors:['', 'dictionarydef', 'timeline', 'process', 'misconceptions', 'authordata', 'firstmeetup', 'worldmap', 'viewpoints', 'stories', 'security', 'future', 'userstats'],
                     sectionsColor : ['#e74c3c', '#2ecc71', '#fff', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f3f3f5', '#3498db', '#e74c3c', '#2ecc71', '#9b59b6', '#f39c12', '#3498db', '#e74c3c'],
                     afterLoad: function(anchorLink, index){
+                     if (anchorLink= 'process'){
+                         $(function(){
+                             exampleQuestionDisplay();
+                         });
+                        };
+                        
                         if (anchorLink = 'authordata'){
+                            var lambertChart1= null;
                             var rickyChart1 = null;
                             var rickyChart2 = null;
                             var rickyChart3 = null;
                             $(function(){
                                 chartProcessor();
+                                var lambertChart1 = new Highcharts.Chart(lambertChart1Options);
                                 var rickyChart1 = new Highcharts.Chart(rickyChart1Options);
                                 var rickyChart2 = new Highcharts.Chart(rickyChart2Options);
                                 var rickyChart3 = new Highcharts.Chart(rickyChart3Options);
@@ -276,92 +282,7 @@
 
 
             // this line chart corresponds to slide 5 - example questions. specifically, "How has my weight changed in 2015?"
-            $(function () {
-                $('#question1').highcharts({
-                    title: {
-                        text: 'How has my weight changed in 2015 so far?',
-                        x: -20 //center
-                    },
-                    //subtitle: {
-                    //    text: 'Source: WorldClimate.com',
-                    //    x: -20
-                    //},
-                    xAxis: {
-                        categories: ['Jan', 'Feb', 'Mar', 'Apr']
-                    },
-                    yAxis: {
-                        title: {
-                            text: 'Weight (lbs)'
-                        },
-                        plotLines: [{
-                            value: 0,
-                            width: 1,
-                            color: '#808080'
-                        }]
-                    },
-                    tooltip: {
-                        valueSuffix: 'lbs'
-                    },
-                    legend: {
-                        layout: 'vertical',
-                        align: 'right',
-                        verticalAlign: 'middle',
-                        borderWidth: 0
-                    },
-                    series: [{
-                        name: 'Weight',
-                        data: [160, 165, 167, 175]
-                    }]
-                });
-            });
-            // end of "How has my weight changed in 2015?" line chart
             
-
-            // this line chart corresponds to slide 5 - example questions. specifically, "Is there a relationship between how many Montague's sandwiches I eat and my weight?"
-            $(function () {
-                $('#question2').highcharts({
-                    chart: {
-                        type: 'scatter',
-                        zoomType: 'xy'
-                    },
-                    xAxis: {
-                        // min: -0.5,
-                        // max: 5.5
-                        title: {
-                            text: "Number of Montague's Sandwiches Eaten per Month"
-                        }
-                    },
-                    yAxis: {
-                        // min: 0
-                        title: {
-                            text: 'Weight (lbs)'
-                        }
-                    },
-                    /*
-                    title: {
-                        text: "Is there a relationship between how many Montague's sandwiches I've eaten and my weight?"
-                    },
-                    */
-                    plotOptions: {
-                        scatter: {
-                            tooltip: {
-                                headerFormat: '<b>Weight vs. Number of Sandwiches per Month</b><br>',
-                                pointFormat: '{point.x} sandwiches per month, {point.y} lbs',
-                            }
-                        }
-                    },
-                    series: [{
-                        name: 'Weight vs. Number of Sandwiches',
-                        data: [ [5,160], [8, 165], [10, 167], [14, 175] ], // what i want
-                        // data: [1, 1.5, 2.8, 3.5],
-                        marker: {
-                            radius: 4
-                        }
-                    }] // end of series
-
-                });
-            });
-            // end of "Is there a relationship between how many Montague's sandwiches I eat and my weight?" scatter plot
 
 
             </script>
