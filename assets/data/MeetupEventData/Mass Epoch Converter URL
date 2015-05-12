@@ -1,0 +1,9 @@
+= (MsValueCellReference / 86400000) + DATE(1970,1,1)
+
+
+
+https://stackoverflow.com/questions/2666112/convert-miliseconds-to-date-in-excel
+
+Mass Epoch Converter
+http://www.epochconverter.com/
+
